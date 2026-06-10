@@ -128,4 +128,7 @@ if __name__ == "__main__":
         "Text: a beautifully observed, miraculously unsentimental comedy-drama.\nLabel:",
         ["positive", "negative"],
     )
-    print(f"label={label!r} content={comp.content!r} tokens={comp.output_tokens} finish={comp.finish_reason}")
+    print(
+        f"label={label!r} content={comp.content!r} "
+        f"tokens={comp.output_tokens} finish={comp.finish_reason}"
+    )

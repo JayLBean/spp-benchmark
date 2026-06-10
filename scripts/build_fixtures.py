@@ -62,23 +62,32 @@ def _load(task: str) -> tuple[list[dict], list[dict]]:
     """Return (train_records, test_records) as {text, label} with EvoPrompt names."""
     if task == "ag_news":
         names = ["World", "Sports", "Business", "Tech"]  # Sci/Tech -> Tech (idx 3)
+
+        def to_rec(r: dict) -> dict:
+            return {"text": r["text"].strip(), "label": names[r["label"]]}
+
         tr = load_dataset("fancyzhx/ag_news", split="train")
         te = load_dataset("fancyzhx/ag_news", split="test")
-        to_rec = lambda r: {"text": r["text"].strip(), "label": names[r["label"]]}
         return [to_rec(r) for r in tr], [to_rec(r) for r in te]
     if task == "sst5":
         names = VERBALIZERS["sst5"]  # SetFit label 0..4 aligns terrible..great
+
+        def to_rec(r: dict) -> dict:
+            return {"text": r["text"].strip(), "label": names[int(r["label"])]}
+
         tr = load_dataset("SetFit/sst5", split="train")
         te = load_dataset("SetFit/sst5", split="test")
-        to_rec = lambda r: {"text": r["text"].strip(), "label": names[int(r["label"])]}
         return [to_rec(r) for r in tr], [to_rec(r) for r in te]
     if task == "trec":
+
+        def to_rec(r: dict) -> dict:
+            return {
+                "text": r["text"].strip(),
+                "label": TREC_COARSE_TO_EVO[r["label_coarse_original"]],
+            }
+
         tr = load_dataset("SetFit/TREC-QC", split="train")
         te = load_dataset("SetFit/TREC-QC", split="test")
-        to_rec = lambda r: {
-            "text": r["text"].strip(),
-            "label": TREC_COARSE_TO_EVO[r["label_coarse_original"]],
-        }
         return [to_rec(r) for r in tr], [to_rec(r) for r in te]
     raise ValueError(task)
 
@@ -171,9 +180,11 @@ def build(task: str) -> dict:
             "sst5": "SetFit/sst5",
             "trec": "SetFit/TREC-QC",
         }[task],
-        "license": {"ag_news": "custom non-commercial research (Zhang et al. 2015)",
-                    "sst5": "CC-derived (Socher et al. 2013)",
-                    "trec": "research use (Li & Roth 2002)"}[task],
+        "license": {
+            "ag_news": "custom non-commercial research (Zhang et al. 2015)",
+            "sst5": "CC-derived (Socher et al. 2013)",
+            "trec": "research use (Li & Roth 2002)",
+        }[task],
         "classes": verb,
         "n_classes": len(verb),
         "metric": "accuracy",
@@ -205,6 +216,8 @@ def _dist(rows: list[dict]) -> dict:
 if __name__ == "__main__":
     for task in ["ag_news", "sst5", "trec"]:
         m = build(task)
-        print(f"[{task}] test={m['splits']['shared_test']} "
-              f"pool={m['splits']['baseline_pool']} dev={m['splits']['evoprompt_dev']} "
-              f"classes={m['n_classes']} dist={m['baseline_pool_class_dist']}")
+        print(
+            f"[{task}] test={m['splits']['shared_test']} "
+            f"pool={m['splits']['baseline_pool']} dev={m['splits']['evoprompt_dev']} "
+            f"classes={m['n_classes']} dist={m['baseline_pool_class_dist']}"
+        )

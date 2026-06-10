@@ -1,0 +1,11 @@
+# spp-bm uses the same 100-char line length as the spp repo.
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[lint.per-file-ignores]
+# GA_TEMPLATE is verbatim upstream prompt text (data/template_ga.py); its lines
+# are sent to the model as-is and must not be reflowed.
+"scripts/run_evoprompt.py" = ["E501"]
