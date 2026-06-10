@@ -1,0 +1,11 @@
+[sst5] preset=default N=8 T=6 dev=80 | 10 init prompts, 5 classes
+[sst5]   init 1/10 dev=0.6250 :: Please perform Sentiment Classification task. Given the sentence, assi
+[sst5]   init 2/10 dev=0.4625 :: In this task, you are given movie reviews. Based on it, classify it to
+[sst5]   init 3/10 dev=0.6000 :: Based on the given movie review provided to you and classify it into o
+[sst5]   init 4/10 dev=0.6000 :: Your job is to evaluate the review and classify it as one of five clas
+[sst5]   init 5/10 dev=0.5125 :: Examine the comment provided and classify it into one of five categori
+[sst5]   init 6/10 dev=0.5000 :: Your objective is to analyze the movie review and allocate it to one o
+[sst5]   init 7/10 dev=0.6000 :: Classify the movie review into one of five categories based on their q
+[sst5]   init 8/10 dev=0.4500 :: Assess the movie review and categorize it into one of five classes, ra
+[sst5]   init 9/10 dev=0.6375 :: Categorize the movie review provided into one of five degrees based on
+[sst5]   init 10/10 dev=0.5125 :: Your goal is to analyze the movie review and assign it to one of five 

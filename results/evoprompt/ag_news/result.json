@@ -1,0 +1,23 @@
+{
+  "task": "ag_news",
+  "preset": "default",
+  "config": {
+    "N": 8,
+    "T": 6,
+    "dev": 80,
+    "init_cap": 10
+  },
+  "best_prompt": "Given the news article below, identify its primary category\u2014World, Sports, Business, or Tech\u2014and return only that category as a single word.",
+  "best_dev_acc": 0.8625,
+  "best_test_acc": 0.85,
+  "manual_init_prompt": "Your task is to identify the primary topic of the news artical and choose from World, Sports, Business and Tech.",
+  "manual_init_test_acc": 0.84,
+  "n_classes": 4,
+  "classes": [
+    "World",
+    "Sports",
+    "Business",
+    "Tech"
+  ],
+  "elapsed_sec": 8276.9
+}

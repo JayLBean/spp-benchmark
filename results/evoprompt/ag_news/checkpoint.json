@@ -1,0 +1,39 @@
+{
+  "stage": "iter6",
+  "best_dev": 0.8625,
+  "best_prompt": "Given the news article below, identify its primary category\u2014World, Sports, Business, or Tech\u2014and return only that category as a single word.",
+  "population": [
+    [
+      "Given the news article below, identify its primary category\u2014World, Sports, Business, or Tech\u2014and return only that category as a single word.",
+      0.8625
+    ],
+    [
+      "Your task is to identify the primary topic of the news artical and choose from World, Sports, Business and Tech.",
+      0.85
+    ],
+    [
+      "Read the news article and classify its main topic as one of the following categories: World, Sports, Business, or Tech.",
+      0.85
+    ],
+    [
+      "Given a news article, identify its main topic and classify it as World, Sports, Business, or Tech. Respond with only the category.",
+      0.85
+    ],
+    [
+      "You will be given a news article and asked to classify it as World, Sports, Business and Tech, depending on its main topic.",
+      0.8375
+    ],
+    [
+      "Your responsibility is to assign a news article to one of four categories: World, Sports, Business, or Tech, based on its main idea.",
+      0.8375
+    ],
+    [
+      "Classify the news article into World, Sports, Business, or Tech based on its primary theme.",
+      0.8375
+    ],
+    [
+      "Read the news article below and classify its main topic as one of the following categories: World, Sports, Business, or Tech. Return only the chosen category as a single word.",
+      0.8375
+    ]
+  ]
+}

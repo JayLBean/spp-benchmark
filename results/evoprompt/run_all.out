@@ -2,3 +2,30 @@
 [ag_news]   init 1/10 dev=0.7375 :: Give the main topic of the news article and then choose from World, Sp
 [ag_news]   init 2/10 dev=0.8250 :: Determine the the topic of the item and then choose from World, Sports
 [ag_news]   init 3/10 dev=0.8250 :: Your task is to classify the news item as "World", "Sports", "Tech" or
+[ag_news]   init 4/10 dev=0.8250 :: Based on the main theme of given the news article, categorize it into 
+[ag_news]   init 5/10 dev=0.8250 :: Determine the theme of the news item. Choose from World, Sports, Busin
+[ag_news]   init 6/10 dev=0.8000 :: Your objective is to classify a news article into one of four themes: 
+[ag_news]   init 7/10 dev=0.8500 :: Your task is to identify the primary topic of the news artical and cho
+[ag_news]   init 8/10 dev=0.8250 :: Your job is to determine whether a news article belongs to the World, 
+[ag_news]   init 9/10 dev=0.8375 :: You will be given a news article and asked to classify it as World, Sp
+[ag_news]   init 10/10 dev=0.8375 :: Your responsibility is to assign a news article to one of four categor
+[ag_news] iter 1/6 best_dev=0.8500 (+8 offspring) :: Your task is to identify the primary topic of the news artical and cho
+[ag_news] iter 2/6 best_dev=0.8500 (+7 offspring) :: Your task is to identify the primary topic of the news artical and cho
+[ag_news] iter 3/6 best_dev=0.8500 (+7 offspring) :: Your task is to identify the primary topic of the news artical and cho
+[ag_news] iter 4/6 best_dev=0.8500 (+5 offspring) :: Your task is to identify the primary topic of the news artical and cho
+[ag_news] iter 5/6 best_dev=0.8500 (+5 offspring) :: Your task is to identify the primary topic of the news artical and cho
+[ag_news] iter 6/6 best_dev=0.8625 (+4 offspring) :: Given the news article below, identify its primary category—World, Spo
+[ag_news] scoring best on test (n=1000) ...
+[ag_news] scoring manual-init on test ...
+[ag_news] DONE best_test=0.85 manual_test=0.84 (137.9 min)
+[sst5] preset=default N=8 T=6 dev=80 | 10 init prompts, 5 classes
+[sst5]   init 1/10 dev=0.6250 :: Please perform Sentiment Classification task. Given the sentence, assi
+[sst5]   init 2/10 dev=0.4625 :: In this task, you are given movie reviews. Based on it, classify it to
+[sst5]   init 3/10 dev=0.6000 :: Based on the given movie review provided to you and classify it into o
+[sst5]   init 4/10 dev=0.6000 :: Your job is to evaluate the review and classify it as one of five clas
+[sst5]   init 5/10 dev=0.5125 :: Examine the comment provided and classify it into one of five categori
+[sst5]   init 6/10 dev=0.5000 :: Your objective is to analyze the movie review and allocate it to one o
+[sst5]   init 7/10 dev=0.6000 :: Classify the movie review into one of five categories based on their q
+[sst5]   init 8/10 dev=0.4500 :: Assess the movie review and categorize it into one of five classes, ra
+[sst5]   init 9/10 dev=0.6375 :: Categorize the movie review provided into one of five degrees based on
+[sst5]   init 10/10 dev=0.5125 :: Your goal is to analyze the movie review and assign it to one of five 

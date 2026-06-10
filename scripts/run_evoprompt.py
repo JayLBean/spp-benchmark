@@ -34,7 +34,13 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from llm_client import classify, complete, map_parallel  # noqa: E402
+from llm_client import (  # noqa: E402
+    classify,
+    complete,
+    map_parallel,
+    usage_reset,
+    usage_snapshot,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURES = ROOT / "fixtures"
@@ -86,6 +92,7 @@ class TaskResult:
     n_classes: int
     classes: list[str]
     elapsed_sec: float
+    usage: dict | None = None
 
 
 def _read_jsonl(p: Path) -> list[dict]:
@@ -157,6 +164,7 @@ def run_task(task: str, preset: str, seed: int = 5) -> TaskResult:
     N, T, dev_n = cfg["N"], cfg["T"], cfg["dev"]
     rng = random.Random(seed)
     t0 = time.time()
+    usage_reset()  # token accounting for this task's full search + scoring
 
     meta = json.loads((FIXTURES / task / "metadata.json").read_text())
     classes = meta["classes"]
@@ -231,6 +239,7 @@ def run_task(task: str, preset: str, seed: int = 5) -> TaskResult:
         n_classes=len(classes),
         classes=classes,
         elapsed_sec=round(time.time() - t0, 1),
+        usage=usage_snapshot(),
     )
     (outdir / "result.json").write_text(json.dumps(asdict(res), indent=2) + "\n")
     log(

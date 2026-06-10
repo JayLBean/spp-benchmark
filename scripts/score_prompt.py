@@ -19,6 +19,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from llm_client import usage_reset, usage_snapshot  # noqa: E402
 from run_evoprompt import FIXTURES, _read_jsonl, evaluate  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -28,6 +29,7 @@ def score(task: str, prompt: str, *, label: str = "spp") -> dict:
     meta = json.loads((FIXTURES / task / "metadata.json").read_text())
     classes = meta["classes"]
     test = _read_jsonl(FIXTURES / task / "test.jsonl")
+    usage_reset()  # tokens to score this prompt on the shared test
     acc = evaluate(prompt, test, classes)
     res = {
         "task": task,
@@ -36,6 +38,7 @@ def score(task: str, prompt: str, *, label: str = "spp") -> dict:
         "test_acc": round(acc, 4),
         "prompt": prompt,
         "classes": classes,
+        "usage": usage_snapshot(),
     }
     outdir = ROOT / "results" / label / task
     outdir.mkdir(parents=True, exist_ok=True)

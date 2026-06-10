@@ -22,6 +22,7 @@ import re
 import time
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
+from threading import Lock
 
 from openai import OpenAI
 
@@ -42,6 +43,26 @@ class Completion:
     reasoning: str
     output_tokens: int
     finish_reason: str
+    input_tokens: int = 0
+
+
+# Process-wide token accounting (the cost axis). map_parallel uses threads, so the
+# accumulator is guarded by a lock. usage_snapshot() returns totals; usage_reset()
+# zeroes them at the start of a tracked run.
+_usage_lock = Lock()
+_usage = {"calls": 0, "input_tokens": 0, "output_tokens": 0}
+
+
+def usage_reset() -> None:
+    with _usage_lock:
+        _usage.update(calls=0, input_tokens=0, output_tokens=0)
+
+
+def usage_snapshot() -> dict:
+    with _usage_lock:
+        snap = dict(_usage)
+    snap["total_tokens"] = snap["input_tokens"] + snap["output_tokens"]
+    return snap
 
 
 def complete(
@@ -73,11 +94,20 @@ def complete(
                 budget = min(budget * 2, 1024)
                 continue
             usage = resp.usage
+            in_tok = getattr(usage, "input_tokens", 0) or getattr(usage, "prompt_tokens", 0) or 0
+            out_tok = (
+                getattr(usage, "output_tokens", 0) or getattr(usage, "completion_tokens", 0) or 0
+            )
+            with _usage_lock:
+                _usage["calls"] += 1
+                _usage["input_tokens"] += in_tok
+                _usage["output_tokens"] += out_tok
             return Completion(
                 content=content,
                 reasoning=reasoning,
-                output_tokens=getattr(usage, "output_tokens", 0) or 0,
+                output_tokens=out_tok,
                 finish_reason=choice.finish_reason or "",
+                input_tokens=in_tok,
             )
         except Exception as exc:  # noqa: BLE001 — network/server transients
             last_exc = exc
