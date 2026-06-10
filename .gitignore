@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# HuggingFace / dataset caches (large, re-downloadable)
+data/hf_cache/
+
+# Vendored upstream (cloned in setup, not our source of truth)
+evoprompt/upstream/
+
+# Secrets — never commit the oMLX key
+.env
+
+# OS
+.DS_Store
