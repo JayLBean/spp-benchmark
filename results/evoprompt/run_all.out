@@ -1,0 +1,4 @@
+[ag_news] preset=default N=8 T=6 dev=80 | 10 init prompts, 4 classes
+[ag_news]   init 1/10 dev=0.7375 :: Give the main topic of the news article and then choose from World, Sp
+[ag_news]   init 2/10 dev=0.8250 :: Determine the the topic of the item and then choose from World, Sports
+[ag_news]   init 3/10 dev=0.8250 :: Your task is to classify the news item as "World", "Sports", "Tech" or
