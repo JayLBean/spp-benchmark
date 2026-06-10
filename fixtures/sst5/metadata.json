@@ -1,0 +1,32 @@
+{
+  "task": "sst5",
+  "hf_source": "SetFit/sst5",
+  "license": "CC-derived (Socher et al. 2013)",
+  "classes": [
+    "terrible",
+    "bad",
+    "okay",
+    "good",
+    "great"
+  ],
+  "n_classes": 5,
+  "metric": "accuracy",
+  "splits": {
+    "shared_test": 1000,
+    "baseline_pool": 1000,
+    "evoprompt_dev": 200
+  },
+  "baseline_pool_class_dist": {
+    "bad": 260,
+    "good": 271,
+    "great": 151,
+    "okay": 190,
+    "terrible": 128
+  },
+  "paper_reference_alpaca7b": {
+    "manual": 42.9,
+    "APE": 46.32,
+    "EvoPrompt_best": 49.91
+  },
+  "notes": "Label names follow EvoPrompt verbalizers. Paper numbers are Alpaca-7b reference only, NOT the target for gpt-oss-20b runs."
+}

@@ -1,0 +1,501 @@
+row_id,text,label
+trec_test_0001,What are enzymes ?,Description
+trec_test_0002,What is the temperature at the center of the earth ?,Number
+trec_test_0003,What is the population of Venezuela ?,Number
+trec_test_0004,What is an annuity ?,Description
+trec_test_0005,Where is the Mason/Dixon line ?,Location
+trec_test_0006,What is the colorful Korean traditional dress called ?,Entity
+trec_test_0007,Material called linen is made from what plant ?,Entity
+trec_test_0008,What does USPS stand for ?,Expression
+trec_test_0009,What is the gestation period for a cat ?,Number
+trec_test_0010,What is the longest bone in the human body ?,Entity
+trec_test_0011,What is genocide ?,Description
+trec_test_0012,What is the only artery that carries blue blood from the heart to the lungs ?,Entity
+trec_test_0013,Where is the tallest roller coaster located ?,Location
+trec_test_0014,Who is the congressman from state of Texas on the armed forces committee ?,Human
+trec_test_0015,What are amphibians ?,Description
+trec_test_0016,What were Christopher Columbus ' three ships ?,Entity
+trec_test_0017,Who invented Trivial Pursuit ?,Human
+trec_test_0018,What metal has the highest melting point ?,Entity
+trec_test_0019,What year did the Andy Griffith show begin ?,Number
+trec_test_0020,Which comedian 's signature line is `` Can we talk '' ?,Human
+trec_test_0021,Which president was unmarried ?,Human
+trec_test_0022,When was Algeria colonized ?,Number
+trec_test_0023,What is the Milky Way ?,Description
+trec_test_0024,What planet has the strongest magnetic field of all the planets ?,Location
+trec_test_0025,What was J.F.K. 's wife 's name ?,Human
+trec_test_0026,Who killed John F. Kennedy ?,Human
+trec_test_0027,When was President Kennedy shot ?,Number
+trec_test_0028,What does ciao mean ?,Description
+trec_test_0029,What are coral reefs ?,Description
+trec_test_0030,In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?,Entity
+trec_test_0031,What is naproxen ?,Description
+trec_test_0032,What is poliomyelitis ?,Description
+trec_test_0033,"What is the murder rate in Windsor , Ontario ?",Number
+trec_test_0034,What is Maryland 's state bird ?,Entity
+trec_test_0035,What are sunspots ?,Description
+trec_test_0036,What does cc in engines mean ?,Description
+trec_test_0037,When was the Boston tea party ?,Number
+trec_test_0038,What year did the NFL go on strike ?,Number
+trec_test_0039,What is the state flower of Michigan ?,Entity
+trec_test_0040,What province is Montreal in ?,Location
+trec_test_0041,What is quicksilver ?,Description
+trec_test_0042,Which country has the most water pollution ?,Location
+trec_test_0043,What person 's head is on a dime ?,Human
+trec_test_0044,How far is it from Denver to Aspen ?,Number
+trec_test_0045,What is acetic acid ?,Description
+trec_test_0046,What does target heart rate mean ?,Description
+trec_test_0047,Where is the Savannah River ?,Location
+trec_test_0048,Who was the first US President to ride in an automobile to his inauguration ?,Human
+trec_test_0049,What is the fourth highest mountain in the world ?,Location
+trec_test_0050,What are the colors of the German flag ?,Entity
+trec_test_0051,When was the telephone invented ?,Number
+trec_test_0052,When was Thomas Jefferson born ?,Number
+trec_test_0053,What city 's newspaper is called `` The Enquirer '' ?,Location
+trec_test_0054,What is the percentage of water content in the human body ?,Number
+trec_test_0055,What is the life expectancy of a dollar bill ?,Number
+trec_test_0056,Name a food high in zinc .,Entity
+trec_test_0057,"What county is Phoenix , AZ in ?",Location
+trec_test_0058,What is plastic made of ?,Entity
+trec_test_0059,What is cholesterol ?,Description
+trec_test_0060,What is an atom ?,Description
+trec_test_0061,What French province is cognac produced in ?,Location
+trec_test_0062,What is caffeine ?,Description
+trec_test_0063,What American composer wrote the music for `` West Side Story '' ?,Human
+trec_test_0064,What is a thermometer ?,Description
+trec_test_0065,"What county is Modesto , California in ?",Location
+trec_test_0066,What is influenza ?,Description
+trec_test_0067,Where do apple snails live ?,Location
+trec_test_0068,What is the effect of acid rain ?,Description
+trec_test_0069,What are solar cells ?,Description
+trec_test_0070,What is the date of Mexico 's independence ?,Number
+trec_test_0071,Where is the Shawnee National Forest ?,Location
+trec_test_0072,Who is the actress known for her role in the movie `` Gypsy '' ?,Human
+trec_test_0073,What is viscosity ?,Description
+trec_test_0074,Who is a German philosopher ?,Human
+trec_test_0075,What is done with worn or outdated flags ?,Description
+trec_test_0076,What city is also known as `` The Gateway to the West '' ?,Location
+trec_test_0077,Who wrote `` The Divine Comedy '' ?,Human
+trec_test_0078,What are Quaaludes ?,Description
+trec_test_0079,Who was the first female United States Representative ?,Human
+trec_test_0080,What is Valentine 's Day ?,Description
+trec_test_0081,What is the heaviest naturally occurring element ?,Entity
+trec_test_0082,What is mold ?,Description
+trec_test_0083,What does a defibrillator do ?,Description
+trec_test_0084,Where is Milan ?,Location
+trec_test_0085,What is the brightest star ?,Location
+trec_test_0086,How old was the youngest president of the United States ?,Number
+trec_test_0087,What are the two houses of the Legislative branch ?,Entity
+trec_test_0088,How long is the Columbia River in miles ?,Number
+trec_test_0089,What is the money they use in Zambia ?,Entity
+trec_test_0090,What strait separates North America from Asia ?,Location
+trec_test_0091,What is the source of natural gas ?,Entity
+trec_test_0092,What is Australia 's national flower ?,Entity
+trec_test_0093,What is mad cow disease ?,Description
+trec_test_0094,In the late 1700 's British convicts were used to populate which colony ?,Location
+trec_test_0095,Who is Duke Ellington ?,Human
+trec_test_0096,What is nanotechnology ?,Description
+trec_test_0097,Which U.S.A. president appeared on `` Laugh-In '' ?,Human
+trec_test_0098,What is the atomic weight of silver ?,Number
+trec_test_0099,What year did the United States abolish the draft ?,Number
+trec_test_0100,How many Great Lakes are there ?,Number
+trec_test_0101,What is the speed of light ?,Number
+trec_test_0102,What body of water are the Canary Islands in ?,Location
+trec_test_0103,What is the deepest lake in the US ?,Location
+trec_test_0104,What is cryptography ?,Description
+trec_test_0105,Who invented the telephone ?,Human
+trec_test_0106,What is a baby lion called ?,Entity
+trec_test_0107,What is epilepsy ?,Description
+trec_test_0108,When did Hawaii become a state ?,Number
+trec_test_0109,What is the depth of the Nile river ?,Number
+trec_test_0110,What is the spirometer test ?,Description
+trec_test_0111,What year did Oklahoma become a state ?,Number
+trec_test_0112,What country did Ponce de Leon come from ?,Location
+trec_test_0113,When is the official first day of summer ?,Number
+trec_test_0114,What is an ulcer ?,Description
+trec_test_0115,Where is the Grand Canyon ?,Location
+trec_test_0116,What does `` Sitting Shiva '' mean ?,Description
+trec_test_0117,What is a tsunami ?,Description
+trec_test_0118,What was President Lyndon Johnson 's reform program called ?,Entity
+trec_test_0119,What instrument did Glenn Miller play ?,Entity
+trec_test_0120,What are invertebrates ?,Description
+trec_test_0121,What is sodium chloride ?,Description
+trec_test_0122,What is the earth 's diameter ?,Number
+trec_test_0123,What is bio-diversity ?,Description
+trec_test_0124,Who wrote the hymn `` Amazing Grace '' ?,Human
+trec_test_0125,What is strep throat ?,Description
+trec_test_0126,What is the conversion rate between dollars and pounds ?,Number
+trec_test_0127,What do you call a professional map drawer ?,Entity
+trec_test_0128,How old was Elvis Presley when he died ?,Number
+trec_test_0129,Name a stimulant .,Entity
+trec_test_0130,What are semiconductors ?,Description
+trec_test_0131,What is the melting point of copper ?,Number
+trec_test_0132,What color is a giraffe 's tongue ?,Entity
+trec_test_0133,What do you call a newborn kangaroo ?,Entity
+trec_test_0134,What is an eclipse ?,Description
+trec_test_0135,What do you call a word that is spelled the same backwards and forwards ?,Entity
+trec_test_0136,What continent is Argentina on ?,Location
+trec_test_0137,Where is the Euphrates River ?,Location
+trec_test_0138,What is bangers and mash ?,Description
+trec_test_0139,What is the highest dam in the U.S. ?,Location
+trec_test_0140,What is acupuncture ?,Description
+trec_test_0141,Who was Abraham Lincoln ?,Human
+trec_test_0142,What is the world 's population ?,Number
+trec_test_0143,Who is the only president to serve 2 non-consecutive terms ?,Human
+trec_test_0144,What U.S. state 's motto is `` Live free or Die '' ?,Location
+trec_test_0145,What is the diameter of a golf ball ?,Number
+trec_test_0146,What is fibromyalgia ?,Description
+trec_test_0147,What does NASA stand for ?,Expression
+trec_test_0148,What is metabolism ?,Description
+trec_test_0149,What baseball team was the first to make numbers part of their uniform ?,Human
+trec_test_0150,Where is the Little League Museum ?,Location
+trec_test_0151,What type of currency is used in Australia ?,Entity
+trec_test_0152,What is another name for vitamin B1 ?,Entity
+trec_test_0153,How often does Old Faithful erupt at Yellowstone National Park ?,Number
+trec_test_0154,When did the Hindenberg crash ?,Number
+trec_test_0155,Who was the first vice president of the U.S. ?,Human
+trec_test_0156,What is the National Park in Utah ?,Location
+trec_test_0157,What is acid rain ?,Description
+trec_test_0158,What is a prism ?,Description
+trec_test_0159,What color are crickets ?,Entity
+trec_test_0160,What is hypertension ?,Description
+trec_test_0161,What is cerebral palsy ?,Description
+trec_test_0162,What is Muscular Dystrophy ?,Description
+trec_test_0163,What hemisphere is the Philippines in ?,Location
+trec_test_0164,Who developed the vaccination against polio ?,Human
+trec_test_0165,What are the two types of twins ?,Entity
+trec_test_0166,What imaginary line is halfway between the North and South Poles ?,Location
+trec_test_0167,Where is the Orinoco River ?,Location
+trec_test_0168,Who founded American Red Cross ?,Human
+trec_test_0169,What is a shaman ?,Description
+trec_test_0170,What is vertigo ?,Description
+trec_test_0171,What is a panic disorder ?,Description
+trec_test_0172,What is hybridization ?,Description
+trec_test_0173,What is another astronomic term for the Northern Lights ?,Entity
+trec_test_0174,What is the difference between AM radio stations and FM radio stations ?,Description
+trec_test_0175,Where is John Wayne airport ?,Location
+trec_test_0176,Who developed the Macintosh computer ?,Human
+trec_test_0177,What is a group of turkeys called ?,Entity
+trec_test_0178,What is Hawaii 's state flower ?,Entity
+trec_test_0179,Who discovered radium ?,Human
+trec_test_0180,What is autism ?,Description
+trec_test_0181,Who was the first governor of Alaska ?,Human
+trec_test_0182,When is the summer solstice ?,Number
+trec_test_0183,What city 's newspaper is called `` The Star '' ?,Location
+trec_test_0184,What is Wimbledon ?,Description
+trec_test_0185,What is solar wind ?,Description
+trec_test_0186,What is the location of the Sea of Tranquility ?,Location
+trec_test_0187,What year did the Milwaukee Braves become the Atlanta Braves ?,Number
+trec_test_0188,Who was the first American to walk in space ?,Human
+trec_test_0189,What is an antigen ?,Description
+trec_test_0190,What river in the US is known as the Big Muddy ?,Location
+trec_test_0191,What did Jesse Jackson organize ?,Human
+trec_test_0192,What is Teflon ?,Description
+trec_test_0193,What is home equity ?,Description
+trec_test_0194,What primary colors do you mix to make orange ?,Entity
+trec_test_0195,How much was a ticket for the Titanic ?,Number
+trec_test_0196,What is the name of the leader of Ireland ?,Human
+trec_test_0197,Who was the first woman killed in the Vietnam War ?,Human
+trec_test_0198,What is the width of a football field ?,Number
+trec_test_0199,What causes gray hair ?,Description
+trec_test_0200,What is TMJ ?,Expression
+trec_test_0201,What is dianetics ?,Description
+trec_test_0202,What is the temperature of the sun 's surface ?,Number
+trec_test_0203,What color does litmus paper turn when it comes into contact with a strong acid ?,Entity
+trec_test_0204,What is the criterion for being legally blind ?,Entity
+trec_test_0205,What is e-coli ?,Description
+trec_test_0206,What is the most frequently spoken language in the Netherlands ?,Entity
+trec_test_0207,What is a parasite ?,Description
+trec_test_0208,Where is the Eiffel Tower ?,Location
+trec_test_0209,What is pastrami made of ?,Entity
+trec_test_0210,What is the proper name for a female walrus ?,Entity
+trec_test_0211,Who discovered x-rays ?,Human
+trec_test_0212,What colors need to be mixed to get the color pink ?,Entity
+trec_test_0213,Where are the Rocky Mountains ?,Location
+trec_test_0214,Who painted the ceiling of the Sistine Chapel ?,Human
+trec_test_0215,What does the abbreviation SOS mean ?,Expression
+trec_test_0216,"Mercury , what year was it discovered ?",Number
+trec_test_0217,What are antacids ?,Description
+trec_test_0218,What is the population of Seattle ?,Number
+trec_test_0219,What is the Ohio state bird ?,Entity
+trec_test_0220,What is a group of frogs called ?,Entity
+trec_test_0221,What is the largest city in the world ?,Location
+trec_test_0222,Who was the 23rd president of the United States ?,Human
+trec_test_0223,What was the first satellite to go into space ?,Entity
+trec_test_0224,When did John F. Kennedy get elected as President ?,Number
+trec_test_0225,What is a biosphere ?,Description
+trec_test_0226,What was W.C. Fields ' real name ?,Human
+trec_test_0227,What was the most popular toy in 1957 ?,Entity
+trec_test_0228,What is the major fault line near Kentucky ?,Entity
+trec_test_0229,What is New York 's state bird ?,Entity
+trec_test_0230,What currency does Argentina use ?,Entity
+trec_test_0231,What are ethics ?,Description
+trec_test_0232,What is nepotism ?,Description
+trec_test_0233,When did North Carolina enter the union ?,Number
+trec_test_0234,How much fiber should you have per day ?,Number
+trec_test_0235,Where is the Lourve ?,Location
+trec_test_0236,What is the melting point of gold ?,Number
+trec_test_0237,Who was elected president of South Africa in 1994 ?,Human
+trec_test_0238,What do meteorologists do ?,Description
+trec_test_0239,"What is the electrical output in Madrid , Spain ?",Entity
+trec_test_0240,Why in tennis are zero points called love ?,Description
+trec_test_0241,How many pounds in a ton ?,Number
+trec_test_0242,What does the word fortnight mean ?,Description
+trec_test_0243,What is the pH scale ?,Description
+trec_test_0244,What are polymers ?,Description
+trec_test_0245,How do you measure earthquakes ?,Description
+trec_test_0246,When was Abraham Lincoln born ?,Number
+trec_test_0247,What is a carcinogen ?,Description
+trec_test_0248,What is the capital of Mongolia ?,Location
+trec_test_0249,What was FDR 's dog 's name ?,Entity
+trec_test_0250,What color is indigo ?,Entity
+trec_test_0251,What is peyote ?,Description
+trec_test_0252,What color is a poison arrow frog ?,Entity
+trec_test_0253,What did Edward Binney and Howard Smith invent in 1903 ?,Entity
+trec_test_0254,What is bandwidth ?,Description
+trec_test_0255,Why is the sun yellow ?,Description
+trec_test_0256,Who is the governor of Alaska ?,Human
+trec_test_0257,What is the population of Nigeria ?,Number
+trec_test_0258,How fast is alcohol absorbed ?,Number
+trec_test_0259,How far is the service line from the net in tennis ?,Number
+trec_test_0260,What is acetaminophen ?,Description
+trec_test_0261,How fast is the speed of light ?,Number
+trec_test_0262,What is the sales tax in Minnesota ?,Entity
+trec_test_0263,Which mountain range in North America stretches from Maine to Georgia ?,Location
+trec_test_0264,What is the name of William Penn 's ship ?,Entity
+trec_test_0265,Where was the first golf course in the United States ?,Location
+trec_test_0266,How long did Rip Van Winkle sleep ?,Number
+trec_test_0267,Who invented the slinky ?,Human
+trec_test_0268,What is ozone depletion ?,Description
+trec_test_0269,What type of polymer is used for bulletproof vests ?,Entity
+trec_test_0270,How cold should a refrigerator be ?,Number
+trec_test_0271,How much of an apple is water ?,Number
+trec_test_0272,How many Admirals are there in the U.S. Navy ?,Number
+trec_test_0273,What are Canada 's two territories ?,Location
+trec_test_0274,Who won Ms. American in 1989 ?,Human
+trec_test_0275,Who lived in the Neuschwanstein castle ?,Human
+trec_test_0276,What does Phi Beta Kappa mean ?,Description
+trec_test_0277,What is the population of Australia ?,Number
+trec_test_0278,What is diabetes ?,Description
+trec_test_0279,"What chain store is headquartered in Bentonville , Arkansas ?",Human
+trec_test_0280,Who was the first African American to win the Nobel Prize in literature ?,Human
+trec_test_0281,"What is the elevation of St. Louis , MO ?",Number
+trec_test_0282,What planet is known as the `` red '' planet ?,Location
+trec_test_0283,What monastery was raided by Vikings in the late eighth century ?,Entity
+trec_test_0284,What is myopia ?,Description
+trec_test_0285,When was Lyndon B. Johnson born ?,Number
+trec_test_0286,What is the smallest bird in Britain ?,Entity
+trec_test_0287,What state did the Battle of Bighorn take place in ?,Location
+trec_test_0288,What are pathogens ?,Description
+trec_test_0289,When was the first Wal-Mart store opened ?,Number
+trec_test_0290,Where are the National Archives ?,Location
+trec_test_0291,What is semolina ?,Description
+trec_test_0292,What is bipolar disorder ?,Description
+trec_test_0293,What is a thyroid ?,Description
+trec_test_0294,What does your spleen do ?,Description
+trec_test_0295,"The sun 's core , what is the temperature ?",Number
+trec_test_0296,What year did Canada join the United Nations ?,Number
+trec_test_0297,Who invented the instant Polaroid camera ?,Human
+trec_test_0298,Who is the Prime Minister of Canada ?,Human
+trec_test_0299,When is hurricane season in the Caribbean ?,Number
+trec_test_0300,What is fungus ?,Description
+trec_test_0301,How tall is the Sears Building ?,Number
+trec_test_0302,What soviet seaport is on the Black Sea ?,Location
+trec_test_0303,What position did Willie Davis play in baseball ?,Human
+trec_test_0304,What day and month did John Lennon die ?,Number
+trec_test_0305,What year did the Titanic start on its journey ?,Number
+trec_test_0306,What year did Mussolini seize power in Italy ?,Number
+trec_test_0307,What peninsula is Spain part of ?,Location
+trec_test_0308,What is the Moulin Rouge ?,Description
+trec_test_0309,What is nuclear power ?,Description
+trec_test_0310,When is St. Patrick 's Day ?,Number
+trec_test_0311,What continent is Egypt on ?,Location
+trec_test_0312,What is amitriptyline ?,Description
+trec_test_0313,What is the oldest university in the US ?,Human
+trec_test_0314,How many gallons of water are there in a cubic foot ?,Number
+trec_test_0315,Which country gave New York the Statue of Liberty ?,Location
+trec_test_0316,What Canadian city has the largest population ?,Location
+trec_test_0317,Who was the first person to reach the North Pole ?,Human
+trec_test_0318,What is propylene glycol ?,Description
+trec_test_0319,When were William Shakespeare 's twins born ?,Number
+trec_test_0320,Where is Prince Edward Island ?,Location
+trec_test_0321,What is the abbreviation for Texas ?,Expression
+trec_test_0322,How many liters in a gallon ?,Number
+trec_test_0323,What year did the U.S. buy Alaska ?,Number
+trec_test_0324,When is Father 's Day ?,Number
+trec_test_0325,When was the first liver transplant ?,Number
+trec_test_0326,What is the most common eye color ?,Entity
+trec_test_0327,What is a mirror made out of ?,Entity
+trec_test_0328,Where is Hitler buried ?,Location
+trec_test_0329,Where is the Mall of the America ?,Location
+trec_test_0330,What does the technical term ISDN mean ?,Expression
+trec_test_0331,What are pediatricians ?,Description
+trec_test_0332,Who invented the calculator ?,Human
+trec_test_0333,Who was president in 1913 ?,Human
+trec_test_0334,What is Susan B. Anthony 's birthday ?,Number
+trec_test_0335,When was Hiroshima bombed ?,Number
+trec_test_0336,What is the most popular sport in Japan ?,Entity
+trec_test_0337,What is the longest suspension bridge in the U.S. ?,Location
+trec_test_0338,What is the capital of Zimbabwe ?,Location
+trec_test_0339,What is natural gas composed of ?,Entity
+trec_test_0340,What is relative humidity ?,Description
+trec_test_0341,What is cryogenics ?,Description
+trec_test_0342,What precious stone is a form of pure carbon ?,Entity
+trec_test_0343,What is the location of Lake Champlain ?,Location
+trec_test_0344,What is the distance in miles from the earth to the sun ?,Number
+trec_test_0345,What city had a world fair in 1900 ?,Location
+trec_test_0346,What date was Dwight D. Eisenhower born ?,Number
+trec_test_0347,What are the animals that don 't have backbones called ?,Entity
+trec_test_0348,What currency do they use in Brazil ?,Entity
+trec_test_0349,What is the Illinois state flower ?,Entity
+trec_test_0350,What is neurology ?,Description
+trec_test_0351,What is the chunnel ?,Description
+trec_test_0352,What was the name of the plane Lindbergh flew solo across the Atlantic ?,Entity
+trec_test_0353,What is the average life span for a chicken ?,Number
+trec_test_0354,Developing nations comprise what percentage of the world 's population ?,Number
+trec_test_0355,What is Ursa Major ?,Description
+trec_test_0356,What is the speed hummingbirds fly ?,Number
+trec_test_0357,What year did the Titanic sink ?,Number
+trec_test_0358,During which season do most thunderstorms occur ?,Number
+trec_test_0359,What fruit is Melba sauce made from ?,Entity
+trec_test_0360,Who discovered oxygen ?,Human
+trec_test_0361,The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?,Entity
+trec_test_0362,What kind of dog was Toto in the Wizard of Oz ?,Entity
+trec_test_0363,What is the birthstone for June ?,Entity
+trec_test_0364,Where is the Holland Tunnel ?,Location
+trec_test_0365,What French ruler was defeated at the battle of Waterloo ?,Human
+trec_test_0366,Who was the first Prime Minister of Canada ?,Human
+trec_test_0367,What year was the Mona Lisa painted ?,Number
+trec_test_0368,What do bats eat ?,Entity
+trec_test_0369,What is carbon dioxide ?,Description
+trec_test_0370,What is the name of Neil Armstrong 's wife ?,Human
+trec_test_0371,What is the statue of liberty made of ?,Entity
+trec_test_0372,What is the sales tax rate in New York ?,Number
+trec_test_0373,What is the length of the coastline of the state of Alaska ?,Number
+trec_test_0374,What is the average weight of a Yellow Labrador ?,Number
+trec_test_0375,When was the first stamp issued ?,Number
+trec_test_0376,What year did WWII begin ?,Number
+trec_test_0377,What is schizophrenia ?,Description
+trec_test_0378,How many hearts does an octopus have ?,Number
+trec_test_0379,What is the birthstone of October ?,Entity
+trec_test_0380,What is the name of the chocolate company in San Francisco ?,Human
+trec_test_0381,How far is Pluto from the sun ?,Number
+trec_test_0382,What is rheumatoid arthritis ?,Description
+trec_test_0383,When was Ulysses S. Grant born ?,Number
+trec_test_0384,What is the longest major league baseball-winning streak ?,Entity
+trec_test_0385,What is compounded interest ?,Description
+trec_test_0386,What birthstone is turquoise ?,Entity
+trec_test_0387,What 's the easiest way to remove wallpaper ?,Entity
+trec_test_0388,Where did Howard Hughes die ?,Location
+trec_test_0389,What are cigarettes made of ?,Entity
+trec_test_0390,What kind of gas is in a fluorescent bulb ?,Entity
+trec_test_0391,What is the capital of Yugoslavia ?,Location
+trec_test_0392,Why is a ladybug helpful ?,Description
+trec_test_0393,"What river runs through Rowe , Italy ?",Location
+trec_test_0394,What is supernova ?,Description
+trec_test_0395,How wide is the Milky Way galaxy ?,Number
+trec_test_0396,What is the capital of Persia ?,Location
+trec_test_0397,George Bush purchased a small interest in which baseball team ?,Human
+trec_test_0398,What is the oldest city in the United States ?,Location
+trec_test_0399,What is leukemia ?,Description
+trec_test_0400,What is an earthquake ?,Description
+trec_test_0401,Where is the volcano Olympus Mons located ?,Location
+trec_test_0402,What are the spots on dominoes called ?,Entity
+trec_test_0403,What is the name of the satellite that the Soviet Union sent into space in 1957 ?,Entity
+trec_test_0404,What New York City structure is also known as the Twin Towers ?,Location
+trec_test_0405,"What river flows between Fargo , North Dakota and Moorhead , Minnesota ?",Location
+trec_test_0406,What does I.V. stand for ?,Expression
+trec_test_0407,What is die-casting ?,Description
+trec_test_0408,"How tall is the Gateway Arch in St. Louis , MO ?",Number
+trec_test_0409,When was the first kidney transplant ?,Number
+trec_test_0410,Who was the first U.S. president to appear on TV ?,Human
+trec_test_0411,What is neuropathy ?,Description
+trec_test_0412,How much does the human adult female brain weigh ?,Number
+trec_test_0413,For how long is an elephant pregnant ?,Number
+trec_test_0414,What is amoxicillin ?,Description
+trec_test_0415,Where on the body is a mortarboard worn ?,Location
+trec_test_0416,What gasses are in the troposphere ?,Entity
+trec_test_0417,What is nicotine ?,Description
+trec_test_0418,Who was the first woman governor in the U.S. ?,Human
+trec_test_0419,What does a barometer measure ?,Entity
+trec_test_0420,How many feet in a mile ?,Number
+trec_test_0421,Who invented the hula hoop ?,Human
+trec_test_0422,What is phosphorus ?,Description
+trec_test_0423,What is angiotensin ?,Description
+trec_test_0424,What is the average speed of the horses at the Kentucky Derby ?,Number
+trec_test_0425,What is pneumonia ?,Description
+trec_test_0426,What was the name of the first U.S. satellite sent into space ?,Entity
+trec_test_0427,When did Idaho become a state ?,Number
+trec_test_0428,What are the twin cities ?,Location
+trec_test_0429,Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?,Human
+trec_test_0430,Who discovered America ?,Human
+trec_test_0431,What is the scientific name for elephant ?,Entity
+trec_test_0432,What is the rainiest place on Earth ?,Location
+trec_test_0433,What does CPR stand for ?,Expression
+trec_test_0434,What is pulmonary fibrosis ?,Description
+trec_test_0435,What is pilates ?,Description
+trec_test_0436,How much does water weigh ?,Number
+trec_test_0437,What currency does Luxembourg use ?,Entity
+trec_test_0438,What is the life expectancy for crickets ?,Number
+trec_test_0439,What is a fuel cell ?,Description
+trec_test_0440,What are capers ?,Description
+trec_test_0441,What is the average body temperature ?,Number
+trec_test_0442,In which state would you find the Catskill Mountains ?,Location
+trec_test_0443,What is foot and mouth disease ?,Entity
+trec_test_0444,What is the population of China ?,Number
+trec_test_0445,What is the esophagus used for ?,Description
+trec_test_0446,When was Rosa Parks born ?,Number
+trec_test_0447,How old do you have to be in order to rent a car in Italy ?,Number
+trec_test_0448,Who was the first African American to play for the Brooklyn Dodgers ?,Human
+trec_test_0449,What is desktop publishing ?,Description
+trec_test_0450,Who was Galileo ?,Human
+trec_test_0451,"In Poland , where do most people live ?",Location
+trec_test_0452,What is the primary language in Iceland ?,Entity
+trec_test_0453,What color is yak milk ?,Entity
+trec_test_0454,What is a baby turkey called ?,Entity
+trec_test_0455,What does the acronym NASA stand for ?,Expression
+trec_test_0456,What are xerophytes ?,Description
+trec_test_0457,Where is the volcano Mauna Loa ?,Location
+trec_test_0458,What is a micron ?,Description
+trec_test_0459,What currency is used in Algeria ?,Entity
+trec_test_0460,What is the largest city in the U.S. ?,Location
+trec_test_0461,Where is Perth ?,Location
+trec_test_0462,What is pectin ?,Description
+trec_test_0463,How fast is sound ?,Number
+trec_test_0464,What is the capital of Ethiopia ?,Location
+trec_test_0465,What year was Mozart born ?,Number
+trec_test_0466,What are platelets ?,Description
+trec_test_0467,What is phenylalanine ?,Description
+trec_test_0468,What is foreclosure ?,Description
+trec_test_0469,What mineral helps prevent osteoporosis ?,Entity
+trec_test_0470,What is the street address of the White House ?,Location
+trec_test_0471,Who was the 22nd President of the US ?,Human
+trec_test_0472,What are triglycerides ?,Description
+trec_test_0473,How did Janice Joplin die ?,Description
+trec_test_0474,What is an obtuse angle ?,Description
+trec_test_0475,When did Elvis Presley die ?,Number
+trec_test_0476,What city has the zip code of 35824 ?,Location
+trec_test_0477,What is severance pay ?,Description
+trec_test_0478,What date did Neil Armstrong land on the moon ?,Number
+trec_test_0479,Mexican pesos are worth what in U.S. dollars ?,Number
+trec_test_0480,What is the name given to the Tiger at Louisiana State University ?,Entity
+trec_test_0481,What state is the geographic center of the lower 48 states ?,Location
+trec_test_0482,What is Mardi Gras ?,Description
+trec_test_0483,What is the active ingredient in baking soda ?,Entity
+trec_test_0484,Where are the British crown jewels kept ?,Location
+trec_test_0485,What is the name of Roy Roger 's dog ?,Entity
+trec_test_0486,Who is the tallest man in the world ?,Human
+trec_test_0487,What is osteoporosis ?,Description
+trec_test_0488,What is the effect of volcanoes on the climate ?,Description
+trec_test_0489,What state has the least amount of rain per year ?,Location
+trec_test_0490,How far away is the moon ?,Number
+trec_test_0491,What is Shakespeare 's nickname ?,Human
+trec_test_0492,What was the last year that the Chicago Cubs won the World Series ?,Number
+trec_test_0493,How far is a nautical mile ?,Number
+trec_test_0494,What is sonar ?,Description
+trec_test_0495,What breed of hunting dog did the Beverly Hillbillies own ?,Entity
+trec_test_0496,Who was the first man to fly across the Pacific Ocean ?,Human
+trec_test_0497,What are spider veins ?,Description
+trec_test_0498,How old was Joan of Arc when she died ?,Number
+trec_test_0499,Why does the moon turn orange ?,Description
+trec_test_0500,What are Aborigines ?,Description

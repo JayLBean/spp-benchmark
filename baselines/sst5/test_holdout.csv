@@ -1,0 +1,1001 @@
+row_id,text,label
+sst5_test_0001,"its lack of quality earns it a place alongside those other two recent dumas botch-jobs , the man in the iron mask and the musketeer .",bad
+sst5_test_0002,"despite the long running time , the pace never feels slack -- there 's no scene that screams `` bathroom break ! ''",good
+sst5_test_0003,"it is a comedy that 's not very funny and an action movie that is not very thrilling -lrb- and an uneasy alliance , at that -rrb- .",terrible
+sst5_test_0004,the movie sticks much closer to hornby 's drop-dead confessional tone than the film version of high fidelity did .,okay
+sst5_test_0005,"a silly , self-indulgent film about a silly , self-indulgent filmmaker .",bad
+sst5_test_0006,"painful to watch , but viewers willing to take a chance will be rewarded with two of the year 's most accomplished and riveting film performances .",good
+sst5_test_0007,those who managed to avoid the deconstructionist theorizing of french philosopher jacques derrida in college can now take an 85-minute brush-up course with the documentary derrida .,bad
+sst5_test_0008,"whatever eyre 's failings as a dramatist , he deserves credit for bringing audiences into this hard and bitter place .",good
+sst5_test_0009,watching it is rather like viewing a long soap opera in which only the first episode was any good .,bad
+sst5_test_0010,"`` the emperor 's new clothes '' begins with a simple plan ... well , at least that 's the plan .",okay
+sst5_test_0011,"while surprisingly sincere , this average little story is adorned with some awesome action photography and surfing .",good
+sst5_test_0012,well-shot but badly written tale set in a future ravaged by dragons .,bad
+sst5_test_0013,most new movies have a bright sheen .,good
+sst5_test_0014,he 's super spy !,good
+sst5_test_0015,feels like the grittiest movie that was ever made for the lifetime cable television network .,okay
+sst5_test_0016,much-anticipated and ultimately lackluster movie .,bad
+sst5_test_0017,guillen rarely gets beneath the surface of things .,bad
+sst5_test_0018,"intended to be a comedy about relationships , this wretched work falls flat in just about every conceivable area .",bad
+sst5_test_0019,"watching haneke 's film is , aptly enough , a challenge and a punishment .",terrible
+sst5_test_0020,like a south-of-the-border melrose place .,bad
+sst5_test_0021,the film 's bathos often overwhelms what could have been a more multifaceted look at this interesting time and place .,okay
+sst5_test_0022,aaliyah rarely dampens her diva persona enough to spark genuine chemistry with townsend .,okay
+sst5_test_0023,"for all its highfalutin title and corkscrew narrative , the movie turns out to be not much more than a shaggy human tale .",bad
+sst5_test_0024,"roger michell , who did an appealing job directing persuasion and notting hill in england , gets too artsy in his american debut .",good
+sst5_test_0025,"it 's push-the-limits teen comedy , the type written by people who ca n't come up with legitimate funny , and it 's used so extensively that good bits are hopelessly overshadowed .",bad
+sst5_test_0026,it 's a refreshing change from the self-interest and paranoia that shape most american representations of castro .,good
+sst5_test_0027,director clare kilner 's debut is never as daft as it should have been .,okay
+sst5_test_0028,"city by the sea is the cinematic equivalent of defensive driving : it 's careful , conscientious and makes no major mistakes .",good
+sst5_test_0029,"two hours of melodramatic musical married to two hours of underdog sports intrigue , if the picture also shares the weaknesses of both genres , more 's the pity .",okay
+sst5_test_0030,there 's no denying the physically spectacular qualities of the film ... or the emotional integrity of the performances .,great
+sst5_test_0031,"flashy , pretentious and as impenetrable as morvern 's thick , working-class scottish accent .",bad
+sst5_test_0032,an experience so engrossing it is like being buried in a new environment .,good
+sst5_test_0033,the film often achieves a mesmerizing poetry .,great
+sst5_test_0034,a dreadful live-action movie .,terrible
+sst5_test_0035,"the parts are better than the whole -lrb- bizarre , funny , tragic - like love in new york -rrb- .",okay
+sst5_test_0036,the weakest of the four harry potter books has been transformed into the stronger of the two films by the thinnest of margins .,okay
+sst5_test_0037,the film seems all but destined to pop up on a television screen in the background of a scene in a future quentin tarantino picture,okay
+sst5_test_0038,boring we did n't .,bad
+sst5_test_0039,its gross-out gags and colorful set pieces ... are of course stultifyingly contrived and too stylized by half .,bad
+sst5_test_0040,"if shayamalan wanted to tell a story about a man who loses his faith , why did n't he just do it , instead of using bad sci-fi as window dressing ?",terrible
+sst5_test_0041,"subversive , meditative , clinical and poetic , the piano teacher is a daring work of genius .",good
+sst5_test_0042,take care of my cat offers a refreshingly different slice of asian cinema .,good
+sst5_test_0043,the picture is a primer on what happens when lack of know-how mixes with lack of give-a-damn .,bad
+sst5_test_0044,"at times , however , dogtown and z-boys lapses into an insider 's lingo and mindset that the uninitiated may find hard to follow , or care about .",bad
+sst5_test_0045,"technically , the film is about as interesting as an insurance commercial .",bad
+sst5_test_0046,"the premise is in extremely bad taste , and the film 's supposed insights are so poorly thought-out and substance-free that even a high school senior taking his or her first psychology class could dismiss them .",terrible
+sst5_test_0047,must be seen to be believed .,good
+sst5_test_0048,an extraordinary swedish film about the soul adventure of marriage -- the kind of intimate and character-driven film that bille august does best .,okay
+sst5_test_0049,some actors have so much charisma that you 'd be happy to listen to them reading the phone book .,good
+sst5_test_0050,"a splendid entertainment , young in spirit but accomplished in all aspects with the fullness of spirit and sense of ease that comes only with experience .",great
+sst5_test_0051,flaunts its quirky excesses like a new year 's eve drunk sporting a paper party hat .,bad
+sst5_test_0052,frida 's artistic brilliance is undeniable -- it 's among the most breathtakingly designed films i 've ever seen .,great
+sst5_test_0053,"there is not a character in the movie with a shred of plausibility , not an event that is believable , not a confrontation that is not staged , not a moment that is not false .",terrible
+sst5_test_0054,"-lrb- schweiger is -rrb- talented and terribly charismatic , qualities essential to both movie stars and social anarchists .",good
+sst5_test_0055,"admirable , certainly , but not much fun to watch .",okay
+sst5_test_0056,"a highly intriguing thriller , coupled with some ingenious plot devices and some lavishly built settings . .",great
+sst5_test_0057,you do n't have to be an especially tough grader to give a charitable b-minus to the emperor 's club .,okay
+sst5_test_0058,propelled not by characters but by caricatures .,bad
+sst5_test_0059,there 's a vastness implied in metropolis that is just breathtaking .,great
+sst5_test_0060,it is not a mass-market entertainment but an uncompromising attempt by one artist to think about another .,good
+sst5_test_0061,"by the end of no such thing the audience , like beatrice , has a watchful affection for the monster .",good
+sst5_test_0062,"even by dumb action-movie standards , ballistic : ecks vs. sever is a dumb action movie .",terrible
+sst5_test_0063,but it pays a price for its intricate intellectual gamesmanship .,bad
+sst5_test_0064,leave these flowers unpicked -- they 're dead on the vine .,terrible
+sst5_test_0065,"if somebody was bored and ... decided to make a dull , pretentious version of jesus ' son , they 'd come up with something like bart freundlich 's world traveler .",bad
+sst5_test_0066,faultlessly professional but finally slight .,okay
+sst5_test_0067,"my oh my , is this an invigorating , electric movie .",great
+sst5_test_0068,"do n't plan on the perfect ending , but sweet home alabama hits the mark with critics who escaped from a small town life .",good
+sst5_test_0069,"edited and shot with a syncopated style mimicking the work of his subjects , pray turns the idea of the documentary on its head , making it rousing , invigorating fun lacking any mtv puffery .",good
+sst5_test_0070,"benefits from a strong performance from zhao , but it 's dong jie 's face you remember at the end .",good
+sst5_test_0071,"oh , it 's extreme , all right .",okay
+sst5_test_0072,but he somehow pulls it off .,good
+sst5_test_0073,a historical epic with the courage of its convictions about both scope and detail .,great
+sst5_test_0074,"when she speaks , her creepy egyptian demigod voice is as computer processed and overproduced as it was in her music .",terrible
+sst5_test_0075,a very bad sign .,terrible
+sst5_test_0076,"smart science fiction for grown-ups , with only a few false steps along the way .",good
+sst5_test_0077,a compelling portrait of moral emptiness,good
+sst5_test_0078,"just like every other seagal movie , only louder and without that silly ponytail .",okay
+sst5_test_0079,"frustratingly , dridi tells us nothing about el gallo other than what emerges through his music .",bad
+sst5_test_0080,"as tweedy talks about canning his stockbroker and repairing his pool , you yearn for a few airborne tv sets or nude groupies on the nod to liven things up .",bad
+sst5_test_0081,"but if you expect light romantic comedy , good gosh , will you be shocked .",okay
+sst5_test_0082,"a pleasant ramble through the sort of idoosyncratic terrain that errol morris has often dealt with ... it does possess a loose , lackadaisical charm .",good
+sst5_test_0083,must-see viewing for anyone involved in the high-tech industry .,great
+sst5_test_0084,"i enjoyed the ride -lrb- bumps and all -rrb- , creamy depth , and ultimate theme .",great
+sst5_test_0085,"aside from being the funniest movie of the year , simone , andrew niccol 's brilliant anti-hollywood satire , has a wickedly eccentric enchantment to it .",great
+sst5_test_0086,"all that -lrb- powerpuff girls -rrb- charm is present in the movie , but it 's spread too thin .",bad
+sst5_test_0087,a well-made and often lovely depiction of the mysteries of friendship .,good
+sst5_test_0088,could the country bears really be as bad as its trailers ?,terrible
+sst5_test_0089,"but here 's the real damn : it is n't funny , either .",terrible
+sst5_test_0090,imagine a really bad community theater production of west side story without the songs .,terrible
+sst5_test_0091,"... perhaps the heaviest , most joyless movie ever made about giant dragons taking over the world .",bad
+sst5_test_0092,claude miller airs out a tight plot with an easy pace and a focus on character drama over crime-film complications .,good
+sst5_test_0093,"lanie 's professional success means she must be a failure at life , because she 's driven by ambition and does n't know how to have fun .",bad
+sst5_test_0094,a remarkable 179-minute meditation on the nature of revolution .,great
+sst5_test_0095,... there are enough moments of heartbreaking honesty to keep one glued to the screen .,great
+sst5_test_0096,"if there 's nothing fresh about wannabes , which was written by mr. demeo , who produced and directed the film with charles a. addessi , much of the time the movie feels authentic .",okay
+sst5_test_0097,"these are names to remember , in order to avoid them in the future .",terrible
+sst5_test_0098,for benigni it was n't shakespeare whom he wanted to define his career with but pinocchio .,good
+sst5_test_0099,"for all its surface frenzy , high crimes should be charged with loitering -- so much on view , so little to offer .",bad
+sst5_test_0100,what parents will suspect is that they 're watching a 76-minute commercial .,bad
+sst5_test_0101,remarkably accessible and affecting .,great
+sst5_test_0102,"anyway , for one reason or another , crush turns into a dire drama partway through .",okay
+sst5_test_0103,"the creaking , rusty ship makes a fine backdrop , but the ghosts ' haunting is routine .",bad
+sst5_test_0104,"the film 's real appeal wo n't be to clooney fans or adventure buffs , but to moviegoers who enjoy thinking about compelling questions with no easy answers .",good
+sst5_test_0105,"every bit as bogus as most disney live action family movies are -- no real plot , no real conflict , no real point .",terrible
+sst5_test_0106,an enchanting spectacular for potter fans anxious to ride the hogwarts express toward a new year of magic and mischief .,great
+sst5_test_0107,"though the plot is predictable , the movie never feels formulaic , because the attention is on the nuances of the emotional development of the delicate characters .",okay
+sst5_test_0108,"daughter from danang is a film that should be seen by all , especially those who are n't aware of , or have forgotten about the unmentioned victims of war .",good
+sst5_test_0109,"when it comes to entertainment , children deserve better than pokemon 4ever .",bad
+sst5_test_0110,"ranging from funny to shattering and featuring some of the year 's best acting , personal velocity gathers plenty of dramatic momentum .",great
+sst5_test_0111,we miss the quirky amazement that used to come along for an integral part of the ride .,bad
+sst5_test_0112,the movie has very little to offer besides unintentional laughs .,bad
+sst5_test_0113,but this time there 's some mold on the gold .,bad
+sst5_test_0114,hawke draws out the best from his large cast in beautifully articulated portrayals that are subtle and so expressive they can sustain the poetic flights in burdette 's dialogue .,great
+sst5_test_0115,this film is full of rabbits .,okay
+sst5_test_0116,"ultimately , it ponders the reasons we need stories so much .",okay
+sst5_test_0117,"kidman is really the only thing that 's worth watching in birthday girl , a film by the stage-trained jez butterworth -lrb- mojo -rrb- that serves as yet another example of the sad decline of british comedies in the post-full monty world .",okay
+sst5_test_0118,"director kapur is a filmmaker with a real flair for epic landscapes and adventure , and this is a better film than his earlier english-language movie , the overpraised elizabeth .",good
+sst5_test_0119,the stories here suffer from the chosen format .,bad
+sst5_test_0120,noyce 's film is contemplative and mournfully reflective .,good
+sst5_test_0121,the kind of nervous film that will either give you a mild headache or exhilarate you .,okay
+sst5_test_0122,"a few artsy flourishes aside , narc is as gritty as a movie gets these days .",okay
+sst5_test_0123,but what about the countless other people who 'd merely like to watch a solid tale about a universally interesting soul ?,okay
+sst5_test_0124,"the animated subplot keenly depicts the inner struggles of our adolescent heroes - insecure , uncontrolled , and intense .",good
+sst5_test_0125,"the fight scenes are fun , but it grows tedious .",bad
+sst5_test_0126,"this kind of dark comedy requires a delicate , surgical touch .",okay
+sst5_test_0127,hopkins .,okay
+sst5_test_0128,one hour photo is an intriguing snapshot of one man and his delusions ; it 's just too bad it does n't have more flashes of insight .,bad
+sst5_test_0129,... watching this film nearly provoked me to take my own life .,terrible
+sst5_test_0130,"compelling revenge thriller , though somewhat weakened by a miscast leading lady .",good
+sst5_test_0131,the plot is so amusingly contrived and outlandish in its coincidences that no one could ever mistake it for anything resembling reality,okay
+sst5_test_0132,"to the film 's credit , the acting is fresh and unselfconscious , and munch is a marvel of reality versus sappy sentiment .",good
+sst5_test_0133,"as with too many studio pics , plot mechanics get in the way of what should be the lighter-than-air adventure .",terrible
+sst5_test_0134,"a movie that will touch the hearts of both children and adults , as well as bring audiences to the edge of their seats .",great
+sst5_test_0135,tender yet lacerating and darkly funny fable .,great
+sst5_test_0136,it 's a beautifully accomplished lyrical meditation on a bunch of despondent and vulnerable characters living in the renown chelsea hotel ...,great
+sst5_test_0137,even those of a single digit age will be able to recognize that this story is too goofy ... even for disney .,bad
+sst5_test_0138,"no worse than a lot of the crap we 've been offered this summer , and slightly better than men in black 2 as far as slapdash extraterrestrial comedies go .",okay
+sst5_test_0139,never -lrb- sinks -rrb- into exploitation .,good
+sst5_test_0140,"the actors are so terrific at conveying their young angst , we do indeed feel for them .",okay
+sst5_test_0141,this time kaufman 's imagination has failed him .,terrible
+sst5_test_0142,hands down the year 's most thought-provoking film .,great
+sst5_test_0143,warmed-over tarantino by way of wannabe elmore leonard .,bad
+sst5_test_0144,"schmaltzy and unfunny , adam sandler 's cartoon about hanukkah is numbingly bad , little nicky bad , 10 worst list bad .",terrible
+sst5_test_0145,this is simply the most fun you 'll ever have with a documentary !,great
+sst5_test_0146,"as a witness to several greek-american weddings -- but , happily , a victim of none -- i can testify to the comparative accuracy of ms. vardalos ' memories and insights .",good
+sst5_test_0147,"although trying to balance self-referential humor and a normal ol' slasher plot seemed like a decent endeavor , the result does n't fully satisfy either the die-hard jason fans or those who can take a good joke .",bad
+sst5_test_0148,"for the most part , i spy was an amusing lark that will probably rank as one of murphy 's better performances in one of his lesser-praised movies .",good
+sst5_test_0149,"tadpole is emblematic of the witless ageism afflicting films : young is cool , and too young is too cool .",okay
+sst5_test_0150,"cedar takes a very open-minded approach to this sensitive material , showing impressive control , both visually and in the writing .",great
+sst5_test_0151,to portray modern women the way director davis has done is just unthinkable .,okay
+sst5_test_0152,"might have been better off as a documentary , with less of mr. eyre 's uninspired dramatics and more of his sense of observation and outrage .",bad
+sst5_test_0153,"still , i 'm not quite sure what the point is ...",bad
+sst5_test_0154,... the last time i saw a theater full of people constantly checking their watches was during my sats .,bad
+sst5_test_0155,"this warm and gentle romantic comedy has enough interesting characters to fill several movies , and its ample charms should win over the most hard-hearted cynics .",great
+sst5_test_0156,"safe conduct , however ambitious and well-intentioned , fails to hit the entertainment bull 's - eye .",bad
+sst5_test_0157,life is a crock -- or something like it .,bad
+sst5_test_0158,"there is an almost poignant dimension to the way that every major stunt seagal 's character ... performs is shot from behind , as if it could fool us into thinking that we 're not watching a double .",okay
+sst5_test_0159,"one of the best examples of how to treat a subject , you 're not fully aware is being examined , much like a photo of yourself you did n't know was being taken .",great
+sst5_test_0160,"feel bad for king , who 's honestly trying , and schwartzman , who 's shot himself in the foot .",bad
+sst5_test_0161,here 's a self-congratulatory 3d imax rah-rah .,bad
+sst5_test_0162,"reign of fire may be little more than another platter of reheated aliens , but it 's still pretty tasty .",good
+sst5_test_0163,"an intelligent , moving and invigorating film .",great
+sst5_test_0164,"a mild , reluctant , thumbs down .",okay
+sst5_test_0165,"thoughtful , provocative and entertaining .",great
+sst5_test_0166,moore 's performance impresses almost as much as her work with haynes in 1995 's safe .,good
+sst5_test_0167,cuts right through the b.s. giving a big middle-fingered `` shut up '' to those who talk up what is nothing more than two guys beating the hell outta one another .,okay
+sst5_test_0168,it 's a worse sign when you begin to envy her condition .,okay
+sst5_test_0169,a psychologically rich and suspenseful moral thriller with a stellar performance by al pacino .,good
+sst5_test_0170,a disturbing and frighteningly evocative assembly of imagery and hypnotic music composed by philip glass .,okay
+sst5_test_0171,you 've already seen heartbreak if you 've watched the far superior nurse betty or sunset boulevard .,okay
+sst5_test_0172,... has freaky scenes where the crew wonder if they 're ghosts imagining themselves as alive .,okay
+sst5_test_0173,"it 's an old story , but a lively script , sharp acting and partially animated interludes make just a kiss seem minty fresh .",good
+sst5_test_0174,"leaves you with a knot in your stomach , its power is undercut by its own head-banging obviousness .",bad
+sst5_test_0175,"matthew mcconaughey tries , and fails , to control the screen with swaggering machismo and over-the-top lunacy .",terrible
+sst5_test_0176,"between bedroom scenes , viewers may find themselves wishing they could roll over and take a nap .",bad
+sst5_test_0177,"the passions aroused by the discord between old and new cultures are set against the strange , stark beauty of the mideast desert , so lovingly and perceptively filmed that you can almost taste the desiccated air .",great
+sst5_test_0178,just pound away .,okay
+sst5_test_0179,"based on a david leavitt story , the film shares that writer 's usual blend of observant cleverness , too-facile coincidence and slightly noxious preciousness .",bad
+sst5_test_0180,an utterly compelling ` who wrote it ' in which the reputation of the most famous author who ever lived comes into question .,good
+sst5_test_0181,"rain is a small treasure , enveloping the viewer in a literal and spiritual torpor that is anything but cathartic .",great
+sst5_test_0182,culkin exudes none of the charm or charisma that might keep a more general audience even vaguely interested in his bratty character .,bad
+sst5_test_0183,"while the mystery surrounding the nature of the boat 's malediction remains intriguing enough to sustain mild interest , the picture refuses to offer much accompanying sustenance in the way of characterization , humor or plain old popcorn fun .",bad
+sst5_test_0184,an awkward and indigestible movie .,bad
+sst5_test_0185,"if you 're like me , a sucker for a good old fashion romance and someone who shamelessly loves to eat , then mostly martha offers all the perfect ingredients to more than satisfy your appetite .",great
+sst5_test_0186,"places a slightly believable love triangle in a difficult-to-swallow setting , and then disappointingly moves the story into the realm of an improbable thriller .",bad
+sst5_test_0187,"the film is painfully authentic , and the performances of the young players are utterly convincing .",good
+sst5_test_0188,"like those to rome , all roads in the banger sisters inevitably lead to a joke about hawn 's breasts , which constantly threaten to upstage the woman sporting them .",bad
+sst5_test_0189,"this is n't just the cliffsnotes version of nicholas nickleby , it 's the cliffsnotes with pages missing .",terrible
+sst5_test_0190,"rather quickly , the film falls into a soothing formula of brotherly conflict and reconciliation .",good
+sst5_test_0191,"half of it is composed of snappy patter and pseudo-sophisticated cultural observations , while the remainder ... would be more at home on a daytime television serial .",bad
+sst5_test_0192,"it does n't quite work , but there 's enough here to make us look forward to the russos ' next offering .",okay
+sst5_test_0193,"rarely do films come along that are as intelligent , exuberant , and moving as monsoon wedding .",great
+sst5_test_0194,the title helpfully offers the most succinct review of it you 'll read anywhere .,okay
+sst5_test_0195,"still , i thought it could have been more .",bad
+sst5_test_0196,"the tug-of-war at the core of beijing bicycle becomes weighed down with agonizing contrivances , overheated pathos and long , wistful gazes .",bad
+sst5_test_0197,any one episode of the sopranos would send this ill-conceived folly to sleep with the fishes .,terrible
+sst5_test_0198,mark me down as a non-believer in werewolf films that are not serious and rely on stupidity as a substitute for humor .,bad
+sst5_test_0199,"when it 's on dry land , though , this surfer-girl melodrama starts gasping like a beached grouper .",bad
+sst5_test_0200,"a masterful film from a master filmmaker , unique in its deceptive grimness , compelling in its fatalist worldview .",great
+sst5_test_0201,"it 's a pleasure to see seinfeld griping about the biz with buddies chris rock , garry shandling and colin quinn .",great
+sst5_test_0202,"rather , you 'll have to wrestle disbelief to the ground and then apply the chloroform-soaked handkerchief .",terrible
+sst5_test_0203,offers enough playful fun to entertain the preschool set while embracing a wholesome attitude .,great
+sst5_test_0204,nothing more than a mediocre trifle .,terrible
+sst5_test_0205,"grant gets to display his cadness to perfection , but also to show acting range that may surprise some who thought light-hearted comedy was his forte .",good
+sst5_test_0206,sucking all the ` classic ' out of robert louis stevenson 's treasure island and filling the void with sci-fi video game graphics and disney-fied adolescent angst ...,bad
+sst5_test_0207,this goofy gangster yarn never really elevates itself from being yet another earnestly generic crime-busting comic vehicle -- a well-intentioned remake that shows some spunk and promise but fails to register as anything distinctive or daring,bad
+sst5_test_0208,dolgin and franco fashion a fascinating portrait of a vietnamese-born youngster who eagerly and easily assimilated as an all-american girl with a brand new name in southern tennessee .,great
+sst5_test_0209,"workmanlike , maybe , but still a film with all the elements that made the other three great , scary times at the movies .",great
+sst5_test_0210,"a somewhat crudely constructed but gripping , questing look at a person so racked with self-loathing , he becomes an enemy to his own race .",good
+sst5_test_0211,"as a singular character study , it 's perfect .",great
+sst5_test_0212,a charming yet poignant tale of the irrevocable ties that bind .,great
+sst5_test_0213,anyone who can count to five -lrb- the film 's target market ? -rrb-,bad
+sst5_test_0214,"it 's best to avoid imprisonment with the dull , nerdy folks that inhabit cherish .",bad
+sst5_test_0215,about as cutting-edge as pet rock : the movie .,terrible
+sst5_test_0216,but it offers plenty to ponder and chew on as its unusual relationship slowly unfolds .,good
+sst5_test_0217,"none of these characters resembles anyone you 've ever met in real life , unless you happen to know annoyingly self-involved people who speak in glib sentences that could have only come from the pen of a screenwriter .",bad
+sst5_test_0218,largely a for-fans artifact .,okay
+sst5_test_0219,"for the first time in several years , mr. allen has surpassed himself with the magic he 's spun with the hollywood empress of ms. leoni 's ellie .",good
+sst5_test_0220,"finds a way to tell a simple story , perhaps the simplest story of all , in a way that seems compelling and even original .",great
+sst5_test_0221,"this is as powerful a set of evidence as you 'll ever find of why art matters , and how it can resonate far beyond museum walls and through to the most painfully marginal lives .",great
+sst5_test_0222,"what full frontal lacks in thematic coherence it largely makes up for as loosey-goosey , experimental entertainment .",good
+sst5_test_0223,but he loses his focus when he concentrates on any single person .,bad
+sst5_test_0224,message movie or an action-packed submarine spectacular ?,good
+sst5_test_0225,arnold 's jump from little screen to big will leave frowns on more than a few faces .,bad
+sst5_test_0226,this charmless nonsense ensues amid clanging film references that make jay and silent bob 's excellent adventure seem understated .,okay
+sst5_test_0227,flounders due to the general sense that no two people working on the production had exactly the same thing in mind .,bad
+sst5_test_0228,"together , tok and o orchestrate a buoyant , darkly funny dance of death .",great
+sst5_test_0229,begins as a promising meditation on one of america 's most durable obsessions but winds up as a slender cinematic stunt .,bad
+sst5_test_0230,fear dot com is so rambling and disconnected it never builds any suspense .,terrible
+sst5_test_0231,bad beyond belief and ridiculous beyond description .,terrible
+sst5_test_0232,"no , it 's not nearly as good as any of its influences .",bad
+sst5_test_0233,"it does n't help that the director and cinematographer stephen kazmierski shoot on grungy video , giving the whole thing a dirty , tasteless feel .",terrible
+sst5_test_0234,`` collateral damage '' goes by the numbers and reps decent action entertainment -- until the silly showdown ending that forces the viewer to totally suspend disbelief,bad
+sst5_test_0235,a classy item by a legend who may have nothing left to prove but still has the chops and drive to show how its done .,great
+sst5_test_0236,"visits spy-movie territory like a novel you ca n't put down , examines a footnote to history seldom brought to light on the screen , and keeps you guessing from first frame to last .",great
+sst5_test_0237,"there 's not much more to this adaptation of the nick hornby novel than charm -- effortless , pleasurable , featherweight charm .",good
+sst5_test_0238,"sam jones became a very lucky filmmaker the day wilco got dropped from their record label , proving that one man 's ruin may be another 's fortune .",good
+sst5_test_0239,"the film 's greatest asset is how much it 's not just another connect-the-dots , spy-on-the-run picture .",great
+sst5_test_0240,"awkward but sincere and , ultimately , it wins you over .",great
+sst5_test_0241,fuller would surely have called this gutsy and at times exhilarating movie a great yarn .,great
+sst5_test_0242,the production values are up there .,good
+sst5_test_0243,the saturation bombing of reggio 's images and glass ' evocative music ... ultimately leaves viewers with the task of divining meaning .,bad
+sst5_test_0244,"the crime matters less than the characters , although the filmmakers supply enough complications , close calls and double-crosses to satisfy us .",okay
+sst5_test_0245,"serry does a fine job of capturing the climate of the times and , perhaps unwittingly , relating it to what is happening in america in 2002 .",great
+sst5_test_0246,"it could change america , not only because it is full of necessary discussion points , but because it is so accessible that it makes complex politics understandable to viewers looking for nothing but energetic entertainment .",great
+sst5_test_0247,"only an epic documentary could get it all down , and spike lee 's jim brown : all american at long last gives its subject a movie worthy of his talents .",great
+sst5_test_0248,the film 's implicit premise is that the faith of the tonga people is in every way inferior to that of john .,okay
+sst5_test_0249,"a grim , flat and boring werewolf movie that refuses to develop an energy level .",bad
+sst5_test_0250,"as an entertainment , the movie keeps you diverted and best of all , it lightens your wallet without leaving a sting .",great
+sst5_test_0251,somehow both wildly implausible and strangely conventional .,okay
+sst5_test_0252,it settles for being merely grim .,bad
+sst5_test_0253,"a combination of standard , stiff tv-style animation and snazzy-looking digital effects that do little to disguise the fact that the characters barely move .",okay
+sst5_test_0254,his warriors collide in balletic explosion that implies an underlying order throughout the chaos .,okay
+sst5_test_0255,"sets up a nice concept for its fiftysomething leading ladies , but fails loudly in execution .",bad
+sst5_test_0256,"this cheery , down-to-earth film is warm with the cozy feeling of relaxing around old friends .",great
+sst5_test_0257,"say this for the soundtrack , it drowns out the lousy dialogue .",bad
+sst5_test_0258,an imaginative comedy\/thriller .,good
+sst5_test_0259,between the drama of cube ?,okay
+sst5_test_0260,the film seems a dead weight .,terrible
+sst5_test_0261,"at its best , the good girl is a refreshingly adult take on adultery ...",good
+sst5_test_0262,"dreary , highly annoying ... ` some body ' will appeal to no one .",bad
+sst5_test_0263,"while the glass slipper does n't quite fit , pumpkin is definitely a unique modern fairytale .",okay
+sst5_test_0264,the cumulative effect of the relentless horror on parade numbs the movie 's power as a work of drama .,okay
+sst5_test_0265,disturbingly superficial in its approach to the material .,terrible
+sst5_test_0266,"whether kiss is a future cult classic or destined to be completely forgotten is open to question , but the risk-takers in the crowd should check it out and form their own opinion .",okay
+sst5_test_0267,"full of profound , real-life moments that anyone can relate to , it deserves a wide audience .",great
+sst5_test_0268,digital-video documentary about stand-up comedians is a great glimpse into a very different world .,good
+sst5_test_0269,"she lists ingredients , but never mixes and stirs .",bad
+sst5_test_0270,"i can only imagine one thing worse than kevin spacey trying on an irish accent , and that 's sultry linda fiorentino doing the same thing .",bad
+sst5_test_0271,the master of disaster - it 's a piece of dreck disguised as comedy .,terrible
+sst5_test_0272,consists of a plot and jokes done too often by people far more talented than ali g,bad
+sst5_test_0273,"although based on a real-life person , john , in the movie , is a rather dull person to be stuck with for two hours .",terrible
+sst5_test_0274,"the streets , shot by cinematographer michael ballhaus , may be as authentic as they are mean , but it is nearly impossible to care about what happens on them .",bad
+sst5_test_0275,it 's also heavy-handed and devotes too much time to bigoted views .,bad
+sst5_test_0276,a little too pat for its own good .,bad
+sst5_test_0277,"the pacing is glacial , the screenplay is stiff as a board , and things heat up only in the movie 's final scenes .",okay
+sst5_test_0278,a great comedy filmmaker knows great comedy need n't always make us laugh .,great
+sst5_test_0279,the impact of the armenian genocide is diluted by too much stage business in the modern day .,bad
+sst5_test_0280,the title trapped turns out to be a pretty fair description of how you feel while you 're watching this ultra-manipulative thriller .,bad
+sst5_test_0281,"the makers of divine secrets of the ya-ya sisterhood should offer a free ticket -lrb- second prize , of course , two free tickets -rrb- to anyone who can locate a genuinely honest moment in their movie .",bad
+sst5_test_0282,"de niro looks bored , murphy recycles murphy , and you mentally add showtime to the pile of hollywood dreck that represents nothing more than the art of the deal .",terrible
+sst5_test_0283,"one of the greatest family-oriented , fantasy-adventure movies ever .",great
+sst5_test_0284,"a gimmick in search of a movie : how to get carvey into as many silly costumes and deliver as many silly voices as possible , plot mechanics be damned .",bad
+sst5_test_0285,the new guy does have a heart .,good
+sst5_test_0286,it becomes gimmicky instead of compelling .,bad
+sst5_test_0287,"all the performances are top notch and , once you get through the accents , all or nothing becomes an emotional , though still positive , wrench of a sit .",great
+sst5_test_0288,you see robert de niro singing - and dancing to - west side story show tunes .,okay
+sst5_test_0289,"thankfully , the film , which skirts that rapidly deteriorating line between fantasy and reality ... takes a tongue-in-cheek attitude even as it pushes the croc hunter agenda .",okay
+sst5_test_0290,"a free-for-all of half-baked thoughts , clumsily used visual tricks and self-indulgent actor moments .",terrible
+sst5_test_0291,and forget about any attempt at a plot !,bad
+sst5_test_0292,despite its many infuriating flaws -- not the least of which is amy 's self-absorbed personality -- amy 's o 's honesty will win you over .,okay
+sst5_test_0293,i whole-heartedly recommend that everyone see this movie -- for its historical significance alone .,great
+sst5_test_0294,extremely confusing .,bad
+sst5_test_0295,but what spectacular sizzle it is !,great
+sst5_test_0296,too timid to bring a sense of closure to an ugly chapter of the twentieth century .,bad
+sst5_test_0297,good ol' urban legend stuff .,good
+sst5_test_0298,"`` men in black ii , '' has all the earmarks of a sequel .",good
+sst5_test_0299,i 'm afraid you wo n't get through this frankly fantastical by-the-numbers b-flick with just a suspension of disbelief .,okay
+sst5_test_0300,it 's painful .,terrible
+sst5_test_0301,fans of behan 's work and of irish movies in general will be rewarded by borstal boy .,great
+sst5_test_0302,"narc may not get an ` a ' for originality , but it wears its b-movie heritage like a badge of honor .",good
+sst5_test_0303,the kids often appear to be reading the lines and are incapable of conveying any emotion .,bad
+sst5_test_0304,"earns its laughs from stock redneck ` types ' and from the many , many moments when we recognize even without the elizabethan prose , the play behind the thing .",good
+sst5_test_0305,the new guy is one of them .,okay
+sst5_test_0306,"in scope , ambition and accomplishment , children of the century ... takes kurys ' career to a whole new level .",great
+sst5_test_0307,this is a film brimming with detail and nuance and one that speaks volumes about the ability of the human spirit to find solace in events that could easily crush it forever .,good
+sst5_test_0308,"one of the most haunting , viciously honest coming-of-age films in recent memory .",good
+sst5_test_0309,"not a movie but a live-action agitprop cartoon so shameless and coarse , it 's almost funny .",bad
+sst5_test_0310,"in the end , ted bundy 's only justification is the director 's common but unexplored fascination with the frustrated maniac ; there 's no larger point , and little social context .",okay
+sst5_test_0311,equal parts bodice-ripper and plodding costume drama .,okay
+sst5_test_0312,"though of particular interest to students and enthusiast of international dance and world music , the film is designed to make viewers of all ages , cultural backgrounds and rhythmic ability want to get up and dance .",great
+sst5_test_0313,"sometimes , fond memories should stay in the past : a lesson this film teaches all too well .",okay
+sst5_test_0314,a bigger holiday downer than your end-of-year 401 -lrb- k -rrb- statement .,bad
+sst5_test_0315,"the stupidest , most insulting movie of 2002 's first quarter .",terrible
+sst5_test_0316,"ostensibly celebrates middle-aged girl power , even as it presents friendship between women as pathetic , dysfunctional and destructive .",bad
+sst5_test_0317,an ultra-low-budget indie debut that smacks more of good intentions than talent .,bad
+sst5_test_0318,an uneven film dealing with too many problems to be taken seriously .,bad
+sst5_test_0319,rainy days and movies about the disintegration of families always get me down .,bad
+sst5_test_0320,"a comprehensive and provocative film -- one that pushes the boundaries of biography , and challenges its audience .",great
+sst5_test_0321,john leguizamo may be a dramatic actor -- just not in this movie .,terrible
+sst5_test_0322,too lazy to take advantage of its semi-humorous premise .,bad
+sst5_test_0323,the premise is overshadowed by the uberviolence of the clericks as this becomes just another kung-fu sci-fi movie with silly action sequences .,bad
+sst5_test_0324,"my goodness , queen latifah has a lot to offer and she seemed to have no problem flaunting her natural gifts .",good
+sst5_test_0325,"day is not a great bond movie , but it is a good bond movie , which still makes it much better than your typical bond knock-offs .",good
+sst5_test_0326,"hey , who else needs a shower ?",bad
+sst5_test_0327,"it 's drained of life in an attempt to be sober and educational , and yet it 's so devoid of realism that its lack of whistles and bells just makes it obnoxious and stiff .",terrible
+sst5_test_0328,flaccid drama and exasperatingly slow journey .,terrible
+sst5_test_0329,it 's almost impossible not to be moved by the movie 's depiction of sacrifice and its stirring epilogue in post-soviet russia .,great
+sst5_test_0330,has all the poignancy of a hallmark card and all the comedy of a gallagher stand-up act .,okay
+sst5_test_0331,a great idea becomes a not-great movie .,bad
+sst5_test_0332,"just what makes us happy , anyway ?",okay
+sst5_test_0333,"nair stuffs the film with dancing , henna , ornamentation , and group song , but her narrative clichés and telegraphed episodes smell of old soap opera .",bad
+sst5_test_0334,"even with all those rough edges safely sanded down , the american insomnia is still pretty darned good .",great
+sst5_test_0335,"it delivers some chills and sustained unease , but flounders in its quest for deeper meaning .",bad
+sst5_test_0336,"even if britney spears is really cute , her movie is really bad .",bad
+sst5_test_0337,that rara avis : the intelligent romantic comedy with actual ideas on its mind .,great
+sst5_test_0338,"interacting eyeball-to-eyeball and toe-to-toe , hopkins and norton are a winning combination -- but fiennes steals ` red dragon ' right from under their noses .",good
+sst5_test_0339,"thrilling , provocative and darkly funny , this timely sci-fi mystery works on so many different levels that it not only invites , it demands repeated viewings .",great
+sst5_test_0340,"a boring , wincingly cute and nauseatingly politically correct cartoon guaranteed to drive anyone much over age 4 screaming from the theater .",terrible
+sst5_test_0341,... -lrb- like -rrb- channel surfing between the discovery channel and a late-night made-for-cable action movie .,bad
+sst5_test_0342,it 's like a poem .,good
+sst5_test_0343,a worthy entry into a very difficult genre .,great
+sst5_test_0344,"` abandon all hope , ye who enter here ' ... you should definitely let dante 's gloomy words be your guide .",bad
+sst5_test_0345,the transporter is as lively and as fun as it is unapologetically dumb,good
+sst5_test_0346,"despite a powerful portrayal by binoche , it 's a period romance that suffers from an overly deliberate pace and uneven narrative momentum .",bad
+sst5_test_0347,there 's suspension of disbelief and then there 's bad screenwriting ... this film packs a wallop of the latter .,bad
+sst5_test_0348,"the film delivers not just the full assault of reno 's immense wit and insight , but a time travel back to what it felt like during those unforgettably uncertain days .",great
+sst5_test_0349,the gantzes ' interviews tend to let the guys off the hook .,okay
+sst5_test_0350,"this delicately observed story , deeply felt and masterfully stylized , is a triumph for its maverick director .",great
+sst5_test_0351,looks awfully like one long tourist spot for a mississippi that may never have existed outside of a scriptwriter 's imagination .,bad
+sst5_test_0352,"smith 's approach is never to tease , except gently and in that way that makes us consider our own eccentricities and how they are expressed through our homes .",good
+sst5_test_0353,it 's so full of wrong choices that all you can do is shake your head in disbelief -- and worry about what classic oliver parker intends to mangle next time .,terrible
+sst5_test_0354,obvious politics and rudimentary animation reduce the chances that the appeal of hey arnold !,bad
+sst5_test_0355,"like its two predecessors , 1983 's koyaanisqatsi and 1988 's powaqqatsi , the cinematic collage naqoyqatsi could be the most navel-gazing film ever .",bad
+sst5_test_0356,"why come up with something even quasi-original , when you can pillage from shirley jackson , richard matheson ... and puke up something like rose red ?",bad
+sst5_test_0357,"instead of kicking off the intrigue and suspense and mystery of the whole thing , hart 's war , like the st. louis rams in the super bowl , waits until after halftime to get started .",bad
+sst5_test_0358,what kids will discover is a new collectible .,good
+sst5_test_0359,"... a joke at once flaky and resonant , lightweight and bizarrely original .",okay
+sst5_test_0360,"the story wraps back around on itself in the kind of elegant symmetry that 's rare in film today , but be warned : it 's a slow slog to get there .",okay
+sst5_test_0361,demme 's loose approach kills the suspense .,bad
+sst5_test_0362,"for me , this opera is n't a favorite , so it 's a long time before the fat lady sings .",terrible
+sst5_test_0363,"too much of this well-acted but dangerously slow thriller feels like a preamble to a bigger , more complicated story , one that never materializes .",terrible
+sst5_test_0364,i wonder why .,okay
+sst5_test_0365,"even if the ride 's a little bumpy , with a final lap that 's all too suspiciously smooth , you gotta give director roger michell , best known for the superfluous notting hill , credit for trying .",okay
+sst5_test_0366,there is not an ounce of honesty in the entire production .,terrible
+sst5_test_0367,"so many documentaries like this presuppose religious bigotry or zealous nuttiness of its antagonists , but family fundamentals displays a rare gift for unflinching impartiality .",good
+sst5_test_0368,let 's cut to the consumer-advice bottom line : stay home .,terrible
+sst5_test_0369,mckay deflates his piece of puffery with a sour cliche and heavy doses of mean-spiritedness,bad
+sst5_test_0370,"novak manages to capture a cruelly hilarious vein of black comedy in the situation with his cast of non-actors and a gritty , no-budget approach .",great
+sst5_test_0371,"a droll , well-acted , character-driven comedy with unexpected deposits of feeling .",good
+sst5_test_0372,`` an entire film about researchers quietly reading dusty old letters . '',terrible
+sst5_test_0373,"bad company leaves a bad taste , not only because of its bad-luck timing , but also the staleness of its script .",terrible
+sst5_test_0374,"ms. fulford-wierzbicki is almost spooky in her sulky , calculating lolita turn .",good
+sst5_test_0375,"alas , it 's neither .",bad
+sst5_test_0376,enjoy it for what it is ; you can hate yourself later .,okay
+sst5_test_0377,you 've seen them a million times .,bad
+sst5_test_0378,there 's not much going on in this movie unless you simply decide to buy into the notion that something inexplicably strange once happened in point pleasant .,okay
+sst5_test_0379,"but buying into sham truths and routine `` indie '' filmmaking , freundlich has made just another safe movie .",bad
+sst5_test_0380,"an intimate , good-humored ethnic comedy like numerous others but cuts deeper than expected .",good
+sst5_test_0381,"longley has constructed a remarkably coherent , horrifically vivid snapshot of those turbulent days .",good
+sst5_test_0382,"but as a movie , it 's a humorless , disjointed mess .",terrible
+sst5_test_0383,"too bad , but thanks to some lovely comedic moments and several fine performances , it 's not a total loss .",good
+sst5_test_0384,girls gone wild and gone civil again,okay
+sst5_test_0385,"the movie 's ripe , enrapturing beauty will tempt those willing to probe its inscrutable mysteries .",good
+sst5_test_0386,"elling , portrayed with quiet fastidiousness by per christian ellefsen , is a truly singular character , one whose frailties are only slightly magnified versions of the ones that vex nearly everyone .",good
+sst5_test_0387,"now , if it only had a brain .",bad
+sst5_test_0388,"the noble tradition of men in drag hits an all-time low in sorority boys , whose makers apparently believe that women 's clothing can cover up any deficiency in acting , writing or direction .",bad
+sst5_test_0389,"however , it lacks grandeur and that epic quality often associated with stevenson 's tale as well as with earlier disney efforts .",bad
+sst5_test_0390,fisher has bared his soul and confronted his own shortcomings here in a way ... that feels very human and very true to life .,good
+sst5_test_0391,let your silly childhood nostalgia slumber unmolested .,bad
+sst5_test_0392,gets under the skin of a man who has just lost his wife .,good
+sst5_test_0393,well worth the time .,great
+sst5_test_0394,insomnia is involving .,okay
+sst5_test_0395,"a film made with as little wit , interest , and professionalism as artistically possible for a slummy hollywood caper flick .",bad
+sst5_test_0396,a sensitive and expertly acted crowd-pleaser that is n't above a little broad comedy and a few unabashedly sentimental tears .,great
+sst5_test_0397,"despite its flaws , secretary stays in your head and makes you question your own firmly held positions .",good
+sst5_test_0398,undercover brother does n't go far enough .,bad
+sst5_test_0399,"on its own cinematic terms , it successfully showcases the passions of both the director and novelist byatt .",great
+sst5_test_0400,-lrb- but it 's -rrb- worth recommending because of two marvelous performances by michael caine and brendan fraser .,great
+sst5_test_0401,"this series should have died long ago , but they keep bringing it back another day as punishment for paying money to see the last james bond movie .",terrible
+sst5_test_0402,how did it ever get made ?,terrible
+sst5_test_0403,ordinary melodrama that is heavy on religious symbols but wafer-thin on dramatic substance,terrible
+sst5_test_0404,"behind the snow games and lovable siberian huskies -lrb- plus one sheep dog -rrb- , the picture hosts a parka-wrapped dose of heart .",good
+sst5_test_0405,a romantic comedy that operates by the rules of its own self-contained universe .,good
+sst5_test_0406,"though ganesh is successful in a midlevel sort of way , there 's nothing so striking or fascinating or metaphorically significant about his career as to rate two hours of our attention .",bad
+sst5_test_0407,little more than a frothy vanity project .,bad
+sst5_test_0408,there 's something fundamental missing from this story : something or someone to care about .,bad
+sst5_test_0409,"it 's rather like a lifetime special -- pleasant , sweet and forgettable .",good
+sst5_test_0410,"mr. parker has brilliantly updated his source and grasped its essence , composing a sorrowful and hilarious tone poem about alienated labor , or an absurdist workplace sitcom .",great
+sst5_test_0411,"a slick , skillful little horror film .",good
+sst5_test_0412,frenetic but not really funny .,bad
+sst5_test_0413,"everything that has to do with yvan and charlotte , and everything that has to do with yvan 's rambunctious , jewish sister and her non-jew husband , feels funny and true .",great
+sst5_test_0414,"this road movie gives you emotional whiplash , and you 'll be glad you went along for the ride .",great
+sst5_test_0415,"a breezy , diverting , conventional , well-acted tale of two men locked in an ongoing game of cat-and-cat .",great
+sst5_test_0416,invincible is a wonderful movie .,great
+sst5_test_0417,"from the big giant titles of the opening credits to elmer bernstein 's perfectly melodic score , haynes gets just about everything right .",good
+sst5_test_0418,fans of nijinsky will savor every minute of cox 's work .,good
+sst5_test_0419,"as is most commonly case with projects such noble and lofty ambitions , the film is less poetic than simply pretentious .",okay
+sst5_test_0420,... a well-observed and disturbing little movie,okay
+sst5_test_0421,lead provocatuers testud and parmentier give superlative performances,great
+sst5_test_0422,"celebrated at sundance , this slight comedy of manners has winning performances and a glossy , glib charm that 's hard to beat .",great
+sst5_test_0423,so lazy and slipshod it confuses the mere flashing of kinky soft-core imagery with naughty fun .,bad
+sst5_test_0424,"taken individually or collectively , the stories never add up to as much as they promise .",bad
+sst5_test_0425,"you might not want to hang out with samantha , but you 'll probably see a bit of yourself in her unfinished story .",good
+sst5_test_0426,"home alone goes hollywood , a funny premise until the kids start pulling off stunts not even steven spielberg would know how to do .",bad
+sst5_test_0427,"well , it does go on forever .",bad
+sst5_test_0428,"there 's no mistaking the fact that this hybrid misses the impact of the disney classic , and even that of the excellent 1934 mgm version .",okay
+sst5_test_0429,"though it is by no means his best work , laissez-passer is a distinguished and distinctive effort by a bona-fide master , a fascinating film replete with rewards to be had by all willing to make the effort to reap them .",good
+sst5_test_0430,obstacles are too easily overcome and there is n't much in the way of character development in the script .,terrible
+sst5_test_0431,it took 19 predecessors to get this ?,terrible
+sst5_test_0432,"you have to pay attention to follow all the stories , but they 're each interesting .",good
+sst5_test_0433,"it may be a prize winner , but teacher is a bomb .",okay
+sst5_test_0434,a harmless and mildly amusing family comedy .,good
+sst5_test_0435,"harsh , effective documentary on life in the israeli-occupied palestinian territories .",good
+sst5_test_0436,fails to bring as much to the table .,bad
+sst5_test_0437,an atonal estrogen opera that demonizes feminism while gifting the most sympathetic male of the piece with a nice vomit bath at his wedding .,terrible
+sst5_test_0438,arguably the year 's silliest and most incoherent movie .,bad
+sst5_test_0439,"an incendiary , deeply thought-provoking look at one of the most peculiar -lrb- and peculiarly venomous -rrb- bigotries in our increasingly frightening theocracy",great
+sst5_test_0440,watching it is rather like an overlong visit from a large group of your relatives .,terrible
+sst5_test_0441,"foster nails the role , giving a tight , focused performance illuminated by shards of feeling .",good
+sst5_test_0442,this version incarnates the prophetic book in a way even its exacting author might admire .,good
+sst5_test_0443,ethan hawke has always fancied himself the bastard child of the beatnik generation and it 's all over his chelsea walls .,bad
+sst5_test_0444,the worst kind of independent ; the one where actors play dress down hicks and ponderously mope around trying to strike lightning as captured by their 1970s predecessors,okay
+sst5_test_0445,"helmer devito ... attempts to do too many things in this story about ethics , payola , vice , murder , kids ' tv and revenge .",bad
+sst5_test_0446,it might as well have been problem child iv .,bad
+sst5_test_0447,"highlights are the terrific performances by christopher plummer , as the prime villain , and nathan lane as vincent crummles , the eccentric theater company manager .",good
+sst5_test_0448,perhaps no picture ever made has more literally showed that the road to hell is paved with good intentions .,good
+sst5_test_0449,the film 's center will not hold .,bad
+sst5_test_0450,"i admired it , particularly that unexpected downer of an ending .",good
+sst5_test_0451,"led by griffin 's smartly nuanced performance and enthusiasm , the cast has a lot of fun with the material .",good
+sst5_test_0452,it 's just incredibly dull .,terrible
+sst5_test_0453,"tadpole is a sophisticated , funny and good-natured treat , slight but a pleasure .",great
+sst5_test_0454,"philip k. dick must be turning in his grave , along with my stomach .",terrible
+sst5_test_0455,"the additional storyline is interesting and entertaining , but it does n't have the same magical quality as the beginning of the story .",okay
+sst5_test_0456,new best friend should n't have gone straight to video ; it should have gone straight to a mystery science theater 3000 video .,terrible
+sst5_test_0457,"britney has been delivered to the big screen safe and sound , the way we like our 20-year-old superstar girls to travel on the fame freeway .",good
+sst5_test_0458,a clever blend of fact and fiction .,good
+sst5_test_0459,"too loud , too long and too frantic by half , die another day suggests that the bond franchise has run into a creative wall that 007 can not fly over , tunnel under or barrel through .",terrible
+sst5_test_0460,there 's no way to sort out the mess in our heads and deconstruct where it all went wrong .,okay
+sst5_test_0461,"` charly ' will divide its audience in two separate groups , those reaching for more tissues and those begging for mercy ...",okay
+sst5_test_0462,"at about 95 minutes , treasure planet maintains a brisk pace as it races through the familiar story .",good
+sst5_test_0463,"while obviously an extremely personal work , it remains inextricably stuck in an emotionally unavailable rut .",okay
+sst5_test_0464,-lrb- howard -rrb- so good as leon barlow ... that he hardly seems to be acting .,great
+sst5_test_0465,"this movie is about lying , cheating , but loving the friends you betray .",okay
+sst5_test_0466,"its mysteries are transparently obvious , and it 's too slowly paced to be a thriller .",bad
+sst5_test_0467,it 's a movie forged in the fires of chick flick hell .,bad
+sst5_test_0468,"not so much funny as aggressively sitcom-cute , it 's full of throwaway one-liners , not-quite jokes , and a determined tv amiability that allen personifies .",bad
+sst5_test_0469,a blessed gift to film geeks and historians .,great
+sst5_test_0470,"this romantic thriller is steeped in the atmosphere of wartime england , and ably captures the speech patterns , moral codes and ideals of the 1940s .",good
+sst5_test_0471,moderately involving despite bargain-basement photography and hackneyed romance .,bad
+sst5_test_0472,the two leads chomp considerably more scenery with their acting than fire-breathing monsters barbecue with their breath ...,bad
+sst5_test_0473,the film runs on equal parts of innocence and wisdom -- wisdom that comes with experience .,good
+sst5_test_0474,"a mix of velocity and idiocy , this ruinous remake lacks the brawn -- and the brains -- of the 1970s original .",bad
+sst5_test_0475,"not only does the movie fail to make us part of its reality , it fails the most basic relevancy test as well .",bad
+sst5_test_0476,it 's still worth a look .,good
+sst5_test_0477,more than makes up for its mawkish posing by offering rousing spates of genuine feeling .,good
+sst5_test_0478,"a journey through memory , a celebration of living , and a sobering rumination on fatality , classism , and ignorance .",good
+sst5_test_0479,desperately unfunny when it tries to makes us laugh and desperately unsuspenseful when it tries to make us jump out of our seats .,terrible
+sst5_test_0480,"a gorgeous , somnolent show that is splendidly mummified and thoroughly unsurprising .",okay
+sst5_test_0481,suffocated at conception by its munchausen-by-proxy mum .,terrible
+sst5_test_0482,"a gob of drivel so sickly sweet , even the eager consumers of moore 's pasteurized ditties will retch it up like rancid crème brûlée .",terrible
+sst5_test_0483,"morton is a great actress portraying a complex character , but morvern callar grows less compelling the farther it meanders from its shocking start .",okay
+sst5_test_0484,"hilarious , touching and wonderfully dyspeptic .",great
+sst5_test_0485,"an ungainly , comedy-deficient , b-movie rush job ...",terrible
+sst5_test_0486,mr. wedge and mr. saldanha handle the mix of verbal jokes and slapstick well .,good
+sst5_test_0487,it wo n't bust your gut -- and it 's not intended to -- it 's merely a blandly cinematic surgical examination of what makes a joke a joke .,okay
+sst5_test_0488,if i spy were funny -lrb- enough -rrb- or exciting -lrb- enough -rrb- then it would be fairly simple to forgive the financial extortion it 's trying to reap from the moviegoing public .,bad
+sst5_test_0489,"when not obscured by the booming bass-heavy soundtrack , the conversation presents the kind of linguistic fumbling not heard since macy gray 's game of chinese whispers with mr bean .",okay
+sst5_test_0490,"-lrb- i -rrb- f you 've been to more than one indie flick in your life , chances are you 've already seen this kind of thing .",bad
+sst5_test_0491,"it 's the kind of movie you ca n't quite recommend because it is all windup and not much of a pitch , yet you ca n't bring yourself to dislike it .",bad
+sst5_test_0492,the fact that the rookie is a nearly impeccable cinematic experience -- and a wonderful all-ages triumph besides -- is a miracle akin to the story the film portrays .,great
+sst5_test_0493,the movie is one of the best examples of artful large format filmmaking you are likely to see anytime soon .,great
+sst5_test_0494,"... ambition is in short supply in the cinema , and egoyan tackles his themes and explores his characters ' crises with seriousness and compassion .",good
+sst5_test_0495,a psychological thriller with a smart script and an obsessive-compulsive 's attention to detail .,great
+sst5_test_0496,but what saves lives on the freeway does not necessarily make for persuasive viewing .,bad
+sst5_test_0497,is it something any true film addict will want to check out ?,okay
+sst5_test_0498,"though the film 's scenario is certainly not earthshaking , this depiction of fluctuating female sexuality has two winning lead performances and charm to spare .",good
+sst5_test_0499,"using his audience as a figurative port-of-call , dong pulls his even-handed ideological ship to their dock for unloading , before he continues his longer journey still ahead .",okay
+sst5_test_0500,but the characters tend to be cliches whose lives are never fully explored .,bad
+sst5_test_0501,"like a marathon runner trying to finish a race , you need a constant influx of liquid just to get through it .",bad
+sst5_test_0502,i like the new footage and still love the old stuff .,great
+sst5_test_0503,a map of the inner rhythms of love and jealousy and sacrifice drawn with a master 's steady stroke .,great
+sst5_test_0504,"there are slow and repetitive parts , but it has just enough spice to keep it interesting .",good
+sst5_test_0505,a monster combat thriller as impersonal in its relentlessness as the videogame series that inspired it .,bad
+sst5_test_0506,"the film 's sharp , often mischievous sense of humor will catch some off guard ...",good
+sst5_test_0507,the film is often filled with a sense of pure wonderment and excitement not often seen in today 's cinema du sarcasm,great
+sst5_test_0508,"tim allen is great in his role but never hogs the scenes from his fellow cast , as there are plenty of laughs and good lines for everyone in this comedy .",great
+sst5_test_0509,"dark and disturbing , but also surprisingly funny .",good
+sst5_test_0510,"those who would follow haneke on his creepy explorations ... are rewarded by brutal , committed performances from huppert and magimel .",great
+sst5_test_0511,the movie succumbs to being nothing more than a formulaic chase in the dark .,bad
+sst5_test_0512,a compelling journey ... and `` his best friend remembers '' is up there with the finest of specials .,good
+sst5_test_0513,"the heightened symmetry of this new\/old cinema paradiso makes the film a fuller experience , like an old friend haunted by the exigencies of time .",okay
+sst5_test_0514,"the low-budget full frontal was one of the year 's murkiest , intentionally obscure and self-indulgent pictures , and solaris is its big-budget brother .",bad
+sst5_test_0515,hmm .,okay
+sst5_test_0516,"it 's traditional moviemaking all the way , but it 's done with a lot of careful period attention as well as some very welcome wit .",great
+sst5_test_0517,"as weber and weissman demonstrate with such insight and celebratory verve , the cockettes were n't as much about gender , sexual preference or political agitprop as they were simply a triumph of the indomitable human will to rebel , connect and create .",great
+sst5_test_0518,"others may find it migraine-inducing , despite moore 's attempts at whimsy and spoon feeding .",terrible
+sst5_test_0519,"the irwins emerge unscathed , but the fictional footage is unconvincing and criminally badly acted .",terrible
+sst5_test_0520,murderous maids may well be the most comprehensive of these films and also strike closest to the truth .,great
+sst5_test_0521,denis and co-writer michele petin 's impeccable screenplay penetrates with a rawness that that is both unflinching and tantalizing .,great
+sst5_test_0522,an excellent romp that boasts both a heart and a mind .,great
+sst5_test_0523,"hu and liu offer natural , matter-of-fact performances that glint with sorrow , longing and love .",great
+sst5_test_0524,... always remains movingly genuine .,great
+sst5_test_0525,"viewed on its own terms , treasure planet is better-than-average family entertainment , but true fans of the stevenson 's novel will likely prefer disney 's more faithful 1950 live-action swashbuckling classic .",okay
+sst5_test_0526,flawed but worthy look at life in u.s. relocation camps .,okay
+sst5_test_0527,a standard haunted house tale transplanted to the high seas .,okay
+sst5_test_0528,the whole damn thing is ripe for the jerry springer crowd .,bad
+sst5_test_0529,it 's both a necessary political work and a fascinating documentary ...,good
+sst5_test_0530,"each story on its own could have been expanded and worked into a compelling single feature , but in its current incarnation , storytelling never quite gets over its rather lopsided conception .",okay
+sst5_test_0531,a benign but forgettable sci-fi diversion .,bad
+sst5_test_0532,"suggests puns about ingredients and soup and somebody being off their noodle , but let 's just say the ingredients do n't quite add up to a meal .",bad
+sst5_test_0533,some decent actors inflict big damage upon their reputations .,bad
+sst5_test_0534,screenwriters scott abbott and michael petroni have turned rice 's complex akasha into a cartoon monster .,bad
+sst5_test_0535,"writhing under dialogue like ` you 're from two different worlds ' and ` tonight the maid is a lie and this , this is who you are , ' this schlock-filled fairy tale hits new depths of unoriginality and predictability .",terrible
+sst5_test_0536,"roman coppola may never become the filmmaker his dad was , but heck -- few filmmakers will .",good
+sst5_test_0537,"legendary irish writer brendan behan 's memoir , borstal boy , has been given a loving screen transferral .",good
+sst5_test_0538,a moody horror\/thriller elevated by deft staging and the director 's well-known narrative gamesmanship .,good
+sst5_test_0539,"if myers decides to make another austin powers movie , maybe he should just stick with austin and dr evil .",bad
+sst5_test_0540,"what you get with empire is a movie you 've seen many times before , repackaged as new material because there is a latino in the lead .",terrible
+sst5_test_0541,"for all of the contemporary post-colonialist consciousness that kapur tries to bring to the four feathers , the oddest thing about the movie is how it winds up affirming the same damn moldy values the material has always held dear .",okay
+sst5_test_0542,"with its hints of a greater intelligence lurking somewhere , the ring makes its stupidity more than obvious .",bad
+sst5_test_0543,steve irwin 's method is ernest hemmingway at accelerated speed and volume .,good
+sst5_test_0544,"everytime you think undercover brother has run out of steam , it finds a new way to surprise and amuse .",good
+sst5_test_0545,"if this is the resurrection of the halloween franchise , it would have been better off dead .",terrible
+sst5_test_0546,"run , do n't walk , to see this barbed and bracing comedy on the big screen .",great
+sst5_test_0547,a pleasant romantic comedy .,good
+sst5_test_0548,"in the end , punch-drunk love is one of those films that i wanted to like much more than i actually did .",bad
+sst5_test_0549,"when the painted backdrops in a movie are more alive than its characters , you know you 're in trouble .",bad
+sst5_test_0550,"sensitive , insightful and beautifully rendered film .",great
+sst5_test_0551,"a reasonably efficient mechanism , but it offers few surprises and finds its stars slumming in territory they should have avoided .",okay
+sst5_test_0552,"it 's endearing to hear madame d. refer to her husband as ` jackie ' -- and he does make for excellent company , not least as a self-conscious performer .",good
+sst5_test_0553,ja rule and kurupt should have gotten to rap .,okay
+sst5_test_0554,"you wo n't believe much of it , but you will laugh at the audacity , at the who 's who casting and the sheer insanity of it all .",okay
+sst5_test_0555,"the movie 's quiet affirmation of neighborhood values gives it an honest , lived-in glow .",great
+sst5_test_0556,a sports movie with action that 's exciting on the field and a story you care about off it .,great
+sst5_test_0557,"daring , mesmerizing and exceedingly hard to forget .",great
+sst5_test_0558,`` the mothman prophecies '' is a difficult film to shake from your conscience when night falls .,okay
+sst5_test_0559,"more a load of enjoyable , conan-esque claptrap than the punishing , special-effects soul assaults the mummy pictures represent .",good
+sst5_test_0560,"an often-deadly boring , strange reading of a classic whose witty dialogue is treated with a baffling casual approach",bad
+sst5_test_0561,the cast is uniformly excellent and relaxed .,great
+sst5_test_0562,"instead of accurately accounting a terrible true story , the film 's more determined to become the next texas chainsaw massacre .",bad
+sst5_test_0563,a fascinating and fun film .,great
+sst5_test_0564,"despite its title , amy 's orgasm is not a porno , though it is as tedious as one .",okay
+sst5_test_0565,there are moments in this account of the life of artist frida kahlo that are among cinema 's finest this year .,great
+sst5_test_0566,think of it as a sort of comfort food for the mind .,great
+sst5_test_0567,"a whole lot foul , freaky and funny .",good
+sst5_test_0568,"as an actor , the rock is aptly named .",bad
+sst5_test_0569,"spousal abuse is a major problem in contemporary society , but the film reduces this domestic tragedy to florid melodrama .",terrible
+sst5_test_0570,quick : who wants to see a comedy about shoddy airport security ?,bad
+sst5_test_0571,"we never really feel involved with the story , as all of its ideas remain just that : abstract ideas .",terrible
+sst5_test_0572,but you 'll definitely want the t-shirt .,okay
+sst5_test_0573,"funny and , at times , poignant , the film from director george hickenlooper all takes place in pasadena , `` a city where people still read . ''",good
+sst5_test_0574,son of the bride may be a good half-hour too long but comes replete with a flattering sense of mystery and quietness .,bad
+sst5_test_0575,a captivating cross-cultural comedy of manners .,good
+sst5_test_0576,the subject of swinging still seems ripe for a documentary -- just not this one .,bad
+sst5_test_0577,"besides , real movie producers are n't this nice .",okay
+sst5_test_0578,"after that , it just gets stupid and maudlin .",terrible
+sst5_test_0579,"this 72-minute film does have some exciting scenes , but it 's a tad slow .",okay
+sst5_test_0580,"glib , satirical documentary that fudges facts , makes facile points and engages in the cinematic equivalent of tabloid journalism .",bad
+sst5_test_0581,"it extends the writings of jean genet and john rechy , the films of fassbinder , perhaps even the nocturnal works of goya .",good
+sst5_test_0582,it wo n't be long before you 'll spy i spy at a video store near you .,bad
+sst5_test_0583,"... does such a fine job of engulfing you in its world and allying you with its characters ' choices , good and ill , that its shortcomings are remembered only as an afterthought .",okay
+sst5_test_0584,"a romantic comedy , yes , but one with characters who think and talk about their goals , and are working on hard decisions .",good
+sst5_test_0585,"-lrb- drumline -rrb- is entertaining for what it does , and admirable for what it does n't do .",good
+sst5_test_0586,"even if you feel like you 've seen this movie a thousand times before , it is kind of enjoyable thanks mainly to belushi 's easy-going likableness .",okay
+sst5_test_0587,"what begins as a seemingly brainless , bubbly romantic comedy becomes a cliche-drenched melodrama by mid-film and , by film 's end , a feminist action fantasy .",okay
+sst5_test_0588,a richly imagined and admirably mature work from a gifted director who definitely has something on his mind .,great
+sst5_test_0589,"an incredibly low-rent danish film , it brings a group of people together in a sweet and charming way , if a little convenient",good
+sst5_test_0590,"these are lives worth watching , paths worth following .",great
+sst5_test_0591,"while the film misfires at every level , the biggest downside is the paucity of laughter in what 's supposed to be a comedy .",terrible
+sst5_test_0592,"preposterous and tedious , sonny is spiked with unintentional laughter that , unfortunately , occurs too infrequently to make the film even a guilty pleasure .",bad
+sst5_test_0593,happily for mr. chin -- though unhappily for his subjects -- the invisible hand of the marketplace wrote a script that no human screenwriter could have hoped to match .,good
+sst5_test_0594,... a roller-coaster ride of a movie,great
+sst5_test_0595,an uneven but intriguing drama that is part homage and part remake of the italian masterpiece .,good
+sst5_test_0596,the screenplay sabotages the movie 's strengths at almost every juncture .,bad
+sst5_test_0597,fans of the animated wildlife adventure show will be in warthog heaven ; others need not necessarily apply .,good
+sst5_test_0598,"in the process , they demonstrate that there 's still a lot of life in hong kong cinema .",good
+sst5_test_0599,credibility sinks into a mire of sentiment .,bad
+sst5_test_0600,"an absorbing trip into the minds and motivations of people under stress as well as a keen , unsentimental look at variations on the theme of motherhood .",good
+sst5_test_0601,d.j. qualls as indiana jones ?,okay
+sst5_test_0602,"alex nohe 's documentary plays like a travelogue for what mostly resembles a real-life , big-budget nc-17 version of tank girl .",okay
+sst5_test_0603,it would be hard to think of a recent movie that has worked this hard to achieve this little fun .,terrible
+sst5_test_0604,"it tries too hard , and overreaches the logic of its own world .",bad
+sst5_test_0605,there are just enough twists in the tale to make it far more satisfying than almost any horror film in recent memory .,great
+sst5_test_0606,better at putting you to sleep than a sound machine .,terrible
+sst5_test_0607,"the unceasing sadism is so graphically excessive , the director just ends up exposing his own obsession .",terrible
+sst5_test_0608,most of the action setups are incoherent .,bad
+sst5_test_0609,once you get into its rhythm ... the movie becomes a heady experience .,good
+sst5_test_0610,it would n't be my preferred way of spending 100 minutes or $ 7.00 .,terrible
+sst5_test_0611,a tale of horror and revenge that is nearly perfect in its relentless descent to the depths of one man 's tortured soul .,good
+sst5_test_0612,it 's also stupider .,bad
+sst5_test_0613,this examination of aquatic life off the shores of the baja california peninsula of mexico offers an engrossing way to demonstrate the virtues of the imax format .,good
+sst5_test_0614,"easier to respect than enthuse over , andersson 's rigorous personal vision is not only distanced but distancing .",okay
+sst5_test_0615,"there are as many misses as hits , but ultimately , it finds humor in the foibles of human behavior , and it 's a welcome return to the roots of a genre that should depend on surprises .",good
+sst5_test_0616,big fat liar is just futile silliness looking to tap into the kiddie sensibilities .,bad
+sst5_test_0617,i was perplexed to watch it unfold with an astonishing lack of passion or uniqueness .,bad
+sst5_test_0618,do n't expect any surprises in this checklist of teamwork cliches ...,terrible
+sst5_test_0619,kaufman creates an eerie sense of not only being there at the time of these events but the very night matthew was killed .,good
+sst5_test_0620,he has not learnt that storytelling is what the movies are about .,terrible
+sst5_test_0621,"it smacks of purely commercial motivation , with no great love for the original .",bad
+sst5_test_0622,a beautiful and haunting examination of the stories we tell ourselves to make sense of the mundane horrors of the world .,great
+sst5_test_0623,proves that a movie about goodness is not the same thing as a good movie .,terrible
+sst5_test_0624,"the film is just a big , gorgeous , mind-blowing , breath-taking mess .",good
+sst5_test_0625,"this cuddly sequel to the 1999 hit is a little more visually polished , a little funnier , and a little more madcap .",good
+sst5_test_0626,-lrb- sen 's -rrb- soap opera-ish approach undermines his good intentions .,bad
+sst5_test_0627,"the story 's so preposterous that i did n't believe it for a second , despite the best efforts of everyone involved .",terrible
+sst5_test_0628,"merely as a technical , logistical feat , russian ark marks a cinematic milestone .",good
+sst5_test_0629,i do n't think i 've been as entranced and appalled by an asian film since shinya tsukamoto 's iron man .,good
+sst5_test_0630,offers that rare combination of entertainment and education .,great
+sst5_test_0631,an intelligent fiction about learning through cultural clash .,good
+sst5_test_0632,"oft-described as the antidote to american pie-type sex comedies , it actually has a bundle in common with them , as the film diffuses every opportunity for a breakthrough",bad
+sst5_test_0633,"despite apparent motives to the contrary , it ends up being , like -lrb- seinfeld 's -rrb- revered tv show , about pretty much nothing .",bad
+sst5_test_0634,"shainberg weaves a carefully balanced scenario that is controlled by neither character , is weirdly sympathetic to both and manages to be tender and darkly comic .",good
+sst5_test_0635,"the editing is chaotic , the photography grainy and badly focused , the writing unintentionally hilarious , the direction unfocused , the performances as wooden .",terrible
+sst5_test_0636,if you can get past the fantastical aspects and harsh realities of `` the isle '' you 'll get a sock-you-in-the-eye flick that is a visual tour-de-force and a story that is unlike any you will likely see anywhere else .,good
+sst5_test_0637,"still , this thing feels flimsy and ephemeral .",bad
+sst5_test_0638,"for anyone who remembers the '60s or is interested in one man 's response to stroke , ram dass : fierce grace is worth seeking out .",great
+sst5_test_0639,"so faithful to the doldrums of the not-quite-urban , not-quite-suburban milieu as to have viewers recoiling from the reality check .",okay
+sst5_test_0640,the filmmakers skillfully evoke the sense of menace that nature holds for many urban dwellers .,good
+sst5_test_0641,time changer may not be the most memorable cinema session but its profound self-evaluation message about our fragile existence and the absence of spiritual guidance should at least invade an abundance of mindsets,good
+sst5_test_0642,"almost every scene in this film is a gem that could stand alone , a perfectly realized observation of mood , behavior and intent .",great
+sst5_test_0643,high crimes miscasts nearly every leading character .,bad
+sst5_test_0644,credibility levels are low and character development a non-starter .,terrible
+sst5_test_0645,bubba ho-tep is a wonderful film with a bravura lead performance by bruce campbell that does n't deserve to leave the building until everyone is aware of it .,great
+sst5_test_0646,choose your reaction : a. -rrb- that sure is funny !,good
+sst5_test_0647,"there 's something deeply creepy about never again , a new arrow in schaeffer 's quiver of ineptitudes .",okay
+sst5_test_0648,"-lrb- a -rrb- hollywood sheen bedevils the film from the very beginning ... -lrb- but -rrb- lohman 's moist , deeply emotional eyes shine through this bogus veneer ...",good
+sst5_test_0649,the sad thing about knockaround guys is its lame aspiration for grasping the coolness vibes when in fact the film is n't as flippant or slick as it thinks it is .,bad
+sst5_test_0650,what 's next ?,good
+sst5_test_0651,"i wish i could say `` thank god it 's friday '' , but the truth of the matter is i was glad when it was over .",terrible
+sst5_test_0652,even those who would like to dismiss the film outright should find much to mull and debate .,okay
+sst5_test_0653,"greengrass has delivered an undoubted stylistic tour-de-force , and has managed elements such as sound and cinematography with skill",great
+sst5_test_0654,"a resonant tale of racism , revenge and retribution .",good
+sst5_test_0655,vile and tacky are the two best adjectives to describe ghost ship .,terrible
+sst5_test_0656,"it might be tempting to regard mr. andrew and his collaborators as oddballs , but mr. earnhart 's quizzical , charming movie allows us to see them , finally , as artists .",good
+sst5_test_0657,"it risks seeming slow and pretentious , because it thinks the gamble is worth the promise .",bad
+sst5_test_0658,"when it 's all wet , blue crush is highly enjoyable .",great
+sst5_test_0659,looks like a high school film project completed the day before it was due .,terrible
+sst5_test_0660,the story ... is moldy and obvious .,terrible
+sst5_test_0661,"never again swings between false sentiment and unfunny madcap comedy and , along the way , expects the audience to invest in the central relationship as some kind of marriage of true minds .",bad
+sst5_test_0662,"if you 're looking for comedy to be served up , better look elsewhere .",terrible
+sst5_test_0663,"a spunky , original take on a theme that will resonate with singles of many ages .",good
+sst5_test_0664,"the unique tug-of-war with viewer expectations is undeniable , if not a pleasure in its own right .",great
+sst5_test_0665,if you 're not the target demographic ... this movie is one long chick-flick slog .,bad
+sst5_test_0666,... the gentle melding of drama and comedy makes `` what time is it there ? '',okay
+sst5_test_0667,"the film hinges on its performances , and both leads are up to the task .",good
+sst5_test_0668,even legends like alfred hitchcock and john huston occasionally directed trifles ... so it 's no surprise to see a world-class filmmaker like zhang yimou behind the camera for a yarn that 's ultimately rather inconsequential .,bad
+sst5_test_0669,"the movie addresses a hungry need for pg-rated , nonthreatening family movies , but it does n't go too much further .",okay
+sst5_test_0670,"if no one singles out any of these performances as award-worthy , it 's only because we would expect nothing less from this bunch .",great
+sst5_test_0671,this is how you use special effects .,great
+sst5_test_0672,nicely serves as an examination of a society in transition .,good
+sst5_test_0673,"this film , starring anthony hopkins and chris rock , is your typical ` fish out of water ' story .",okay
+sst5_test_0674,like mike does n't win any points for originality .,bad
+sst5_test_0675,"succumbs to the same kind of maudlin , sentimental mysticism that mars the touched by an angel school of non-god spiritual-uplift movies .",bad
+sst5_test_0676,an overstuffed compendium of teen-catholic-movie dogma .,bad
+sst5_test_0677,the movie will reach far beyond its core demographic .,great
+sst5_test_0678,"to enjoy this movie 's sharp dialogue and delightful performance by jolie and burns , you have to gloss over the no sense ending .",okay
+sst5_test_0679,as a randy film about sexy people in gorgeous places being pushed and pulled -lrb- literally and figuratively -rrb- by desire ... -lrb- sex and lucía -rrb- makes for an arousing good time .,good
+sst5_test_0680,majidi gets uniformly engaging performances from his largely amateur cast .,good
+sst5_test_0681,or a profit .,okay
+sst5_test_0682,the drama is played out with such aching beauty and truth that it brings tears to your eyes .,great
+sst5_test_0683,it 's a movie -- and an album -- you wo n't want to miss .,great
+sst5_test_0684,"fine acting but there is no sense of connecting the dots , just dots .",bad
+sst5_test_0685,"the premise for this kegger comedy probably sounded brilliant four six-packs and a pitcher of margaritas in , but the film must have been written ... in the thrall of a vicious hangover .",bad
+sst5_test_0686,"reggio falls victim to relying on the very digital technology that he fervently scorns , creating a meandering , inarticulate and ultimately disappointing film .",bad
+sst5_test_0687,no wonder they 're talking about `` talk to her . '',okay
+sst5_test_0688,what makes the movie a comedy is the way it avoids the more serious emotions involved .,good
+sst5_test_0689,is n't it great ?,good
+sst5_test_0690,denzel washington 's efforts are sunk by all the sanctimony .,terrible
+sst5_test_0691,sushi for the connoisseurs of the macabre .,bad
+sst5_test_0692,"a turgid little history lesson , humourless and dull .",terrible
+sst5_test_0693,this is the best american movie about troubled teens since 1998 's whatever .,good
+sst5_test_0694,"... tunney is allowed to build an uncommonly human character , an almost real-live girl complete with trouble and hope .",okay
+sst5_test_0695,has a plot full of twists upon knots ... and a nonstop parade of mock-tarantino scuzbag types that starts out clever but veers into overkill .,bad
+sst5_test_0696,"much of the way , though , this is a refreshingly novel ride .",great
+sst5_test_0697,"intriguing and beautiful film , but those of you who read the book are likely to be disappointed .",good
+sst5_test_0698,"a dreary , incoherent , self-indulgent mess of a movie in which a bunch of pompous windbags drone on inanely for two hours ... a cacophony of pretentious , meaningless prattle .",terrible
+sst5_test_0699,"you 'll be left with the sensation of having just witnessed a great performance and , perhaps , give in to the urge to get on your feet and shake it .",great
+sst5_test_0700,"though the book runs only about 300 pages , it is so densely packed ... that even an ambitious adaptation and elaborate production like mr. schepisi 's seems skimpy and unclear .",bad
+sst5_test_0701,"while undercover brother is definitely one for the masses , it 's also full of sharp , smart satire .",good
+sst5_test_0702,you 'll have more fun setting fire to yourself in the parking lot .,terrible
+sst5_test_0703,go see it and enjoy .,great
+sst5_test_0704,a bit of an unwieldy mess .,bad
+sst5_test_0705,now it 's just tired .,bad
+sst5_test_0706,audiences will find no mention of political prisoners or persecutions that might paint the castro regime in less than saintly tones .,bad
+sst5_test_0707,if high crimes were any more generic it would have a universal product code instead of a title .,terrible
+sst5_test_0708,"no , it 's the repetition of said behavior , and so children of the century is more mindless love than mad , more grating and boring than anything else .",terrible
+sst5_test_0709,"branagh , in his most forceful non-shakespeare screen performance , grounds even the softest moments in the angry revolt of his wit .",good
+sst5_test_0710,"it 's also clear from the start that the transporter is running purely on adrenaline , and once the initial high wears off , the film 's shortcomings start to shine through .",okay
+sst5_test_0711,heavy-handed exercise in time-vaulting literary pretension .,okay
+sst5_test_0712,not a bad journey at all .,good
+sst5_test_0713,the film is directed by wally wolodarsky from a script by joe jarvis and greg coolidge .,okay
+sst5_test_0714,"a hip ride into hyper-time , clockstoppers is a lively and enjoyable adventure for all ages at any time .",great
+sst5_test_0715,"romanek keeps the film constantly taut ... reflecting the character 's instability with a metaphorical visual style and an unnerving , heartbeat-like score .",great
+sst5_test_0716,the best way to hope for any chance of enjoying this film is by lowering your expectations .,bad
+sst5_test_0717,"it 's a flashy , star-splashed reduction .",okay
+sst5_test_0718,"the pleasures of super troopers may be fleeting , but they 'll register strongly with anybody who still retains a soft spot for precollegiate humor .",good
+sst5_test_0719,... one of the most ingenious and entertaining thrillers i 've seen in quite a long time .,great
+sst5_test_0720,"leave it to rohmer , now 82 , to find a way to bend current technique to the service of a vision of the past that is faithful to both architectural glories and commanding open spaces of the city as it was more than two centuries ago .",great
+sst5_test_0721,i loved it !,great
+sst5_test_0722,"not always too whimsical for its own good -lrb- but enough to do harm -rrb- , this strange hybrid of crime thriller , quirky character study , third-rate romance and female empowerment fantasy never really finds the tonal or thematic glue it needs .",okay
+sst5_test_0723,this bold and lyrical first feature from raja amari expands the pat notion that middle-aged women just wanna have fun into a rousing treatise of sensual empowerment .,great
+sst5_test_0724,you 'll be more entertained getting hit by a bus .,terrible
+sst5_test_0725,the issue of faith is not explored very deeply,bad
+sst5_test_0726,what it lacks in originality it makes up for in intelligence and b-grade stylishness .,good
+sst5_test_0727,"as a revenge thriller , the movie is serviceable , but it does n't really deliver the delicious guilty pleasure of the better film versions .",bad
+sst5_test_0728,"with generic sets and b-grade special effects , jason is about as convincing on the sci-fi front as tv 's defunct cleopatra 2525 .",bad
+sst5_test_0729,"hey , at least the title of this film lets you know exactly where it 's heading .",okay
+sst5_test_0730,the visuals alone make metropolis worth seeing .,good
+sst5_test_0731,"it 's really yet another anemic and formulaic lethal weapon-derived buddy-cop movie , trying to pass off its lack of imagination as hip knowingness .",bad
+sst5_test_0732,"windtalkers blows this way and that , but there 's no mistaking the filmmaker in the tall grass , true to himself .",good
+sst5_test_0733,"eventually , it wins you over .",good
+sst5_test_0734,john mctiernan 's botched remake may be subtler than norman jewison 's 1975 ultraviolent futuristic corporate-sports saga .,terrible
+sst5_test_0735,"a picture that extols the virtues of comradeship and community in a spunky , spirited fashion .",good
+sst5_test_0736,what could and should have been biting and droll is instead a tepid waste of time and talent .,bad
+sst5_test_0737,it 's as close as we 'll ever come to looking through a photographer 's viewfinder as he works .,great
+sst5_test_0738,"johnson has , in his first film , set himself a task he is not nearly up to .",okay
+sst5_test_0739,"as shaky as the plot is , kaufman 's script is still memorable for some great one-liners .",good
+sst5_test_0740,"plays as hollow catharsis , with lots of tears but very little in the way of insights .",bad
+sst5_test_0741,"light , cute and forgettable .",okay
+sst5_test_0742,this is such a dazzlingly self-assured directorial debut that it 's hard to know what to praise first .,good
+sst5_test_0743,... as the story congeals you feel the pieces of the star wars saga falling into place in a way that makes your spine tingle with revelation and excitement .,great
+sst5_test_0744,"just one more collection of penis , breast and flatulence gags in search of a story .",terrible
+sst5_test_0745,"this film looks like it was produced in 1954 , shelved for 48 years , and repackaged for a 2002 audience .",terrible
+sst5_test_0746,her delivery and timing are flawless .,great
+sst5_test_0747,is there enough material to merit a documentary on the making of wilco 's last album ?,okay
+sst5_test_0748,"a long-winded , predictable scenario .",bad
+sst5_test_0749,presents an astute appraisal of middle american musical torpor and the desperate struggle to escape it .,good
+sst5_test_0750,focuses on joan 's raging hormones and sledgehammers the audience with spanish inquisitions about her `` madness '' so much that i became mad that i wasted 123 minutes and $ 9.50 on this 21st century torture device .,terrible
+sst5_test_0751,"here , adrian lyne comes as close to profundity as he is likely to get .",good
+sst5_test_0752,at its best early on as it plays the culture clashes between the brothers .,good
+sst5_test_0753,maudlin and melodramatic we expected .,bad
+sst5_test_0754,strong setup and ambitious goals fade as the film descends into unsophisticated scare tactics and b-film thuggery .,bad
+sst5_test_0755,"scarlet diva has a voyeuristic tug , but all in all it 's a lot less sensational than it wants to be .",bad
+sst5_test_0756,"though this film can be clumsy , its ambitions are equally -- and admirably -- uncommercial .",okay
+sst5_test_0757,achieves a sort of filmic epiphany that revels in the true potential of the medium .,good
+sst5_test_0758,"shadyac shoots his film like an m. night shyamalan movie , and he frequently maintains the same snail 's pace ; he just forgot to add any genuine tension .",terrible
+sst5_test_0759,"thoughtful , even stinging at times , and lots of fun .",great
+sst5_test_0760,"that is essentially what 's missing from blackboards -- the sense of something bigger , some ultimate point .",okay
+sst5_test_0761,marries the amateurishness of the blair witch project with the illogic of series 7 : the contenders to create a completely crass and forgettable movie .,bad
+sst5_test_0762,what could have been a neat little story about believing in yourself is swamped by heavy-handed melodrama .,bad
+sst5_test_0763,choppy editing and too many repetitive scenes spoil what could have been an important documentary about stand-up comedy .,terrible
+sst5_test_0764,"working from elliott 's memoir , rohmer fashions the sort of delicate , articulate character - and - relationship study he 's favored for decades .",good
+sst5_test_0765,"the cold and dreary weather is a perfect metaphor for the movie itself , which contains few laughs and not much drama .",terrible
+sst5_test_0766,godawful boring slug of a movie .,terrible
+sst5_test_0767,"-lrb- nelson 's -rrb- movie about morally compromised figures leaves viewers feeling compromised , unable to find their way out of the fog and the ashes .",okay
+sst5_test_0768,"it 's too long , too repetitive , and takes way too many years to resolve to be a total winner .",okay
+sst5_test_0769,"a work of the utmost subtlety and perception , it marks the outstanding feature debut of writer-director eric byler , who understands the power of the implicit and the virtues of simplicity and economy .",good
+sst5_test_0770,"this version 's no classic like its predecessor , but its pleasures are still plentiful .",good
+sst5_test_0771,"it 's the kind of movie that ends up festooning u.s. art house screens for no reason other than the fact that it 's in french -lrb- well , mostly -rrb- with english subtitles and is magically ` significant ' because of that .",bad
+sst5_test_0772,"an exciting and involving rock music doc , a smart and satisfying look inside that tumultuous world .",great
+sst5_test_0773,this is pretty dicey material .,bad
+sst5_test_0774,a pleasurably jacked-up piece of action moviemaking .,good
+sst5_test_0775,"sound the trumpets : for the first time since desperately seeking susan , madonna does n't suck as an actress .",good
+sst5_test_0776,it will come as no surprise that the movie is n't scary .,bad
+sst5_test_0777,not sweet enough to liven up its predictable story and will leave even fans of hip-hop sorely disappointed .,bad
+sst5_test_0778,it wo n't rock any boats but is solid meat-and-potatoes filmmaking .,okay
+sst5_test_0779,director dirk shafer and co-writer greg hinton ride the dubious divide where gay porn reaches for serious drama .,bad
+sst5_test_0780,... too gory to be a comedy and too silly to be an effective horror film .,bad
+sst5_test_0781,"before long , the film starts playing like general hospital crossed with a saturday night live spoof of dog day afternoon .",bad
+sst5_test_0782,stay clear of reminding yourself that it 's a `` true story '' and you 're likely to have one helluva time at the movies .,great
+sst5_test_0783,"showtime is one of the hapless victims of the arrogant `` if we put together a wry white man and a chatty black man and give them guns , the movie will be funny '' syndrome .",terrible
+sst5_test_0784,"a baffling misfire , and possibly the weakest movie -lrb- woody allen -rrb- has made in the last twenty years .",terrible
+sst5_test_0785,... surprisingly inert for a movie in which the main character travels back and forth between epochs .,bad
+sst5_test_0786,"this boisterous comedy serves up a cruel reminder of the fate of hundreds of thousands of chinese , one which can only qualify as a terrible tragedy .",okay
+sst5_test_0787,this is art paying homage to art .,good
+sst5_test_0788,"having never been a huge fan of dickens ' 800-page novel , it surprised me how much pleasure i had watching mcgrath 's version .",great
+sst5_test_0789,"a smart , sweet and playful romantic comedy .",great
+sst5_test_0790,"the plot is straight off the shelf , the performances are television - caliber and the message of providing solace through deception is a little creepy .",bad
+sst5_test_0791,what jackson has accomplished here is amazing on a technical level .,good
+sst5_test_0792,showtime is closer to slowtime .,bad
+sst5_test_0793,"the film makes a tragic error by going on for too long , trying to mirror every subsequent event in chinese history : war , revolution , communism , etc. .",terrible
+sst5_test_0794,"a perverse little truffle , dainty psychological terror on the outside with a creamy filling of familial jealousy and unrepentant domestic psychopathy .",good
+sst5_test_0795,"like most bond outings in recent years , some of the stunts are so outlandish that they border on being cartoonlike .",bad
+sst5_test_0796,"william shatner , as a pompous professor , is the sole bright spot ...",okay
+sst5_test_0797,"as lo-fi as the special effects are , the folks who cobbled nemesis together indulge the force of humanity over hardware in a way that george lucas has long forgotten .",good
+sst5_test_0798,this is an hour and a half of daydreaming .,okay
+sst5_test_0799,schindler 's list it ai n't .,bad
+sst5_test_0800,plays less like a coming-of-age romance than an infomercial .,bad
+sst5_test_0801,some actors steal scenes .,okay
+sst5_test_0802,"it 's a hoot and a half , and a great way for the american people to see what a candidate is like when he 's not giving the same 15-cent stump speech .",good
+sst5_test_0803,not so much a movie as a picture book for the big screen .,bad
+sst5_test_0804,it is nature against progress .,okay
+sst5_test_0805,a potent allegorical love story .,good
+sst5_test_0806,earnest falls short of its ideal predecessor largely due to parker 's ill-advised meddling with the timeless source material .,bad
+sst5_test_0807,i do n't have an i am sam clue .,bad
+sst5_test_0808,"solid , lump-in-the-throat family entertainment that derives its power by sticking to the facts .",good
+sst5_test_0809,"a mostly intelligent , engrossing and psychologically resonant suspenser .",good
+sst5_test_0810,"the film 's 45-minute running time stops shy of overkill , though viewers may be more exhausted than the athletes onscreen .",bad
+sst5_test_0811,"some , like ballistic , arrive stillborn ... looking like the beaten , well-worn video box cover of seven years into the future .",terrible
+sst5_test_0812,"this is n't my favorite in the series , still i enjoyed it enough to recommend .",good
+sst5_test_0813,a refreshing korean film about five female high school friends who face an uphill battle when they try to take their relationships into deeper waters .,great
+sst5_test_0814,"a one-trick pony whose few t&a bits still ca n't save itself from being unoriginal , unfunny and unrecommendable .",terrible
+sst5_test_0815,national lampoon 's van wilder could be the worst thing to come out of national lampoon since class reunion,terrible
+sst5_test_0816,münch 's genuine insight makes the film 's occasional overindulgence forgivable .,good
+sst5_test_0817,"these spiders can outrun a motorcycle and wrap a person in a sticky cocoon in seconds , but they fall short of being interesting or entertaining .",bad
+sst5_test_0818,"guaranteed to move anyone who ever shook , rattled , or rolled .",great
+sst5_test_0819,another rent installment for the ian fleming estate .,bad
+sst5_test_0820,the perfect film for those who like sick comedies that can be snide .,good
+sst5_test_0821,"given that both movies expect us to root for convicted violent felons over those assigned to protect us from same , we need every bit of sympathy the cons can muster ; this time , there is n't much .",bad
+sst5_test_0822,a compendium of solondz 's own worst instincts in under 90 minutes .,bad
+sst5_test_0823,"this miserable excuse of a movie runs on empty , believing flatbush machismo will get it through .",terrible
+sst5_test_0824,"another big , dumb action movie in the vein of xxx , the transporter is riddled with plot holes big enough for its titular hero to drive his sleek black bmw through .",bad
+sst5_test_0825,` dragonfly ' is a movie about a bus wreck that turns into a film wreck .,bad
+sst5_test_0826,the enormous comic potential of an oafish idiot impersonating an aristocrat remains sadly unrealized .,bad
+sst5_test_0827,worth the effort to watch .,good
+sst5_test_0828,"opens as promising as any war\/adventure film you 'll ever see and dissolves into a routine courtroom drama , better suited for a movie titled `` glory : a soldier 's story . ''",bad
+sst5_test_0829,"christians sensitive to a reductionist view of their lord as a luv-spreading dr. feelgood or omnipotent slacker will feel vastly more affronted than secularists , who might even praise god for delivering such an instant camp classic .",good
+sst5_test_0830,"a truly moving experience , and a perfect example of how art -- when done right -- can help heal , clarify , and comfort .",great
+sst5_test_0831,"although the editing might have been tighter , hush !",okay
+sst5_test_0832,"this time out , -lrb- sade -rrb- is an unsettlingly familiar figure -- in turns loyal and deceitful , responsible and reckless , idealistically selfless and coldly self-interested .",bad
+sst5_test_0833,"the movie is well shot and very tragic , and one to ponder after the credits roll .",good
+sst5_test_0834,effectively feeds our senses with the chilling sights and sounds from within the camp to create a completely numbing experience .,great
+sst5_test_0835,"a stunning piece of visual poetry that will , hopefully , be remembered as one of the most important stories to be told in australia 's film history .",great
+sst5_test_0836,lawrence preaches strictly to the converted .,okay
+sst5_test_0837,"an elegant , exquisitely modulated psychological thriller .",great
+sst5_test_0838,"although life or something like it is very much in the mold of feel-good movies , the cast and director stephen herek 's polished direction pour delightfully piquant wine from aged bottles .",good
+sst5_test_0839,"all ends well , sort of , but the frenzied comic moments never click .",bad
+sst5_test_0840,"drags along in a dazed and enervated , drenched-in-the - past numbness .",bad
+sst5_test_0841,"guided more by intellect than heart , his story flattens instead of sharpens .",terrible
+sst5_test_0842,woo 's fights have a distinct flair .,good
+sst5_test_0843,"despite all the talking , by the time the bloody climax arrives we still do n't feel enough of an attachment to these guys to care one way or another .",okay
+sst5_test_0844,an enjoyably half-wit remake of the venerable italian comedy big deal on madonna street .,great
+sst5_test_0845,this is a happy throwback to the time when cartoons were cinema 's most idiosyncratic form instead of one of its most predictable .,great
+sst5_test_0846,"when -lrb- de palma 's -rrb- bad , he 's really bad , and femme fatale ranks with the worst he has done .",terrible
+sst5_test_0847,two generations within one family test boundaries in this intelligent and restrained coming-of-age drama .,great
+sst5_test_0848,"if it tried to do anything more , it would fail and perhaps explode , but at this level of manic whimsy , it is just about right .",good
+sst5_test_0849,"human resources was a good , straightforward tale , but time out is better .",okay
+sst5_test_0850,"it does n't quite deserve the gong , but there are more fascinating acts than `` confessions of a dangerous mind . ''",okay
+sst5_test_0851,"there 's a disreputable air about the whole thing , and that 's what makes it irresistible .",good
+sst5_test_0852,"needless to say , the dramatics that follow are utter hooey .",terrible
+sst5_test_0853,this is really just another genre picture .,okay
+sst5_test_0854,but an unwillingness to explore beyond the surfaces of her characters prevents nettelbeck 's film from coming together .,bad
+sst5_test_0855,notorious c.h.o. has oodles of vulgar highlights .,bad
+sst5_test_0856,escapism in its purest form .,good
+sst5_test_0857,"watching scarlet diva , one is poised for titillation , raw insight or both .",good
+sst5_test_0858,feels like six different movies fighting each other for attention .,bad
+sst5_test_0859,i believe the message is in the messenger : the agent is a woman .,okay
+sst5_test_0860,a heavy reliance on cgi technology is beginning to creep into the series .,okay
+sst5_test_0861,"for all its alleged youthful fire , xxx is no less subservient to bond 's tired formula of guns , girls and gadgets while brandishing a new action hero .",bad
+sst5_test_0862,take away all the cliches and the carbon copy scenes from every drug movie we 've seen and all you have left are john leguizamo 's cool jackets .,okay
+sst5_test_0863,"earnest but earthbound ... a slow , soggy , soporific , visually dank crime melodrama\/character study that would be more at home on the small screen but for its stellar cast .",bad
+sst5_test_0864,enough similarities to gymkata and howie long 's firestorm that my fingernails instinctively crawled towards my long-suffering eyeballs .,bad
+sst5_test_0865,to say analyze that is de niro 's best film since meet the parents sums up the sad state of his recent career .,okay
+sst5_test_0866,"goyer 's screenplay and direction are thankfully understated , and he has drawn excellent performances from his cast .",great
+sst5_test_0867,"this is one of the most visually stunning and thematically moving epics in recent memory , and in spite of numerous minor flaws , scorsese 's best in more than a decade .",great
+sst5_test_0868,it 's a trifle .,okay
+sst5_test_0869,"the latest installment in the pokemon canon , pokemon 4ever is surprising less moldy and trite than the last two , likely because much of the japanese anime is set in a scenic forest where pokemon graze in peace .",good
+sst5_test_0870,pumpkin sits in a patch somewhere between mirthless todd solondzian satire and callow student film .,bad
+sst5_test_0871,"the smug , oily demeanor that donovan adopts throughout the stupidly named pipe dream is just repulsive .",terrible
+sst5_test_0872,an irresistible combination of a rousing good story set on a truly grand scale .,great
+sst5_test_0873,"starts off with a bang , but then fizzles like a wet stick of dynamite at the very end .",bad
+sst5_test_0874,"but in 2002 , such revelations wilt .",okay
+sst5_test_0875,... a polished and relatively sincere piece of escapism .,great
+sst5_test_0876,this is one for the ages .,great
+sst5_test_0877,"... too slow , too boring , and occasionally annoying .",terrible
+sst5_test_0878,"... if you 're in a mind set for goofy comedy , the troopers will entertain with their gross outs , bawdy comedy and head games .",great
+sst5_test_0879,to imagine the life of harry potter as a martial arts adventure told by a lobotomized woody allen is to have some idea of the fate that lies in store for moviegoers lured to the mediocrity that is kung pow : enter the fist .,terrible
+sst5_test_0880,"taken purely as an exercise in style , this oppressively gloomy techno-horror clambake is impossible to ignore .",okay
+sst5_test_0881,a dreary rip-off of goodfellas that serves as a muddled and offensive cautionary tale for hispanic americans .,bad
+sst5_test_0882,the cast is so low-wattage that none of the characters comes off as big ... and the setting remains indistinct .,bad
+sst5_test_0883,a mixed bag of a comedy that ca n't really be described as out of this world .,bad
+sst5_test_0884,"despite the authenticity of the trappings , the film is overblown in its plotting , hackneyed in its dialogue and anachronistic in its style .",bad
+sst5_test_0885,"sure , it 's more of the same , but as the film proves , that 's not always a bad thing .",okay
+sst5_test_0886,"it seems just a long , convoluted ploy to get men into drag -- period drag , no less .",okay
+sst5_test_0887,"he just wants them to be part of the action , the wallpaper of his chosen reality .",good
+sst5_test_0888,too bad the former murphy brown does n't pop reese back .,bad
+sst5_test_0889,then lower them a bit more .,bad
+sst5_test_0890,"the film benefits greatly from a less manic tone than its predecessor , as cho appears to have settled comfortably into her skin .",great
+sst5_test_0891,"if you 're not into the pokemon franchise , this fourth animated movie in four years wo n't convert you -- or even keep your eyes open .",terrible
+sst5_test_0892,"-lrb- davis -rrb- has a bright , chipper style that keeps things moving , while never quite managing to connect her wish-fulfilling characters to the human race .",good
+sst5_test_0893,"we need -lrb- moore 's -rrb- noisy , cocky energy , his passion and class consciousness ; we need his shticks , we need his stones .",good
+sst5_test_0894,the movie stays afloat thanks to its hallucinatory production design .,good
+sst5_test_0895,westfeldt and juergensen exude a chemistry and comfort level that 's both saucy and endearing .,good
+sst5_test_0896,it has a subtle way of getting under your skin and sticking with you long after it 's over .,okay
+sst5_test_0897,"it 's got its heart in the right place , but it also wilts after awhile .",okay
+sst5_test_0898,absorbing and disturbing -- perhaps more disturbing than originally intended -- but a little clarity would have gone a long way .,bad
+sst5_test_0899,all prints of this film should be sent to and buried on pluto .,okay
+sst5_test_0900,"the story is less vibrant , the jokes are a little lukewarm , but will anyone really care ?",okay
+sst5_test_0901,"cute , funny , heartwarming digitally animated feature film with plenty of slapstick humor for the kids , lots of in-jokes for the adults and heart enough for everyone .",great
+sst5_test_0902,"unfortunately , heartbreak hospital wants to convey the same kind of haughtiness in its own sketchy material but this territory has already been explored previously with better aplomb and sardonic wit .",terrible
+sst5_test_0903,"though the controversial korean filmmaker 's latest effort is not for all tastes , it offers gorgeous imagery , effective performances , and an increasingly unsettling sense of foreboding .",good
+sst5_test_0904,"it uses an old-time formula , it 's not terribly original and it 's rather messy -- but you just have to love the big , dumb , happy movie my big fat greek wedding .",good
+sst5_test_0905,"so clichéd that , at one point , they literally upset an apple cart .",bad
+sst5_test_0906,how anyone over the age of 2 can stomach the touchy-feely message this preachy produce promotes is beyond us .,okay
+sst5_test_0907,steers turns in a snappy screenplay that curls at the edges ; it 's so clever you want to hate it .,good
+sst5_test_0908,"this film is so slick , superficial and trend-hoppy , that it 's easy to imagine that a new software program spit out the screenplay .",bad
+sst5_test_0909,"but if it is indeed a duty of art to reflect life , than leigh has created a masterful piece of artistry right here .",great
+sst5_test_0910,"a charming , quirky and leisurely paced scottish comedy -- except with an outrageous central gimmick that could have been a reject from monty python 's meaning of life .",great
+sst5_test_0911,"lends itself to the narcotizing bland -lrb- sinister , though not nearly so sinister as the biennial disney girl movie -rrb- machinations of the biennial disney boy movie .",okay
+sst5_test_0912,all i can say is fuhgeddaboutit .,terrible
+sst5_test_0913,it is intensely personal and yet -- unlike quills -- deftly shows us the temper of the times .,great
+sst5_test_0914,it 's as flat as an open can of pop left sitting in the sun .,bad
+sst5_test_0915,haynes has so fanatically fetishized every bizarre old-movie idiosyncrasy with such monastic devotion you 're not sure if you should applaud or look into having him committed .,okay
+sst5_test_0916,even the unwatchable soapdish is more original .,terrible
+sst5_test_0917,we may never think of band camp as a geeky or nerdy thing again .,okay
+sst5_test_0918,those with an interest in new or singular sorts of film experiences will find what time is it there ?,okay
+sst5_test_0919,occasionally amateurishly made but a winsome cast and nice dialogue keeps it going .,okay
+sst5_test_0920,"it 's a decent glimpse into a time period , and an outcast , that is no longer accessible , but it does n't necessarily shed more light on its subject than the popular predecessor .",good
+sst5_test_0921,characters wander into predictably treacherous situations even though they should know better .,bad
+sst5_test_0922,"emerges as something rare , an issue movie that 's so honest and keenly observed that it does n't feel like one .",great
+sst5_test_0923,"the movie is a blast of educational energy , as bouncy animation and catchy songs escort you through the entire 85 minutes .",great
+sst5_test_0924,"de oliveira creates an emotionally rich , poetically plump and visually fulsome , but never showy , film whose bittersweet themes are reinforced and brilliantly personified by michel piccoli .",great
+sst5_test_0925,"suffers from rambling , repetitive dialogue and the visual drabness endemic to digital video .",terrible
+sst5_test_0926,"smith 's point is simple and obvious -- people 's homes are extensions of themselves , and particularly eccentric people have particularly eccentric living spaces -- but his subjects are charmers .",great
+sst5_test_0927,"the tone is balanced , reflective and reasonable .",good
+sst5_test_0928,"in adobo , ethnicity is not just the spice , but at the heart of more universal concerns .",good
+sst5_test_0929,"i doubt anyone will remember the picture by the time christmas really rolls around , but maybe it 'll be on video by then .",bad
+sst5_test_0930,"i enjoyed time of favor while i was watching it , but i was surprised at how quickly it faded from my memory .",okay
+sst5_test_0931,"occasionally , in the course of reviewing art-house obscurities and slam-bam action flicks , a jaded critic smacks into something truly new .",good
+sst5_test_0932,"the pianist is a fine valedictory work for polanski , made richer by his own experiences , making his other movies somehow richer in the bargain .",good
+sst5_test_0933,the movie 's biggest offense is its complete and utter lack of tension .,bad
+sst5_test_0934,at heart the movie is a deftly wrought suspense yarn whose richer shadings work as coloring rather than substance .,great
+sst5_test_0935,"chalk it up to my adoration for both de niro and murphy , but i had a pretty good time with this movie - despite its myriad flaws .",okay
+sst5_test_0936,everywhere the camera looks there is something worth seeing .,great
+sst5_test_0937,a frustrating combination of strained humor and heavy-handed sentimentality .,bad
+sst5_test_0938,it 's laughing at us .,bad
+sst5_test_0939,a savvy exploration of paranoia and insecurity in america 's culture of fear .,great
+sst5_test_0940,"the movie has a soft , percolating magic , a deadpan suspense .",great
+sst5_test_0941,george clooney proves he 's quite a talented director and sam rockwell shows us he 's a world-class actor with confessions of a dangerous mind .,good
+sst5_test_0942,"human nature initially succeeds by allowing itself to go crazy , but ultimately fails by spinning out of control .",okay
+sst5_test_0943,any film featuring young children threatened by a terrorist bomb can no longer pass as mere entertainment .,bad
+sst5_test_0944,bow 's best moments are when he 's getting busy on the basketball court because that 's when he really scores .,great
+sst5_test_0945,both deeply weird and charmingly dear .,good
+sst5_test_0946,"what is captured during the conceptual process does n't add up to a sufficient explanation of what the final dance work , the selection , became in its final form .",okay
+sst5_test_0947,her film is unrelentingly claustrophobic and unpleasant .,terrible
+sst5_test_0948,"a lighthearted , feel-good film that embraces the time-honored truth that the most powerful thing in life is love .",great
+sst5_test_0949,"4 friends , 2 couples , 2000 miles , and all the pabst blue ribbon beer they can drink - it 's the ultimate redneck road-trip .",good
+sst5_test_0950,aspires for the piquant but only really achieves a sort of ridiculous sourness .,bad
+sst5_test_0951,"an enjoyable film for the family , amusing and cute for both adults and kids .",good
+sst5_test_0952,not too far below the gloss you can still feel director denis villeneuve 's beating heart and the fondness he has for his characters .,good
+sst5_test_0953,"the movie 's eventual success should be credited to dennis quaid , in fighting trim shape as an athlete as well as an actor",good
+sst5_test_0954,he 'd create a movie better than this .,bad
+sst5_test_0955,you can practically smell the patchouli oil .,bad
+sst5_test_0956,"bourne , jason bourne .",okay
+sst5_test_0957,"it 's a humble effort , but spiced with wry humor and genuine pathos , especially between morgan and redgrave .",good
+sst5_test_0958,a byzantine melodrama that stimulates the higher brain functions as well as the libido .,good
+sst5_test_0959,"this may be the dumbest , sketchiest movie on record about an aspiring writer 's coming-of-age .",terrible
+sst5_test_0960,"even if it ultimately disappoints , the picture does have about a matinee admission 's worth of funny to keep it afloat .",okay
+sst5_test_0961,"what could have become just another cautionary fable is allowed to play out as a clever , charming tale -- as pleasantly in its own way as its self-dramatizing characters .",good
+sst5_test_0962,"while super troopers is above academy standards , its quintet of writers could still use some more schooling .",bad
+sst5_test_0963,"the wwii drama is well plotted , visually striking and filled with enjoyably complex characters who are never what they first appear .",great
+sst5_test_0964,made by jackasses for jackasses .,terrible
+sst5_test_0965,"unless you are in dire need of a diesel fix , there is no real reason to see it .",bad
+sst5_test_0966,"a tender and touching drama , based on the true story of a troubled african-american 's quest to come to terms with his origins , reveals the yearning we all have in our hearts for acceptance within the family circle .",great
+sst5_test_0967,"maybe it 's the star power of the cast or the redundant messages , but something aboul `` full frontal '' seems , well , contrived .",bad
+sst5_test_0968,haneke keeps us at arm 's length .,okay
+sst5_test_0969,skip work to see it at the first opportunity .,good
+sst5_test_0970,... breathes surprising new life into the familiar by amalgamating genres and adding true human complexity to its not-so-stock characters . ',good
+sst5_test_0971,"disney 's live-action division has a history of releasing cinematic flotsam , but this is one occasion when they have unearthed a rare gem .",great
+sst5_test_0972,"audiences conditioned to getting weepy over saucer-eyed , downy-cheeked moppets and their empathetic caretakers will probably feel emotionally cheated by the film 's tart , sugar-free wit .",bad
+sst5_test_0973,"collateral damage is , despite its alleged provocation post-9 \/ 11 , an antique , in the end .",bad
+sst5_test_0974,neither funny nor suspenseful nor particularly well-drawn .,terrible
+sst5_test_0975,a ponderous meditation on love that feels significantly longer than its relatively scant 97 minutes .,okay
+sst5_test_0976,gloriously goofy -lrb- and gory -rrb- midnight movie stuff .,good
+sst5_test_0977,a thinly veiled excuse for wilson to play his self-deprecating act against murphy 's well-honed prima donna shtick .,bad
+sst5_test_0978,"the character is too forced and overwritten to be funny or believable much of the time , and clayburgh does n't always improve the over-the-top mix .",bad
+sst5_test_0979,recalls quiet freak-outs like l'avventura and repulsion .,okay
+sst5_test_0980,"but like most rabbits , it seems to lack substance .",bad
+sst5_test_0981,"no number of fantastic sets , extras , costumes and spectacular locales can disguise the emptiness at the center of the story .",bad
+sst5_test_0982,"somewhere short of tremors on the modern b-scene : neither as funny nor as clever , though an agreeably unpretentious way to spend ninety minutes .",bad
+sst5_test_0983,this is a very fine movie -- go see it .,great
+sst5_test_0984,all but the most persnickety preteens should enjoy this nonthreatening but thrilling adventure .,good
+sst5_test_0985,"the charms of willful eccentricity , at least as evidenced by this latest cinematic essay , are beginning to wear a bit thin .",bad
+sst5_test_0986,"the story feels more like a serious read , filled with heavy doses of always enticing sayles dialogue .",good
+sst5_test_0987,"as -lrb- the characters -rrb- get more depressed , the story gets more tiresome , especially as it continues to mount a conspicuous effort to be profound .",terrible
+sst5_test_0988,men in black ii has sequel-itis something fierce .,bad
+sst5_test_0989,wallace seems less like he 's been burning to tell a war story than he 's been itching to somehow tack one together,okay
+sst5_test_0990,this one 's weaker than most .,terrible
+sst5_test_0991,gosling provides an amazing performance that dwarfs everything else in the film .,great
+sst5_test_0992,while mcfarlane 's animation lifts the film firmly above the level of other coming-of-age films ... it 's also so jarring that it 's hard to get back into the boys ' story .,bad
+sst5_test_0993,"elicits more groans from the audience than jar jar binks , scrappy doo and scooby dumb , all wrapped up into one .",okay
+sst5_test_0994,"flat , but with a revelatory performance by michelle williams .",bad
+sst5_test_0995,energetic and boldly provocative .,great
+sst5_test_0996,"like dickens with his passages , mcgrath crafts quite moving scenes throughout his resolutely dramatic variation on the novel .",great
+sst5_test_0997,"doug liman , the director of bourne , directs the traffic well , gets a nice wintry look from his locations , absorbs us with the movie 's spycraft and uses damon 's ability to be focused and sincere .",great
+sst5_test_0998,"windtalkers is shapelessly gratifying , the kind of movie that invites you to pick apart its faults even as you have to admit that somehow it hit you where you live .",good
+sst5_test_0999,"where last time jokes flowed out of cho 's life story , which provided an engrossing dramatic through line , here the comedian hides behind obviously constructed routines .",bad
+sst5_test_1000,imagine if you will a tony hawk skating video interspliced with footage from behind enemy lines and set to jersey shore techno .,bad

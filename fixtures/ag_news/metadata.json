@@ -1,0 +1,30 @@
+{
+  "task": "ag_news",
+  "hf_source": "fancyzhx/ag_news",
+  "license": "custom non-commercial research (Zhang et al. 2015)",
+  "classes": [
+    "World",
+    "Sports",
+    "Business",
+    "Tech"
+  ],
+  "n_classes": 4,
+  "metric": "accuracy",
+  "splits": {
+    "shared_test": 1000,
+    "baseline_pool": 1000,
+    "evoprompt_dev": 200
+  },
+  "baseline_pool_class_dist": {
+    "Business": 250,
+    "Sports": 250,
+    "Tech": 250,
+    "World": 250
+  },
+  "paper_reference_alpaca7b": {
+    "manual": 70.63,
+    "APE": 71.76,
+    "EvoPrompt_best": 73.82
+  },
+  "notes": "Label names follow EvoPrompt verbalizers. Paper numbers are Alpaca-7b reference only, NOT the target for gpt-oss-20b runs."
+}

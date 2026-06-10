@@ -1,0 +1,500 @@
+{"row_id": "trec_test_0001", "text": "What are enzymes ?", "label": "Description"}
+{"row_id": "trec_test_0002", "text": "What is the temperature at the center of the earth ?", "label": "Number"}
+{"row_id": "trec_test_0003", "text": "What is the population of Venezuela ?", "label": "Number"}
+{"row_id": "trec_test_0004", "text": "What is an annuity ?", "label": "Description"}
+{"row_id": "trec_test_0005", "text": "Where is the Mason/Dixon line ?", "label": "Location"}
+{"row_id": "trec_test_0006", "text": "What is the colorful Korean traditional dress called ?", "label": "Entity"}
+{"row_id": "trec_test_0007", "text": "Material called linen is made from what plant ?", "label": "Entity"}
+{"row_id": "trec_test_0008", "text": "What does USPS stand for ?", "label": "Expression"}
+{"row_id": "trec_test_0009", "text": "What is the gestation period for a cat ?", "label": "Number"}
+{"row_id": "trec_test_0010", "text": "What is the longest bone in the human body ?", "label": "Entity"}
+{"row_id": "trec_test_0011", "text": "What is genocide ?", "label": "Description"}
+{"row_id": "trec_test_0012", "text": "What is the only artery that carries blue blood from the heart to the lungs ?", "label": "Entity"}
+{"row_id": "trec_test_0013", "text": "Where is the tallest roller coaster located ?", "label": "Location"}
+{"row_id": "trec_test_0014", "text": "Who is the congressman from state of Texas on the armed forces committee ?", "label": "Human"}
+{"row_id": "trec_test_0015", "text": "What are amphibians ?", "label": "Description"}
+{"row_id": "trec_test_0016", "text": "What were Christopher Columbus ' three ships ?", "label": "Entity"}
+{"row_id": "trec_test_0017", "text": "Who invented Trivial Pursuit ?", "label": "Human"}
+{"row_id": "trec_test_0018", "text": "What metal has the highest melting point ?", "label": "Entity"}
+{"row_id": "trec_test_0019", "text": "What year did the Andy Griffith show begin ?", "label": "Number"}
+{"row_id": "trec_test_0020", "text": "Which comedian 's signature line is `` Can we talk '' ?", "label": "Human"}
+{"row_id": "trec_test_0021", "text": "Which president was unmarried ?", "label": "Human"}
+{"row_id": "trec_test_0022", "text": "When was Algeria colonized ?", "label": "Number"}
+{"row_id": "trec_test_0023", "text": "What is the Milky Way ?", "label": "Description"}
+{"row_id": "trec_test_0024", "text": "What planet has the strongest magnetic field of all the planets ?", "label": "Location"}
+{"row_id": "trec_test_0025", "text": "What was J.F.K. 's wife 's name ?", "label": "Human"}
+{"row_id": "trec_test_0026", "text": "Who killed John F. Kennedy ?", "label": "Human"}
+{"row_id": "trec_test_0027", "text": "When was President Kennedy shot ?", "label": "Number"}
+{"row_id": "trec_test_0028", "text": "What does ciao mean ?", "label": "Description"}
+{"row_id": "trec_test_0029", "text": "What are coral reefs ?", "label": "Description"}
+{"row_id": "trec_test_0030", "text": "In what spacecraft did U.S. astronaut Alan Shepard make his historic 1961 flight ?", "label": "Entity"}
+{"row_id": "trec_test_0031", "text": "What is naproxen ?", "label": "Description"}
+{"row_id": "trec_test_0032", "text": "What is poliomyelitis ?", "label": "Description"}
+{"row_id": "trec_test_0033", "text": "What is the murder rate in Windsor , Ontario ?", "label": "Number"}
+{"row_id": "trec_test_0034", "text": "What is Maryland 's state bird ?", "label": "Entity"}
+{"row_id": "trec_test_0035", "text": "What are sunspots ?", "label": "Description"}
+{"row_id": "trec_test_0036", "text": "What does cc in engines mean ?", "label": "Description"}
+{"row_id": "trec_test_0037", "text": "When was the Boston tea party ?", "label": "Number"}
+{"row_id": "trec_test_0038", "text": "What year did the NFL go on strike ?", "label": "Number"}
+{"row_id": "trec_test_0039", "text": "What is the state flower of Michigan ?", "label": "Entity"}
+{"row_id": "trec_test_0040", "text": "What province is Montreal in ?", "label": "Location"}
+{"row_id": "trec_test_0041", "text": "What is quicksilver ?", "label": "Description"}
+{"row_id": "trec_test_0042", "text": "Which country has the most water pollution ?", "label": "Location"}
+{"row_id": "trec_test_0043", "text": "What person 's head is on a dime ?", "label": "Human"}
+{"row_id": "trec_test_0044", "text": "How far is it from Denver to Aspen ?", "label": "Number"}
+{"row_id": "trec_test_0045", "text": "What is acetic acid ?", "label": "Description"}
+{"row_id": "trec_test_0046", "text": "What does target heart rate mean ?", "label": "Description"}
+{"row_id": "trec_test_0047", "text": "Where is the Savannah River ?", "label": "Location"}
+{"row_id": "trec_test_0048", "text": "Who was the first US President to ride in an automobile to his inauguration ?", "label": "Human"}
+{"row_id": "trec_test_0049", "text": "What is the fourth highest mountain in the world ?", "label": "Location"}
+{"row_id": "trec_test_0050", "text": "What are the colors of the German flag ?", "label": "Entity"}
+{"row_id": "trec_test_0051", "text": "When was the telephone invented ?", "label": "Number"}
+{"row_id": "trec_test_0052", "text": "When was Thomas Jefferson born ?", "label": "Number"}
+{"row_id": "trec_test_0053", "text": "What city 's newspaper is called `` The Enquirer '' ?", "label": "Location"}
+{"row_id": "trec_test_0054", "text": "What is the percentage of water content in the human body ?", "label": "Number"}
+{"row_id": "trec_test_0055", "text": "What is the life expectancy of a dollar bill ?", "label": "Number"}
+{"row_id": "trec_test_0056", "text": "Name a food high in zinc .", "label": "Entity"}
+{"row_id": "trec_test_0057", "text": "What county is Phoenix , AZ in ?", "label": "Location"}
+{"row_id": "trec_test_0058", "text": "What is plastic made of ?", "label": "Entity"}
+{"row_id": "trec_test_0059", "text": "What is cholesterol ?", "label": "Description"}
+{"row_id": "trec_test_0060", "text": "What is an atom ?", "label": "Description"}
+{"row_id": "trec_test_0061", "text": "What French province is cognac produced in ?", "label": "Location"}
+{"row_id": "trec_test_0062", "text": "What is caffeine ?", "label": "Description"}
+{"row_id": "trec_test_0063", "text": "What American composer wrote the music for `` West Side Story '' ?", "label": "Human"}
+{"row_id": "trec_test_0064", "text": "What is a thermometer ?", "label": "Description"}
+{"row_id": "trec_test_0065", "text": "What county is Modesto , California in ?", "label": "Location"}
+{"row_id": "trec_test_0066", "text": "What is influenza ?", "label": "Description"}
+{"row_id": "trec_test_0067", "text": "Where do apple snails live ?", "label": "Location"}
+{"row_id": "trec_test_0068", "text": "What is the effect of acid rain ?", "label": "Description"}
+{"row_id": "trec_test_0069", "text": "What are solar cells ?", "label": "Description"}
+{"row_id": "trec_test_0070", "text": "What is the date of Mexico 's independence ?", "label": "Number"}
+{"row_id": "trec_test_0071", "text": "Where is the Shawnee National Forest ?", "label": "Location"}
+{"row_id": "trec_test_0072", "text": "Who is the actress known for her role in the movie `` Gypsy '' ?", "label": "Human"}
+{"row_id": "trec_test_0073", "text": "What is viscosity ?", "label": "Description"}
+{"row_id": "trec_test_0074", "text": "Who is a German philosopher ?", "label": "Human"}
+{"row_id": "trec_test_0075", "text": "What is done with worn or outdated flags ?", "label": "Description"}
+{"row_id": "trec_test_0076", "text": "What city is also known as `` The Gateway to the West '' ?", "label": "Location"}
+{"row_id": "trec_test_0077", "text": "Who wrote `` The Divine Comedy '' ?", "label": "Human"}
+{"row_id": "trec_test_0078", "text": "What are Quaaludes ?", "label": "Description"}
+{"row_id": "trec_test_0079", "text": "Who was the first female United States Representative ?", "label": "Human"}
+{"row_id": "trec_test_0080", "text": "What is Valentine 's Day ?", "label": "Description"}
+{"row_id": "trec_test_0081", "text": "What is the heaviest naturally occurring element ?", "label": "Entity"}
+{"row_id": "trec_test_0082", "text": "What is mold ?", "label": "Description"}
+{"row_id": "trec_test_0083", "text": "What does a defibrillator do ?", "label": "Description"}
+{"row_id": "trec_test_0084", "text": "Where is Milan ?", "label": "Location"}
+{"row_id": "trec_test_0085", "text": "What is the brightest star ?", "label": "Location"}
+{"row_id": "trec_test_0086", "text": "How old was the youngest president of the United States ?", "label": "Number"}
+{"row_id": "trec_test_0087", "text": "What are the two houses of the Legislative branch ?", "label": "Entity"}
+{"row_id": "trec_test_0088", "text": "How long is the Columbia River in miles ?", "label": "Number"}
+{"row_id": "trec_test_0089", "text": "What is the money they use in Zambia ?", "label": "Entity"}
+{"row_id": "trec_test_0090", "text": "What strait separates North America from Asia ?", "label": "Location"}
+{"row_id": "trec_test_0091", "text": "What is the source of natural gas ?", "label": "Entity"}
+{"row_id": "trec_test_0092", "text": "What is Australia 's national flower ?", "label": "Entity"}
+{"row_id": "trec_test_0093", "text": "What is mad cow disease ?", "label": "Description"}
+{"row_id": "trec_test_0094", "text": "In the late 1700 's British convicts were used to populate which colony ?", "label": "Location"}
+{"row_id": "trec_test_0095", "text": "Who is Duke Ellington ?", "label": "Human"}
+{"row_id": "trec_test_0096", "text": "What is nanotechnology ?", "label": "Description"}
+{"row_id": "trec_test_0097", "text": "Which U.S.A. president appeared on `` Laugh-In '' ?", "label": "Human"}
+{"row_id": "trec_test_0098", "text": "What is the atomic weight of silver ?", "label": "Number"}
+{"row_id": "trec_test_0099", "text": "What year did the United States abolish the draft ?", "label": "Number"}
+{"row_id": "trec_test_0100", "text": "How many Great Lakes are there ?", "label": "Number"}
+{"row_id": "trec_test_0101", "text": "What is the speed of light ?", "label": "Number"}
+{"row_id": "trec_test_0102", "text": "What body of water are the Canary Islands in ?", "label": "Location"}
+{"row_id": "trec_test_0103", "text": "What is the deepest lake in the US ?", "label": "Location"}
+{"row_id": "trec_test_0104", "text": "What is cryptography ?", "label": "Description"}
+{"row_id": "trec_test_0105", "text": "Who invented the telephone ?", "label": "Human"}
+{"row_id": "trec_test_0106", "text": "What is a baby lion called ?", "label": "Entity"}
+{"row_id": "trec_test_0107", "text": "What is epilepsy ?", "label": "Description"}
+{"row_id": "trec_test_0108", "text": "When did Hawaii become a state ?", "label": "Number"}
+{"row_id": "trec_test_0109", "text": "What is the depth of the Nile river ?", "label": "Number"}
+{"row_id": "trec_test_0110", "text": "What is the spirometer test ?", "label": "Description"}
+{"row_id": "trec_test_0111", "text": "What year did Oklahoma become a state ?", "label": "Number"}
+{"row_id": "trec_test_0112", "text": "What country did Ponce de Leon come from ?", "label": "Location"}
+{"row_id": "trec_test_0113", "text": "When is the official first day of summer ?", "label": "Number"}
+{"row_id": "trec_test_0114", "text": "What is an ulcer ?", "label": "Description"}
+{"row_id": "trec_test_0115", "text": "Where is the Grand Canyon ?", "label": "Location"}
+{"row_id": "trec_test_0116", "text": "What does `` Sitting Shiva '' mean ?", "label": "Description"}
+{"row_id": "trec_test_0117", "text": "What is a tsunami ?", "label": "Description"}
+{"row_id": "trec_test_0118", "text": "What was President Lyndon Johnson 's reform program called ?", "label": "Entity"}
+{"row_id": "trec_test_0119", "text": "What instrument did Glenn Miller play ?", "label": "Entity"}
+{"row_id": "trec_test_0120", "text": "What are invertebrates ?", "label": "Description"}
+{"row_id": "trec_test_0121", "text": "What is sodium chloride ?", "label": "Description"}
+{"row_id": "trec_test_0122", "text": "What is the earth 's diameter ?", "label": "Number"}
+{"row_id": "trec_test_0123", "text": "What is bio-diversity ?", "label": "Description"}
+{"row_id": "trec_test_0124", "text": "Who wrote the hymn `` Amazing Grace '' ?", "label": "Human"}
+{"row_id": "trec_test_0125", "text": "What is strep throat ?", "label": "Description"}
+{"row_id": "trec_test_0126", "text": "What is the conversion rate between dollars and pounds ?", "label": "Number"}
+{"row_id": "trec_test_0127", "text": "What do you call a professional map drawer ?", "label": "Entity"}
+{"row_id": "trec_test_0128", "text": "How old was Elvis Presley when he died ?", "label": "Number"}
+{"row_id": "trec_test_0129", "text": "Name a stimulant .", "label": "Entity"}
+{"row_id": "trec_test_0130", "text": "What are semiconductors ?", "label": "Description"}
+{"row_id": "trec_test_0131", "text": "What is the melting point of copper ?", "label": "Number"}
+{"row_id": "trec_test_0132", "text": "What color is a giraffe 's tongue ?", "label": "Entity"}
+{"row_id": "trec_test_0133", "text": "What do you call a newborn kangaroo ?", "label": "Entity"}
+{"row_id": "trec_test_0134", "text": "What is an eclipse ?", "label": "Description"}
+{"row_id": "trec_test_0135", "text": "What do you call a word that is spelled the same backwards and forwards ?", "label": "Entity"}
+{"row_id": "trec_test_0136", "text": "What continent is Argentina on ?", "label": "Location"}
+{"row_id": "trec_test_0137", "text": "Where is the Euphrates River ?", "label": "Location"}
+{"row_id": "trec_test_0138", "text": "What is bangers and mash ?", "label": "Description"}
+{"row_id": "trec_test_0139", "text": "What is the highest dam in the U.S. ?", "label": "Location"}
+{"row_id": "trec_test_0140", "text": "What is acupuncture ?", "label": "Description"}
+{"row_id": "trec_test_0141", "text": "Who was Abraham Lincoln ?", "label": "Human"}
+{"row_id": "trec_test_0142", "text": "What is the world 's population ?", "label": "Number"}
+{"row_id": "trec_test_0143", "text": "Who is the only president to serve 2 non-consecutive terms ?", "label": "Human"}
+{"row_id": "trec_test_0144", "text": "What U.S. state 's motto is `` Live free or Die '' ?", "label": "Location"}
+{"row_id": "trec_test_0145", "text": "What is the diameter of a golf ball ?", "label": "Number"}
+{"row_id": "trec_test_0146", "text": "What is fibromyalgia ?", "label": "Description"}
+{"row_id": "trec_test_0147", "text": "What does NASA stand for ?", "label": "Expression"}
+{"row_id": "trec_test_0148", "text": "What is metabolism ?", "label": "Description"}
+{"row_id": "trec_test_0149", "text": "What baseball team was the first to make numbers part of their uniform ?", "label": "Human"}
+{"row_id": "trec_test_0150", "text": "Where is the Little League Museum ?", "label": "Location"}
+{"row_id": "trec_test_0151", "text": "What type of currency is used in Australia ?", "label": "Entity"}
+{"row_id": "trec_test_0152", "text": "What is another name for vitamin B1 ?", "label": "Entity"}
+{"row_id": "trec_test_0153", "text": "How often does Old Faithful erupt at Yellowstone National Park ?", "label": "Number"}
+{"row_id": "trec_test_0154", "text": "When did the Hindenberg crash ?", "label": "Number"}
+{"row_id": "trec_test_0155", "text": "Who was the first vice president of the U.S. ?", "label": "Human"}
+{"row_id": "trec_test_0156", "text": "What is the National Park in Utah ?", "label": "Location"}
+{"row_id": "trec_test_0157", "text": "What is acid rain ?", "label": "Description"}
+{"row_id": "trec_test_0158", "text": "What is a prism ?", "label": "Description"}
+{"row_id": "trec_test_0159", "text": "What color are crickets ?", "label": "Entity"}
+{"row_id": "trec_test_0160", "text": "What is hypertension ?", "label": "Description"}
+{"row_id": "trec_test_0161", "text": "What is cerebral palsy ?", "label": "Description"}
+{"row_id": "trec_test_0162", "text": "What is Muscular Dystrophy ?", "label": "Description"}
+{"row_id": "trec_test_0163", "text": "What hemisphere is the Philippines in ?", "label": "Location"}
+{"row_id": "trec_test_0164", "text": "Who developed the vaccination against polio ?", "label": "Human"}
+{"row_id": "trec_test_0165", "text": "What are the two types of twins ?", "label": "Entity"}
+{"row_id": "trec_test_0166", "text": "What imaginary line is halfway between the North and South Poles ?", "label": "Location"}
+{"row_id": "trec_test_0167", "text": "Where is the Orinoco River ?", "label": "Location"}
+{"row_id": "trec_test_0168", "text": "Who founded American Red Cross ?", "label": "Human"}
+{"row_id": "trec_test_0169", "text": "What is a shaman ?", "label": "Description"}
+{"row_id": "trec_test_0170", "text": "What is vertigo ?", "label": "Description"}
+{"row_id": "trec_test_0171", "text": "What is a panic disorder ?", "label": "Description"}
+{"row_id": "trec_test_0172", "text": "What is hybridization ?", "label": "Description"}
+{"row_id": "trec_test_0173", "text": "What is another astronomic term for the Northern Lights ?", "label": "Entity"}
+{"row_id": "trec_test_0174", "text": "What is the difference between AM radio stations and FM radio stations ?", "label": "Description"}
+{"row_id": "trec_test_0175", "text": "Where is John Wayne airport ?", "label": "Location"}
+{"row_id": "trec_test_0176", "text": "Who developed the Macintosh computer ?", "label": "Human"}
+{"row_id": "trec_test_0177", "text": "What is a group of turkeys called ?", "label": "Entity"}
+{"row_id": "trec_test_0178", "text": "What is Hawaii 's state flower ?", "label": "Entity"}
+{"row_id": "trec_test_0179", "text": "Who discovered radium ?", "label": "Human"}
+{"row_id": "trec_test_0180", "text": "What is autism ?", "label": "Description"}
+{"row_id": "trec_test_0181", "text": "Who was the first governor of Alaska ?", "label": "Human"}
+{"row_id": "trec_test_0182", "text": "When is the summer solstice ?", "label": "Number"}
+{"row_id": "trec_test_0183", "text": "What city 's newspaper is called `` The Star '' ?", "label": "Location"}
+{"row_id": "trec_test_0184", "text": "What is Wimbledon ?", "label": "Description"}
+{"row_id": "trec_test_0185", "text": "What is solar wind ?", "label": "Description"}
+{"row_id": "trec_test_0186", "text": "What is the location of the Sea of Tranquility ?", "label": "Location"}
+{"row_id": "trec_test_0187", "text": "What year did the Milwaukee Braves become the Atlanta Braves ?", "label": "Number"}
+{"row_id": "trec_test_0188", "text": "Who was the first American to walk in space ?", "label": "Human"}
+{"row_id": "trec_test_0189", "text": "What is an antigen ?", "label": "Description"}
+{"row_id": "trec_test_0190", "text": "What river in the US is known as the Big Muddy ?", "label": "Location"}
+{"row_id": "trec_test_0191", "text": "What did Jesse Jackson organize ?", "label": "Human"}
+{"row_id": "trec_test_0192", "text": "What is Teflon ?", "label": "Description"}
+{"row_id": "trec_test_0193", "text": "What is home equity ?", "label": "Description"}
+{"row_id": "trec_test_0194", "text": "What primary colors do you mix to make orange ?", "label": "Entity"}
+{"row_id": "trec_test_0195", "text": "How much was a ticket for the Titanic ?", "label": "Number"}
+{"row_id": "trec_test_0196", "text": "What is the name of the leader of Ireland ?", "label": "Human"}
+{"row_id": "trec_test_0197", "text": "Who was the first woman killed in the Vietnam War ?", "label": "Human"}
+{"row_id": "trec_test_0198", "text": "What is the width of a football field ?", "label": "Number"}
+{"row_id": "trec_test_0199", "text": "What causes gray hair ?", "label": "Description"}
+{"row_id": "trec_test_0200", "text": "What is TMJ ?", "label": "Expression"}
+{"row_id": "trec_test_0201", "text": "What is dianetics ?", "label": "Description"}
+{"row_id": "trec_test_0202", "text": "What is the temperature of the sun 's surface ?", "label": "Number"}
+{"row_id": "trec_test_0203", "text": "What color does litmus paper turn when it comes into contact with a strong acid ?", "label": "Entity"}
+{"row_id": "trec_test_0204", "text": "What is the criterion for being legally blind ?", "label": "Entity"}
+{"row_id": "trec_test_0205", "text": "What is e-coli ?", "label": "Description"}
+{"row_id": "trec_test_0206", "text": "What is the most frequently spoken language in the Netherlands ?", "label": "Entity"}
+{"row_id": "trec_test_0207", "text": "What is a parasite ?", "label": "Description"}
+{"row_id": "trec_test_0208", "text": "Where is the Eiffel Tower ?", "label": "Location"}
+{"row_id": "trec_test_0209", "text": "What is pastrami made of ?", "label": "Entity"}
+{"row_id": "trec_test_0210", "text": "What is the proper name for a female walrus ?", "label": "Entity"}
+{"row_id": "trec_test_0211", "text": "Who discovered x-rays ?", "label": "Human"}
+{"row_id": "trec_test_0212", "text": "What colors need to be mixed to get the color pink ?", "label": "Entity"}
+{"row_id": "trec_test_0213", "text": "Where are the Rocky Mountains ?", "label": "Location"}
+{"row_id": "trec_test_0214", "text": "Who painted the ceiling of the Sistine Chapel ?", "label": "Human"}
+{"row_id": "trec_test_0215", "text": "What does the abbreviation SOS mean ?", "label": "Expression"}
+{"row_id": "trec_test_0216", "text": "Mercury , what year was it discovered ?", "label": "Number"}
+{"row_id": "trec_test_0217", "text": "What are antacids ?", "label": "Description"}
+{"row_id": "trec_test_0218", "text": "What is the population of Seattle ?", "label": "Number"}
+{"row_id": "trec_test_0219", "text": "What is the Ohio state bird ?", "label": "Entity"}
+{"row_id": "trec_test_0220", "text": "What is a group of frogs called ?", "label": "Entity"}
+{"row_id": "trec_test_0221", "text": "What is the largest city in the world ?", "label": "Location"}
+{"row_id": "trec_test_0222", "text": "Who was the 23rd president of the United States ?", "label": "Human"}
+{"row_id": "trec_test_0223", "text": "What was the first satellite to go into space ?", "label": "Entity"}
+{"row_id": "trec_test_0224", "text": "When did John F. Kennedy get elected as President ?", "label": "Number"}
+{"row_id": "trec_test_0225", "text": "What is a biosphere ?", "label": "Description"}
+{"row_id": "trec_test_0226", "text": "What was W.C. Fields ' real name ?", "label": "Human"}
+{"row_id": "trec_test_0227", "text": "What was the most popular toy in 1957 ?", "label": "Entity"}
+{"row_id": "trec_test_0228", "text": "What is the major fault line near Kentucky ?", "label": "Entity"}
+{"row_id": "trec_test_0229", "text": "What is New York 's state bird ?", "label": "Entity"}
+{"row_id": "trec_test_0230", "text": "What currency does Argentina use ?", "label": "Entity"}
+{"row_id": "trec_test_0231", "text": "What are ethics ?", "label": "Description"}
+{"row_id": "trec_test_0232", "text": "What is nepotism ?", "label": "Description"}
+{"row_id": "trec_test_0233", "text": "When did North Carolina enter the union ?", "label": "Number"}
+{"row_id": "trec_test_0234", "text": "How much fiber should you have per day ?", "label": "Number"}
+{"row_id": "trec_test_0235", "text": "Where is the Lourve ?", "label": "Location"}
+{"row_id": "trec_test_0236", "text": "What is the melting point of gold ?", "label": "Number"}
+{"row_id": "trec_test_0237", "text": "Who was elected president of South Africa in 1994 ?", "label": "Human"}
+{"row_id": "trec_test_0238", "text": "What do meteorologists do ?", "label": "Description"}
+{"row_id": "trec_test_0239", "text": "What is the electrical output in Madrid , Spain ?", "label": "Entity"}
+{"row_id": "trec_test_0240", "text": "Why in tennis are zero points called love ?", "label": "Description"}
+{"row_id": "trec_test_0241", "text": "How many pounds in a ton ?", "label": "Number"}
+{"row_id": "trec_test_0242", "text": "What does the word fortnight mean ?", "label": "Description"}
+{"row_id": "trec_test_0243", "text": "What is the pH scale ?", "label": "Description"}
+{"row_id": "trec_test_0244", "text": "What are polymers ?", "label": "Description"}
+{"row_id": "trec_test_0245", "text": "How do you measure earthquakes ?", "label": "Description"}
+{"row_id": "trec_test_0246", "text": "When was Abraham Lincoln born ?", "label": "Number"}
+{"row_id": "trec_test_0247", "text": "What is a carcinogen ?", "label": "Description"}
+{"row_id": "trec_test_0248", "text": "What is the capital of Mongolia ?", "label": "Location"}
+{"row_id": "trec_test_0249", "text": "What was FDR 's dog 's name ?", "label": "Entity"}
+{"row_id": "trec_test_0250", "text": "What color is indigo ?", "label": "Entity"}
+{"row_id": "trec_test_0251", "text": "What is peyote ?", "label": "Description"}
+{"row_id": "trec_test_0252", "text": "What color is a poison arrow frog ?", "label": "Entity"}
+{"row_id": "trec_test_0253", "text": "What did Edward Binney and Howard Smith invent in 1903 ?", "label": "Entity"}
+{"row_id": "trec_test_0254", "text": "What is bandwidth ?", "label": "Description"}
+{"row_id": "trec_test_0255", "text": "Why is the sun yellow ?", "label": "Description"}
+{"row_id": "trec_test_0256", "text": "Who is the governor of Alaska ?", "label": "Human"}
+{"row_id": "trec_test_0257", "text": "What is the population of Nigeria ?", "label": "Number"}
+{"row_id": "trec_test_0258", "text": "How fast is alcohol absorbed ?", "label": "Number"}
+{"row_id": "trec_test_0259", "text": "How far is the service line from the net in tennis ?", "label": "Number"}
+{"row_id": "trec_test_0260", "text": "What is acetaminophen ?", "label": "Description"}
+{"row_id": "trec_test_0261", "text": "How fast is the speed of light ?", "label": "Number"}
+{"row_id": "trec_test_0262", "text": "What is the sales tax in Minnesota ?", "label": "Entity"}
+{"row_id": "trec_test_0263", "text": "Which mountain range in North America stretches from Maine to Georgia ?", "label": "Location"}
+{"row_id": "trec_test_0264", "text": "What is the name of William Penn 's ship ?", "label": "Entity"}
+{"row_id": "trec_test_0265", "text": "Where was the first golf course in the United States ?", "label": "Location"}
+{"row_id": "trec_test_0266", "text": "How long did Rip Van Winkle sleep ?", "label": "Number"}
+{"row_id": "trec_test_0267", "text": "Who invented the slinky ?", "label": "Human"}
+{"row_id": "trec_test_0268", "text": "What is ozone depletion ?", "label": "Description"}
+{"row_id": "trec_test_0269", "text": "What type of polymer is used for bulletproof vests ?", "label": "Entity"}
+{"row_id": "trec_test_0270", "text": "How cold should a refrigerator be ?", "label": "Number"}
+{"row_id": "trec_test_0271", "text": "How much of an apple is water ?", "label": "Number"}
+{"row_id": "trec_test_0272", "text": "How many Admirals are there in the U.S. Navy ?", "label": "Number"}
+{"row_id": "trec_test_0273", "text": "What are Canada 's two territories ?", "label": "Location"}
+{"row_id": "trec_test_0274", "text": "Who won Ms. American in 1989 ?", "label": "Human"}
+{"row_id": "trec_test_0275", "text": "Who lived in the Neuschwanstein castle ?", "label": "Human"}
+{"row_id": "trec_test_0276", "text": "What does Phi Beta Kappa mean ?", "label": "Description"}
+{"row_id": "trec_test_0277", "text": "What is the population of Australia ?", "label": "Number"}
+{"row_id": "trec_test_0278", "text": "What is diabetes ?", "label": "Description"}
+{"row_id": "trec_test_0279", "text": "What chain store is headquartered in Bentonville , Arkansas ?", "label": "Human"}
+{"row_id": "trec_test_0280", "text": "Who was the first African American to win the Nobel Prize in literature ?", "label": "Human"}
+{"row_id": "trec_test_0281", "text": "What is the elevation of St. Louis , MO ?", "label": "Number"}
+{"row_id": "trec_test_0282", "text": "What planet is known as the `` red '' planet ?", "label": "Location"}
+{"row_id": "trec_test_0283", "text": "What monastery was raided by Vikings in the late eighth century ?", "label": "Entity"}
+{"row_id": "trec_test_0284", "text": "What is myopia ?", "label": "Description"}
+{"row_id": "trec_test_0285", "text": "When was Lyndon B. Johnson born ?", "label": "Number"}
+{"row_id": "trec_test_0286", "text": "What is the smallest bird in Britain ?", "label": "Entity"}
+{"row_id": "trec_test_0287", "text": "What state did the Battle of Bighorn take place in ?", "label": "Location"}
+{"row_id": "trec_test_0288", "text": "What are pathogens ?", "label": "Description"}
+{"row_id": "trec_test_0289", "text": "When was the first Wal-Mart store opened ?", "label": "Number"}
+{"row_id": "trec_test_0290", "text": "Where are the National Archives ?", "label": "Location"}
+{"row_id": "trec_test_0291", "text": "What is semolina ?", "label": "Description"}
+{"row_id": "trec_test_0292", "text": "What is bipolar disorder ?", "label": "Description"}
+{"row_id": "trec_test_0293", "text": "What is a thyroid ?", "label": "Description"}
+{"row_id": "trec_test_0294", "text": "What does your spleen do ?", "label": "Description"}
+{"row_id": "trec_test_0295", "text": "The sun 's core , what is the temperature ?", "label": "Number"}
+{"row_id": "trec_test_0296", "text": "What year did Canada join the United Nations ?", "label": "Number"}
+{"row_id": "trec_test_0297", "text": "Who invented the instant Polaroid camera ?", "label": "Human"}
+{"row_id": "trec_test_0298", "text": "Who is the Prime Minister of Canada ?", "label": "Human"}
+{"row_id": "trec_test_0299", "text": "When is hurricane season in the Caribbean ?", "label": "Number"}
+{"row_id": "trec_test_0300", "text": "What is fungus ?", "label": "Description"}
+{"row_id": "trec_test_0301", "text": "How tall is the Sears Building ?", "label": "Number"}
+{"row_id": "trec_test_0302", "text": "What soviet seaport is on the Black Sea ?", "label": "Location"}
+{"row_id": "trec_test_0303", "text": "What position did Willie Davis play in baseball ?", "label": "Human"}
+{"row_id": "trec_test_0304", "text": "What day and month did John Lennon die ?", "label": "Number"}
+{"row_id": "trec_test_0305", "text": "What year did the Titanic start on its journey ?", "label": "Number"}
+{"row_id": "trec_test_0306", "text": "What year did Mussolini seize power in Italy ?", "label": "Number"}
+{"row_id": "trec_test_0307", "text": "What peninsula is Spain part of ?", "label": "Location"}
+{"row_id": "trec_test_0308", "text": "What is the Moulin Rouge ?", "label": "Description"}
+{"row_id": "trec_test_0309", "text": "What is nuclear power ?", "label": "Description"}
+{"row_id": "trec_test_0310", "text": "When is St. Patrick 's Day ?", "label": "Number"}
+{"row_id": "trec_test_0311", "text": "What continent is Egypt on ?", "label": "Location"}
+{"row_id": "trec_test_0312", "text": "What is amitriptyline ?", "label": "Description"}
+{"row_id": "trec_test_0313", "text": "What is the oldest university in the US ?", "label": "Human"}
+{"row_id": "trec_test_0314", "text": "How many gallons of water are there in a cubic foot ?", "label": "Number"}
+{"row_id": "trec_test_0315", "text": "Which country gave New York the Statue of Liberty ?", "label": "Location"}
+{"row_id": "trec_test_0316", "text": "What Canadian city has the largest population ?", "label": "Location"}
+{"row_id": "trec_test_0317", "text": "Who was the first person to reach the North Pole ?", "label": "Human"}
+{"row_id": "trec_test_0318", "text": "What is propylene glycol ?", "label": "Description"}
+{"row_id": "trec_test_0319", "text": "When were William Shakespeare 's twins born ?", "label": "Number"}
+{"row_id": "trec_test_0320", "text": "Where is Prince Edward Island ?", "label": "Location"}
+{"row_id": "trec_test_0321", "text": "What is the abbreviation for Texas ?", "label": "Expression"}
+{"row_id": "trec_test_0322", "text": "How many liters in a gallon ?", "label": "Number"}
+{"row_id": "trec_test_0323", "text": "What year did the U.S. buy Alaska ?", "label": "Number"}
+{"row_id": "trec_test_0324", "text": "When is Father 's Day ?", "label": "Number"}
+{"row_id": "trec_test_0325", "text": "When was the first liver transplant ?", "label": "Number"}
+{"row_id": "trec_test_0326", "text": "What is the most common eye color ?", "label": "Entity"}
+{"row_id": "trec_test_0327", "text": "What is a mirror made out of ?", "label": "Entity"}
+{"row_id": "trec_test_0328", "text": "Where is Hitler buried ?", "label": "Location"}
+{"row_id": "trec_test_0329", "text": "Where is the Mall of the America ?", "label": "Location"}
+{"row_id": "trec_test_0330", "text": "What does the technical term ISDN mean ?", "label": "Expression"}
+{"row_id": "trec_test_0331", "text": "What are pediatricians ?", "label": "Description"}
+{"row_id": "trec_test_0332", "text": "Who invented the calculator ?", "label": "Human"}
+{"row_id": "trec_test_0333", "text": "Who was president in 1913 ?", "label": "Human"}
+{"row_id": "trec_test_0334", "text": "What is Susan B. Anthony 's birthday ?", "label": "Number"}
+{"row_id": "trec_test_0335", "text": "When was Hiroshima bombed ?", "label": "Number"}
+{"row_id": "trec_test_0336", "text": "What is the most popular sport in Japan ?", "label": "Entity"}
+{"row_id": "trec_test_0337", "text": "What is the longest suspension bridge in the U.S. ?", "label": "Location"}
+{"row_id": "trec_test_0338", "text": "What is the capital of Zimbabwe ?", "label": "Location"}
+{"row_id": "trec_test_0339", "text": "What is natural gas composed of ?", "label": "Entity"}
+{"row_id": "trec_test_0340", "text": "What is relative humidity ?", "label": "Description"}
+{"row_id": "trec_test_0341", "text": "What is cryogenics ?", "label": "Description"}
+{"row_id": "trec_test_0342", "text": "What precious stone is a form of pure carbon ?", "label": "Entity"}
+{"row_id": "trec_test_0343", "text": "What is the location of Lake Champlain ?", "label": "Location"}
+{"row_id": "trec_test_0344", "text": "What is the distance in miles from the earth to the sun ?", "label": "Number"}
+{"row_id": "trec_test_0345", "text": "What city had a world fair in 1900 ?", "label": "Location"}
+{"row_id": "trec_test_0346", "text": "What date was Dwight D. Eisenhower born ?", "label": "Number"}
+{"row_id": "trec_test_0347", "text": "What are the animals that don 't have backbones called ?", "label": "Entity"}
+{"row_id": "trec_test_0348", "text": "What currency do they use in Brazil ?", "label": "Entity"}
+{"row_id": "trec_test_0349", "text": "What is the Illinois state flower ?", "label": "Entity"}
+{"row_id": "trec_test_0350", "text": "What is neurology ?", "label": "Description"}
+{"row_id": "trec_test_0351", "text": "What is the chunnel ?", "label": "Description"}
+{"row_id": "trec_test_0352", "text": "What was the name of the plane Lindbergh flew solo across the Atlantic ?", "label": "Entity"}
+{"row_id": "trec_test_0353", "text": "What is the average life span for a chicken ?", "label": "Number"}
+{"row_id": "trec_test_0354", "text": "Developing nations comprise what percentage of the world 's population ?", "label": "Number"}
+{"row_id": "trec_test_0355", "text": "What is Ursa Major ?", "label": "Description"}
+{"row_id": "trec_test_0356", "text": "What is the speed hummingbirds fly ?", "label": "Number"}
+{"row_id": "trec_test_0357", "text": "What year did the Titanic sink ?", "label": "Number"}
+{"row_id": "trec_test_0358", "text": "During which season do most thunderstorms occur ?", "label": "Number"}
+{"row_id": "trec_test_0359", "text": "What fruit is Melba sauce made from ?", "label": "Entity"}
+{"row_id": "trec_test_0360", "text": "Who discovered oxygen ?", "label": "Human"}
+{"row_id": "trec_test_0361", "text": "The U.S. Department of Treasury first issued paper currency for the U.S. during which war ?", "label": "Entity"}
+{"row_id": "trec_test_0362", "text": "What kind of dog was Toto in the Wizard of Oz ?", "label": "Entity"}
+{"row_id": "trec_test_0363", "text": "What is the birthstone for June ?", "label": "Entity"}
+{"row_id": "trec_test_0364", "text": "Where is the Holland Tunnel ?", "label": "Location"}
+{"row_id": "trec_test_0365", "text": "What French ruler was defeated at the battle of Waterloo ?", "label": "Human"}
+{"row_id": "trec_test_0366", "text": "Who was the first Prime Minister of Canada ?", "label": "Human"}
+{"row_id": "trec_test_0367", "text": "What year was the Mona Lisa painted ?", "label": "Number"}
+{"row_id": "trec_test_0368", "text": "What do bats eat ?", "label": "Entity"}
+{"row_id": "trec_test_0369", "text": "What is carbon dioxide ?", "label": "Description"}
+{"row_id": "trec_test_0370", "text": "What is the name of Neil Armstrong 's wife ?", "label": "Human"}
+{"row_id": "trec_test_0371", "text": "What is the statue of liberty made of ?", "label": "Entity"}
+{"row_id": "trec_test_0372", "text": "What is the sales tax rate in New York ?", "label": "Number"}
+{"row_id": "trec_test_0373", "text": "What is the length of the coastline of the state of Alaska ?", "label": "Number"}
+{"row_id": "trec_test_0374", "text": "What is the average weight of a Yellow Labrador ?", "label": "Number"}
+{"row_id": "trec_test_0375", "text": "When was the first stamp issued ?", "label": "Number"}
+{"row_id": "trec_test_0376", "text": "What year did WWII begin ?", "label": "Number"}
+{"row_id": "trec_test_0377", "text": "What is schizophrenia ?", "label": "Description"}
+{"row_id": "trec_test_0378", "text": "How many hearts does an octopus have ?", "label": "Number"}
+{"row_id": "trec_test_0379", "text": "What is the birthstone of October ?", "label": "Entity"}
+{"row_id": "trec_test_0380", "text": "What is the name of the chocolate company in San Francisco ?", "label": "Human"}
+{"row_id": "trec_test_0381", "text": "How far is Pluto from the sun ?", "label": "Number"}
+{"row_id": "trec_test_0382", "text": "What is rheumatoid arthritis ?", "label": "Description"}
+{"row_id": "trec_test_0383", "text": "When was Ulysses S. Grant born ?", "label": "Number"}
+{"row_id": "trec_test_0384", "text": "What is the longest major league baseball-winning streak ?", "label": "Entity"}
+{"row_id": "trec_test_0385", "text": "What is compounded interest ?", "label": "Description"}
+{"row_id": "trec_test_0386", "text": "What birthstone is turquoise ?", "label": "Entity"}
+{"row_id": "trec_test_0387", "text": "What 's the easiest way to remove wallpaper ?", "label": "Entity"}
+{"row_id": "trec_test_0388", "text": "Where did Howard Hughes die ?", "label": "Location"}
+{"row_id": "trec_test_0389", "text": "What are cigarettes made of ?", "label": "Entity"}
+{"row_id": "trec_test_0390", "text": "What kind of gas is in a fluorescent bulb ?", "label": "Entity"}
+{"row_id": "trec_test_0391", "text": "What is the capital of Yugoslavia ?", "label": "Location"}
+{"row_id": "trec_test_0392", "text": "Why is a ladybug helpful ?", "label": "Description"}
+{"row_id": "trec_test_0393", "text": "What river runs through Rowe , Italy ?", "label": "Location"}
+{"row_id": "trec_test_0394", "text": "What is supernova ?", "label": "Description"}
+{"row_id": "trec_test_0395", "text": "How wide is the Milky Way galaxy ?", "label": "Number"}
+{"row_id": "trec_test_0396", "text": "What is the capital of Persia ?", "label": "Location"}
+{"row_id": "trec_test_0397", "text": "George Bush purchased a small interest in which baseball team ?", "label": "Human"}
+{"row_id": "trec_test_0398", "text": "What is the oldest city in the United States ?", "label": "Location"}
+{"row_id": "trec_test_0399", "text": "What is leukemia ?", "label": "Description"}
+{"row_id": "trec_test_0400", "text": "What is an earthquake ?", "label": "Description"}
+{"row_id": "trec_test_0401", "text": "Where is the volcano Olympus Mons located ?", "label": "Location"}
+{"row_id": "trec_test_0402", "text": "What are the spots on dominoes called ?", "label": "Entity"}
+{"row_id": "trec_test_0403", "text": "What is the name of the satellite that the Soviet Union sent into space in 1957 ?", "label": "Entity"}
+{"row_id": "trec_test_0404", "text": "What New York City structure is also known as the Twin Towers ?", "label": "Location"}
+{"row_id": "trec_test_0405", "text": "What river flows between Fargo , North Dakota and Moorhead , Minnesota ?", "label": "Location"}
+{"row_id": "trec_test_0406", "text": "What does I.V. stand for ?", "label": "Expression"}
+{"row_id": "trec_test_0407", "text": "What is die-casting ?", "label": "Description"}
+{"row_id": "trec_test_0408", "text": "How tall is the Gateway Arch in St. Louis , MO ?", "label": "Number"}
+{"row_id": "trec_test_0409", "text": "When was the first kidney transplant ?", "label": "Number"}
+{"row_id": "trec_test_0410", "text": "Who was the first U.S. president to appear on TV ?", "label": "Human"}
+{"row_id": "trec_test_0411", "text": "What is neuropathy ?", "label": "Description"}
+{"row_id": "trec_test_0412", "text": "How much does the human adult female brain weigh ?", "label": "Number"}
+{"row_id": "trec_test_0413", "text": "For how long is an elephant pregnant ?", "label": "Number"}
+{"row_id": "trec_test_0414", "text": "What is amoxicillin ?", "label": "Description"}
+{"row_id": "trec_test_0415", "text": "Where on the body is a mortarboard worn ?", "label": "Location"}
+{"row_id": "trec_test_0416", "text": "What gasses are in the troposphere ?", "label": "Entity"}
+{"row_id": "trec_test_0417", "text": "What is nicotine ?", "label": "Description"}
+{"row_id": "trec_test_0418", "text": "Who was the first woman governor in the U.S. ?", "label": "Human"}
+{"row_id": "trec_test_0419", "text": "What does a barometer measure ?", "label": "Entity"}
+{"row_id": "trec_test_0420", "text": "How many feet in a mile ?", "label": "Number"}
+{"row_id": "trec_test_0421", "text": "Who invented the hula hoop ?", "label": "Human"}
+{"row_id": "trec_test_0422", "text": "What is phosphorus ?", "label": "Description"}
+{"row_id": "trec_test_0423", "text": "What is angiotensin ?", "label": "Description"}
+{"row_id": "trec_test_0424", "text": "What is the average speed of the horses at the Kentucky Derby ?", "label": "Number"}
+{"row_id": "trec_test_0425", "text": "What is pneumonia ?", "label": "Description"}
+{"row_id": "trec_test_0426", "text": "What was the name of the first U.S. satellite sent into space ?", "label": "Entity"}
+{"row_id": "trec_test_0427", "text": "When did Idaho become a state ?", "label": "Number"}
+{"row_id": "trec_test_0428", "text": "What are the twin cities ?", "label": "Location"}
+{"row_id": "trec_test_0429", "text": "Who was the abolitionist who led the raid on Harper 's Ferry in 1859 ?", "label": "Human"}
+{"row_id": "trec_test_0430", "text": "Who discovered America ?", "label": "Human"}
+{"row_id": "trec_test_0431", "text": "What is the scientific name for elephant ?", "label": "Entity"}
+{"row_id": "trec_test_0432", "text": "What is the rainiest place on Earth ?", "label": "Location"}
+{"row_id": "trec_test_0433", "text": "What does CPR stand for ?", "label": "Expression"}
+{"row_id": "trec_test_0434", "text": "What is pulmonary fibrosis ?", "label": "Description"}
+{"row_id": "trec_test_0435", "text": "What is pilates ?", "label": "Description"}
+{"row_id": "trec_test_0436", "text": "How much does water weigh ?", "label": "Number"}
+{"row_id": "trec_test_0437", "text": "What currency does Luxembourg use ?", "label": "Entity"}
+{"row_id": "trec_test_0438", "text": "What is the life expectancy for crickets ?", "label": "Number"}
+{"row_id": "trec_test_0439", "text": "What is a fuel cell ?", "label": "Description"}
+{"row_id": "trec_test_0440", "text": "What are capers ?", "label": "Description"}
+{"row_id": "trec_test_0441", "text": "What is the average body temperature ?", "label": "Number"}
+{"row_id": "trec_test_0442", "text": "In which state would you find the Catskill Mountains ?", "label": "Location"}
+{"row_id": "trec_test_0443", "text": "What is foot and mouth disease ?", "label": "Entity"}
+{"row_id": "trec_test_0444", "text": "What is the population of China ?", "label": "Number"}
+{"row_id": "trec_test_0445", "text": "What is the esophagus used for ?", "label": "Description"}
+{"row_id": "trec_test_0446", "text": "When was Rosa Parks born ?", "label": "Number"}
+{"row_id": "trec_test_0447", "text": "How old do you have to be in order to rent a car in Italy ?", "label": "Number"}
+{"row_id": "trec_test_0448", "text": "Who was the first African American to play for the Brooklyn Dodgers ?", "label": "Human"}
+{"row_id": "trec_test_0449", "text": "What is desktop publishing ?", "label": "Description"}
+{"row_id": "trec_test_0450", "text": "Who was Galileo ?", "label": "Human"}
+{"row_id": "trec_test_0451", "text": "In Poland , where do most people live ?", "label": "Location"}
+{"row_id": "trec_test_0452", "text": "What is the primary language in Iceland ?", "label": "Entity"}
+{"row_id": "trec_test_0453", "text": "What color is yak milk ?", "label": "Entity"}
+{"row_id": "trec_test_0454", "text": "What is a baby turkey called ?", "label": "Entity"}
+{"row_id": "trec_test_0455", "text": "What does the acronym NASA stand for ?", "label": "Expression"}
+{"row_id": "trec_test_0456", "text": "What are xerophytes ?", "label": "Description"}
+{"row_id": "trec_test_0457", "text": "Where is the volcano Mauna Loa ?", "label": "Location"}
+{"row_id": "trec_test_0458", "text": "What is a micron ?", "label": "Description"}
+{"row_id": "trec_test_0459", "text": "What currency is used in Algeria ?", "label": "Entity"}
+{"row_id": "trec_test_0460", "text": "What is the largest city in the U.S. ?", "label": "Location"}
+{"row_id": "trec_test_0461", "text": "Where is Perth ?", "label": "Location"}
+{"row_id": "trec_test_0462", "text": "What is pectin ?", "label": "Description"}
+{"row_id": "trec_test_0463", "text": "How fast is sound ?", "label": "Number"}
+{"row_id": "trec_test_0464", "text": "What is the capital of Ethiopia ?", "label": "Location"}
+{"row_id": "trec_test_0465", "text": "What year was Mozart born ?", "label": "Number"}
+{"row_id": "trec_test_0466", "text": "What are platelets ?", "label": "Description"}
+{"row_id": "trec_test_0467", "text": "What is phenylalanine ?", "label": "Description"}
+{"row_id": "trec_test_0468", "text": "What is foreclosure ?", "label": "Description"}
+{"row_id": "trec_test_0469", "text": "What mineral helps prevent osteoporosis ?", "label": "Entity"}
+{"row_id": "trec_test_0470", "text": "What is the street address of the White House ?", "label": "Location"}
+{"row_id": "trec_test_0471", "text": "Who was the 22nd President of the US ?", "label": "Human"}
+{"row_id": "trec_test_0472", "text": "What are triglycerides ?", "label": "Description"}
+{"row_id": "trec_test_0473", "text": "How did Janice Joplin die ?", "label": "Description"}
+{"row_id": "trec_test_0474", "text": "What is an obtuse angle ?", "label": "Description"}
+{"row_id": "trec_test_0475", "text": "When did Elvis Presley die ?", "label": "Number"}
+{"row_id": "trec_test_0476", "text": "What city has the zip code of 35824 ?", "label": "Location"}
+{"row_id": "trec_test_0477", "text": "What is severance pay ?", "label": "Description"}
+{"row_id": "trec_test_0478", "text": "What date did Neil Armstrong land on the moon ?", "label": "Number"}
+{"row_id": "trec_test_0479", "text": "Mexican pesos are worth what in U.S. dollars ?", "label": "Number"}
+{"row_id": "trec_test_0480", "text": "What is the name given to the Tiger at Louisiana State University ?", "label": "Entity"}
+{"row_id": "trec_test_0481", "text": "What state is the geographic center of the lower 48 states ?", "label": "Location"}
+{"row_id": "trec_test_0482", "text": "What is Mardi Gras ?", "label": "Description"}
+{"row_id": "trec_test_0483", "text": "What is the active ingredient in baking soda ?", "label": "Entity"}
+{"row_id": "trec_test_0484", "text": "Where are the British crown jewels kept ?", "label": "Location"}
+{"row_id": "trec_test_0485", "text": "What is the name of Roy Roger 's dog ?", "label": "Entity"}
+{"row_id": "trec_test_0486", "text": "Who is the tallest man in the world ?", "label": "Human"}
+{"row_id": "trec_test_0487", "text": "What is osteoporosis ?", "label": "Description"}
+{"row_id": "trec_test_0488", "text": "What is the effect of volcanoes on the climate ?", "label": "Description"}
+{"row_id": "trec_test_0489", "text": "What state has the least amount of rain per year ?", "label": "Location"}
+{"row_id": "trec_test_0490", "text": "How far away is the moon ?", "label": "Number"}
+{"row_id": "trec_test_0491", "text": "What is Shakespeare 's nickname ?", "label": "Human"}
+{"row_id": "trec_test_0492", "text": "What was the last year that the Chicago Cubs won the World Series ?", "label": "Number"}
+{"row_id": "trec_test_0493", "text": "How far is a nautical mile ?", "label": "Number"}
+{"row_id": "trec_test_0494", "text": "What is sonar ?", "label": "Description"}
+{"row_id": "trec_test_0495", "text": "What breed of hunting dog did the Beverly Hillbillies own ?", "label": "Entity"}
+{"row_id": "trec_test_0496", "text": "Who was the first man to fly across the Pacific Ocean ?", "label": "Human"}
+{"row_id": "trec_test_0497", "text": "What are spider veins ?", "label": "Description"}
+{"row_id": "trec_test_0498", "text": "How old was Joan of Arc when she died ?", "label": "Number"}
+{"row_id": "trec_test_0499", "text": "Why does the moon turn orange ?", "label": "Description"}
+{"row_id": "trec_test_0500", "text": "What are Aborigines ?", "label": "Description"}

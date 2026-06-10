@@ -1,0 +1,34 @@
+{
+  "task": "trec",
+  "hf_source": "SetFit/TREC-QC",
+  "license": "research use (Li & Roth 2002)",
+  "classes": [
+    "Description",
+    "Entity",
+    "Expression",
+    "Human",
+    "Location",
+    "Number"
+  ],
+  "n_classes": 6,
+  "metric": "accuracy",
+  "splits": {
+    "shared_test": 500,
+    "baseline_pool": 1000,
+    "evoprompt_dev": 200
+  },
+  "baseline_pool_class_dist": {
+    "Description": 213,
+    "Entity": 230,
+    "Expression": 15,
+    "Human": 225,
+    "Location": 153,
+    "Number": 164
+  },
+  "paper_reference_alpaca7b": {
+    "manual": 50.6,
+    "APE": 58.73,
+    "EvoPrompt_best": 64.0
+  },
+  "notes": "Label names follow EvoPrompt verbalizers. Paper numbers are Alpaca-7b reference only, NOT the target for gpt-oss-20b runs."
+}
