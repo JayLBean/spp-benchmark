@@ -65,6 +65,16 @@ def usage_snapshot() -> dict:
     return snap
 
 
+def _record(usage: object) -> tuple[int, int]:
+    in_tok = getattr(usage, "input_tokens", 0) or getattr(usage, "prompt_tokens", 0) or 0
+    out_tok = getattr(usage, "output_tokens", 0) or getattr(usage, "completion_tokens", 0) or 0
+    with _usage_lock:
+        _usage["calls"] += 1
+        _usage["input_tokens"] += in_tok
+        _usage["output_tokens"] += out_tok
+    return in_tok, out_tok
+
+
 def complete(
     prompt: str,
     *,
@@ -72,43 +82,45 @@ def complete(
     temperature: float = 0.0,
     reasoning_effort: str = "low",
     retries: int = 3,
+    max_budget: int = 1024,
 ) -> Completion:
-    """One chat completion. Retries on transient errors and on empty content."""
+    """One chat completion.
+
+    Two distinct failure modes, handled separately:
+      - transient (network/server) errors -> retry with backoff, up to `retries`.
+      - empty content because reasoning ate the token budget -> GROW the budget and
+        retry, up to `max_budget`. If still empty at the ceiling, return the empty
+        Completion (the caller scores it as a miss) rather than crashing the run — one
+        pathological row must never kill a whole eval.
+    """
     last_exc: Exception | None = None
-    budget = max_tokens
     for attempt in range(retries):
         try:
-            resp = _client.chat.completions.create(
-                model=MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=budget,
-                temperature=temperature,
-                extra_body={"reasoning_effort": reasoning_effort},
-            )
-            choice = resp.choices[0]
-            msg = choice.message
-            content = (msg.content or "").strip()
-            reasoning = getattr(msg, "reasoning_content", "") or ""
-            # Empty content + length stop => reasoning ate the budget. Grow it.
-            if not content and choice.finish_reason == "length":
-                budget = min(budget * 2, 1024)
-                continue
-            usage = resp.usage
-            in_tok = getattr(usage, "input_tokens", 0) or getattr(usage, "prompt_tokens", 0) or 0
-            out_tok = (
-                getattr(usage, "output_tokens", 0) or getattr(usage, "completion_tokens", 0) or 0
-            )
-            with _usage_lock:
-                _usage["calls"] += 1
-                _usage["input_tokens"] += in_tok
-                _usage["output_tokens"] += out_tok
-            return Completion(
-                content=content,
-                reasoning=reasoning,
-                output_tokens=out_tok,
-                finish_reason=choice.finish_reason or "",
-                input_tokens=in_tok,
-            )
+            budget = max_tokens
+            while True:
+                resp = _client.chat.completions.create(
+                    model=MODEL,
+                    messages=[{"role": "user", "content": prompt}],
+                    max_tokens=budget,
+                    temperature=temperature,
+                    extra_body={"reasoning_effort": reasoning_effort},
+                )
+                choice = resp.choices[0]
+                msg = choice.message
+                content = (msg.content or "").strip()
+                reasoning = getattr(msg, "reasoning_content", "") or ""
+                in_tok, out_tok = _record(resp.usage)
+                grow = not content and choice.finish_reason == "length" and budget < max_budget
+                if grow:
+                    budget = min(budget * 2, max_budget)
+                    continue
+                return Completion(
+                    content=content,
+                    reasoning=reasoning,
+                    output_tokens=out_tok,
+                    finish_reason=choice.finish_reason or "",
+                    input_tokens=in_tok,
+                )
         except Exception as exc:  # noqa: BLE001 — network/server transients
             last_exc = exc
             time.sleep(1.5 * (attempt + 1))

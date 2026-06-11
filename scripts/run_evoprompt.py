@@ -159,6 +159,36 @@ def _roulette(pop: list[str], fit: dict[str, float], rng: random.Random) -> str:
     return pop[-1]
 
 
+def _score_and_finish(
+    task, preset, cfg, classes, best, manual_init, best_dev, test, log, outdir, t0, usage
+):
+    """Common tail: score best + manual-init on the test set, write result.json."""
+    log(f"scoring best on test (n={len(test)}) ...")
+    best_test = evaluate(best, test, classes)
+    log("scoring manual-init on test ...")
+    manual_test = evaluate(manual_init, test, classes)
+    res = TaskResult(
+        task=task,
+        preset=preset,
+        config=cfg,
+        best_prompt=best,
+        best_dev_acc=round(best_dev, 4),
+        best_test_acc=round(best_test, 4),
+        manual_init_prompt=manual_init,
+        manual_init_test_acc=round(manual_test, 4),
+        n_classes=len(classes),
+        classes=classes,
+        elapsed_sec=round(time.time() - t0, 1),
+        usage=usage,
+    )
+    (outdir / "result.json").write_text(json.dumps(asdict(res), indent=2) + "\n")
+    log(
+        f"DONE best_test={res.best_test_acc} manual_test={res.manual_init_test_acc} "
+        f"({res.elapsed_sec / 60:.1f} min)"
+    )
+    return res
+
+
 def run_task(task: str, preset: str, seed: int = 5) -> TaskResult:
     cfg = PRESETS[preset]
     N, T, dev_n = cfg["N"], cfg["T"], cfg["dev"]
@@ -174,11 +204,41 @@ def run_task(task: str, preset: str, seed: int = 5) -> TaskResult:
     outdir = RESULTS / task
     outdir.mkdir(parents=True, exist_ok=True)
     ckpt = outdir / "checkpoint.json"
+    result_path = outdir / "result.json"
 
     def log(msg: str) -> None:
         line = f"[{task}] {msg}"
         print(line, flush=True)
         (outdir / "run.log").open("a").write(line + "\n")
+
+    # ---- resume: already done, or search complete but scoring crashed ----
+    if result_path.exists():
+        log("result.json present — skipping (already done)")
+        return TaskResult(**json.loads(result_path.read_text()))
+    if ckpt.exists():
+        cp = json.loads(ckpt.read_text())
+        if cp.get("stage") == f"iter{T}" and cp.get("best_prompt"):
+            best = cp["best_prompt"]
+            log(f"resume: search complete (best_dev={cp.get('best_dev')}); recomputing manual_init")
+            inits = _init_prompts(task)[: cfg["init_cap"]]
+            init_fit = {p: evaluate(p, dev, classes) for p in inits}
+            manual_init = max(init_fit, key=init_fit.get)
+            # usage=None -> cost_report reconstructs the FULL search cost from run.log
+            # (this resume only re-scored, it did not redo the logged search).
+            return _score_and_finish(
+                task,
+                preset,
+                cfg,
+                classes,
+                best,
+                manual_init,
+                cp.get("best_dev", 0.0),
+                test,
+                log,
+                outdir,
+                t0,
+                None,
+            )
 
     # ---- init population: score upstream prompts on dev, keep top-N ----
     inits = _init_prompts(task)[: cfg["init_cap"]]
@@ -222,31 +282,20 @@ def run_task(task: str, preset: str, seed: int = 5) -> TaskResult:
         )
 
     best = population[0]
-    log(f"scoring best on test (n={len(test)}) ...")
-    best_test = evaluate(best, test, classes)
-    log("scoring manual-init on test ...")
-    manual_test = evaluate(manual_init, test, classes)
-
-    res = TaskResult(
-        task=task,
-        preset=preset,
-        config=cfg,
-        best_prompt=best,
-        best_dev_acc=round(fit[best], 4),
-        best_test_acc=round(best_test, 4),
-        manual_init_prompt=manual_init,
-        manual_init_test_acc=round(manual_test, 4),
-        n_classes=len(classes),
-        classes=classes,
-        elapsed_sec=round(time.time() - t0, 1),
-        usage=usage_snapshot(),
+    return _score_and_finish(
+        task,
+        preset,
+        cfg,
+        classes,
+        best,
+        manual_init,
+        fit[best],
+        test,
+        log,
+        outdir,
+        t0,
+        usage_snapshot(),
     )
-    (outdir / "result.json").write_text(json.dumps(asdict(res), indent=2) + "\n")
-    log(
-        f"DONE best_test={res.best_test_acc} manual_test={res.manual_init_test_acc} "
-        f"({res.elapsed_sec / 60:.1f} min)"
-    )
-    return res
 
 
 def main(argv: list[str]) -> int:

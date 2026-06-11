@@ -29,3 +29,46 @@
 [sst5]   init 8/10 dev=0.4500 :: Assess the movie review and categorize it into one of five classes, ra
 [sst5]   init 9/10 dev=0.6375 :: Categorize the movie review provided into one of five degrees based on
 [sst5]   init 10/10 dev=0.5125 :: Your goal is to analyze the movie review and assign it to one of five 
+[sst5] iter 1/6 best_dev=0.6750 (+7 offspring) :: Classify the movie review into one of five quality categories—terrible
+[sst5] iter 2/6 best_dev=0.6750 (+5 offspring) :: Classify the movie review into one of five quality categories—terrible
+[sst5] iter 3/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 4/6 best_dev=0.6875 (+6 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 5/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 6/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] scoring best on test (n=1000) ...
+Traceback (most recent call last):
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/run_evoprompt.py", line 260, in <module>
+    r = run_task(task, args.preset, args.seed)
+                 ^^^^^^^^^^^^^^^^^^
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/run_evoprompt.py", line 251, in main
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/run_evoprompt.py", line 218, in run_task
+    "population": [(p, fit[p]) for p in population],
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/run_evoprompt.py", line 124, in evaluate
+    """Accuracy of `instruction` over `rows` (0-shot)."""
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/llm_client.py", line 122, in map_parallel
+    text = content.strip()
+               ~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 450, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.4/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/run_evoprompt.py", line 121, in one
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/llm_client.py", line 115, in classify
+    raise RuntimeError(f"completion failed after {retries} retries: {last_exc}")
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jiafuli/Desktop/Project/spp-bm/scripts/llm_client.py", line 85, in complete
+    temperature=temperature,
+RuntimeError: completion failed after 3 retries: None

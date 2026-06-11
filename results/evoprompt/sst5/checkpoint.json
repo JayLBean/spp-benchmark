@@ -1,15 +1,39 @@
 {
-  "stage": "init",
-  "fit": {
-    "Please perform Sentiment Classification task. Given the sentence, assign a sentiment label from ['terrible', 'bad', 'okay', 'good', 'great']. Return label only without any other text.": 0.625,
-    "In this task, you are given movie reviews. Based on it, classify it to one of the \ufb01ve classes: (1) terrible, (2) bad, (3) okay, (4) good, and (5) great.": 0.4625,
-    "Based on the given movie review provided to you and classify it into one of five categories: terrible, bad, okay, good, or great.": 0.6,
-    "Your job is to evaluate the review and classify it as one of five classes: terrible, bad, okay, good, or great.": 0.6,
-    "Examine the comment provided and classify it into one of five categories: terrible, bad, okay, good, or great.": 0.5125,
-    "Your objective is to analyze the movie review and allocate it to one of five categories, from terrible to great.": 0.5,
-    "Classify the movie review into one of five categories based on their quality: terrible, bad, okay, good, or great.": 0.6,
-    "Assess the movie review and categorize it into one of five classes, ranging from terrible to great.": 0.45,
-    "Categorize the movie review provided into one of five degrees based on the sentiment: terrible, bad, okay, good, or great.": 0.6375,
-    "Your goal is to analyze the movie review and assign it to one of five categories, ranging from terrible to great.": 0.5125
-  }
+  "stage": "iter6",
+  "best_dev": 0.6875,
+  "best_prompt": "Analyze the provided movie review and assign it to one of five sentiment categories\u2014terrible, bad, okay, good, or great\u2014by evaluating its overall tone and content.",
+  "population": [
+    [
+      "Analyze the provided movie review and assign it to one of five sentiment categories\u2014terrible, bad, okay, good, or great\u2014by evaluating its overall tone and content.",
+      0.6875
+    ],
+    [
+      "Classify the movie review into one of five quality categories\u2014terrible, bad, okay, good, or great\u2014based on its overall sentiment and content.",
+      0.675
+    ],
+    [
+      "Analyze the provided movie review, classify it into one of five sentiment categories\u2014terrible, bad, okay, good, or great\u2014based on its overall tone and content, and give a brief justification for your choice.",
+      0.675
+    ],
+    [
+      "Read the provided movie review and assign it a sentiment rating from terrible to great, selecting one of the categories: terrible, bad, okay, good, or great.",
+      0.675
+    ],
+    [
+      "Read the movie review, assign it a sentiment rating from terrible to great (using the categories terrible, bad, okay, good, or great), and give a concise justification for your choice.",
+      0.675
+    ],
+    [
+      "Read the provided movie review and classify its overall sentiment as one of five categories\u2014terrible, bad, okay, good, or great\u2014based on the review\u2019s tone and content.",
+      0.675
+    ],
+    [
+      "Read the movie review and assign it a sentiment rating from terrible to great, using the categories terrible, bad, okay, good, or great.",
+      0.6625
+    ],
+    [
+      "Evaluate the provided movie review and assign it to one of five sentiment categories\u2014terrible, bad, okay, good, or great\u2014based on its overall tone.",
+      0.6625
+    ]
+  ]
 }

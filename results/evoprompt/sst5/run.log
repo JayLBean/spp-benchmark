@@ -9,3 +9,10 @@
 [sst5]   init 8/10 dev=0.4500 :: Assess the movie review and categorize it into one of five classes, ra
 [sst5]   init 9/10 dev=0.6375 :: Categorize the movie review provided into one of five degrees based on
 [sst5]   init 10/10 dev=0.5125 :: Your goal is to analyze the movie review and assign it to one of five 
+[sst5] iter 1/6 best_dev=0.6750 (+7 offspring) :: Classify the movie review into one of five quality categories—terrible
+[sst5] iter 2/6 best_dev=0.6750 (+5 offspring) :: Classify the movie review into one of five quality categories—terrible
+[sst5] iter 3/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 4/6 best_dev=0.6875 (+6 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 5/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] iter 6/6 best_dev=0.6875 (+7 offspring) :: Analyze the provided movie review and assign it to one of five sentime
+[sst5] scoring best on test (n=1000) ...
