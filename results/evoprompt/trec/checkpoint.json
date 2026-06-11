@@ -1,0 +1,39 @@
+{
+  "stage": "iter6",
+  "best_dev": 0.825,
+  "best_prompt": "Classify the provided English question into one of the following categories: Description, Entity, Expression, Human, Location, or Number.",
+  "population": [
+    [
+      "Classify the provided English question into one of the following categories: Description, Entity, Expression, Human, Location, or Number.",
+      0.825
+    ],
+    [
+      "Given an English question, classify it into one of the following categories: Description, Entity, Expression, Human, Location, or Number. Output only the category label, with no additional text.",
+      0.825
+    ],
+    [
+      "Classify the provided English question into one of these categories: Description, Entity, Expression, Human, Location, or Number. Output only the category name.",
+      0.825
+    ],
+    [
+      "Classify the given English question into one of the following categories: Description, Entity, Expression, Human, Location, or Number. Respond with only the category name, no additional text.",
+      0.8125
+    ],
+    [
+      "Please perform Question Classification task. Given the question, assign a label from ['Description', 'Entity', 'Expression', 'Human', 'Location', 'Number']. Return label only without any other text",
+      0.8
+    ],
+    [
+      "You are given a question. You need to detect which category better describes the question. Answer with \"Description\", \"Entity\", \"Expression\", \"Human\", \"Location\", and \"Number\".",
+      0.8
+    ],
+    [
+      "Analyze the provided English question and determine which category it best fits: Description, Entity, Expression, Human, Location, or Number. Respond with only the category name.",
+      0.8
+    ],
+    [
+      "Select the appropriate question type from the following categories: Description, Entity, Expression, Human, Location, and Number.",
+      0.8
+    ]
+  ]
+}

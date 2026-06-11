@@ -1,0 +1,31 @@
+{
+  "task": "trec",
+  "preset": "default",
+  "config": {
+    "N": 8,
+    "T": 6,
+    "dev": 80,
+    "init_cap": 10
+  },
+  "best_prompt": "Classify the provided English question into one of the following categories: Description, Entity, Expression, Human, Location, or Number.",
+  "best_dev_acc": 0.825,
+  "best_test_acc": 0.822,
+  "manual_init_prompt": "Please perform Question Classification task. Given the question, assign a label from ['Description', 'Entity', 'Expression', 'Human', 'Location', 'Number']. Return label only without any other text",
+  "manual_init_test_acc": 0.818,
+  "n_classes": 6,
+  "classes": [
+    "Description",
+    "Entity",
+    "Expression",
+    "Human",
+    "Location",
+    "Number"
+  ],
+  "elapsed_sec": 11749.3,
+  "usage": {
+    "calls": 4427,
+    "input_tokens": 527251,
+    "output_tokens": 849121,
+    "total_tokens": 1376372
+  }
+}

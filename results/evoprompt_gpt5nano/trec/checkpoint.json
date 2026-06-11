@@ -1,0 +1,39 @@
+{
+  "stage": "iter6",
+  "best_dev": 0.825,
+  "best_prompt": "Determine the type of the given question and choose from Description, Entity, Expression, Human, Location and Number.",
+  "population": [
+    [
+      "Determine the type of the given question and choose from Description, Entity, Expression, Human, Location and Number.",
+      0.825
+    ],
+    [
+      "Your task is to choose a type of the question, from Description, Entity, Expression, Human, Location and Number.",
+      0.825
+    ],
+    [
+      "Classify the input question into one of the categories: Description, Entity, Expression, Human, Location, or Number. Provide only the category label.",
+      0.825
+    ],
+    [
+      "Identify the question type from the categories Description, Entity, Expression, Human, Location, or Number, and select the correct label.",
+      0.825
+    ],
+    [
+      "Identify the question type from the categories Description, Entity, Expression, Human, Location, or Number, and return only the corresponding label.",
+      0.8125
+    ],
+    [
+      "Determine the question type from the options Description, Entity, Expression, Human, Location, or Number, and output only the matching label.",
+      0.8125
+    ],
+    [
+      "Classify the given question into one of Description, Entity, Expression, Human, Location, or Number, and return only the corresponding label.",
+      0.8
+    ],
+    [
+      "Given an English question, determine its category from Description, Entity, Expression, Human, Location, or Number, and respond with only the corresponding label.",
+      0.8
+    ]
+  ]
+}

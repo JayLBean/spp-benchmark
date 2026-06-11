@@ -1,0 +1,39 @@
+{
+  "stage": "iter6",
+  "best_dev": 0.7375,
+  "best_prompt": "Read the movie review and classify its sentiment using the options [terrible, bad, okay, good, great], returning only the single label with no additional text.",
+  "population": [
+    [
+      "Read the movie review and classify its sentiment using the options [terrible, bad, okay, good, great], returning only the single label with no additional text.",
+      0.7375
+    ],
+    [
+      "Read the movie review, determine its sentiment from the set [terrible, bad, okay, good, great], and output only the chosen label\u2014no extra text.",
+      0.6875
+    ],
+    [
+      "Assess a movie review and categorize it into one of five levels (terrible, bad, okay, good, great) while preserving the review\u2019s meaning.",
+      0.675
+    ],
+    [
+      "Read a movie review and assign a single sentiment label from {terrible, bad, okay, good, great} that best reflects its tone, and output only that label with no additional text.",
+      0.675
+    ],
+    [
+      "Assess a movie review and assign it to one of five categories\u2014terrible, bad, okay, good, or great.",
+      0.6625
+    ],
+    [
+      "Analyze the film review and output only the sentiment label from ['terrible','bad','okay','good','great'], with no extra text.",
+      0.6625
+    ],
+    [
+      "Evaluate the given film review, preserve its meaning, and assign a single sentiment label from ['terrible','bad','okay','good','great']. Respond only with the label, with no extra text.",
+      0.6625
+    ],
+    [
+      "Evaluate a movie review and assign it to one of five levels: terrible, bad, okay, good, or great.",
+      0.65
+    ]
+  ]
+}

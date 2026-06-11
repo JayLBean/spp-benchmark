@@ -1,0 +1,5 @@
+[orch] start 23:54:35
+[orch] oss (PID 84213) exited 23:54:35
+[orch] oMLX down; :8000 listeners=0
+[orch] launching gpt-5-nano 23:54:39
+[orch] gpt-5-nano DONE 01:23:04

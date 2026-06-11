@@ -1,0 +1,30 @@
+{
+  "task": "sst5",
+  "preset": "default",
+  "config": {
+    "N": 8,
+    "T": 6,
+    "dev": 80,
+    "init_cap": 10
+  },
+  "best_prompt": "Read the movie review and classify its sentiment using the options [terrible, bad, okay, good, great], returning only the single label with no additional text.",
+  "best_dev_acc": 0.7375,
+  "best_test_acc": 0.561,
+  "manual_init_prompt": "Examine the comment provided and classify it into one of five categories: terrible, bad, okay, good, or great.",
+  "manual_init_test_acc": 0.557,
+  "n_classes": 5,
+  "classes": [
+    "terrible",
+    "bad",
+    "okay",
+    "good",
+    "great"
+  ],
+  "elapsed_sec": 1914.4,
+  "usage": {
+    "calls": 4368,
+    "input_tokens": 289403,
+    "output_tokens": 494455,
+    "total_tokens": 783858
+  }
+}

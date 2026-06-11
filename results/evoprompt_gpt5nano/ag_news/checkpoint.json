@@ -1,0 +1,39 @@
+{
+  "stage": "iter6",
+  "best_dev": 0.875,
+  "best_prompt": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+  "population": [
+    [
+      "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+      0.875
+    ],
+    [
+      "Analyze a news article to identify its core message and classify it as World, Sports, Business, or Tech; accompany the classification with a short justification.",
+      0.875
+    ],
+    [
+      "Read a news article and assign it to one of four categories\u2014World, Sports, Business, or Tech\u2014based on its main idea. Return the chosen category and a brief justification for the assignment.",
+      0.8625
+    ],
+    [
+      "Analyze a news article and categorize it into World, Sports, Business, or Tech based on its core message, and include a concise justification for the category.",
+      0.8625
+    ],
+    [
+      "Read a news article and assign it to World, Sports, Business, or Tech according to its central theme. Include the selected category and a short justification for your choice.",
+      0.8625
+    ],
+    [
+      "Identify the primary topic of a news article and categorize it into World, Sports, Business, or Tech based on its main theme.",
+      0.8625
+    ],
+    [
+      "Read a news article, determine its main theme, and assign it to World, Sports, Business, or Tech, with a brief rationale for the chosen category.",
+      0.8625
+    ],
+    [
+      "Examine a news article to identify its central theme (World, Sports, Business, or Tech) and state the category, along with a brief justification for your decision.",
+      0.8625
+    ]
+  ]
+}

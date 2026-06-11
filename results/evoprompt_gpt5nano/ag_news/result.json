@@ -1,0 +1,29 @@
+{
+  "task": "ag_news",
+  "preset": "default",
+  "config": {
+    "N": 8,
+    "T": 6,
+    "dev": 80,
+    "init_cap": 10
+  },
+  "best_prompt": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+  "best_dev_acc": 0.875,
+  "best_test_acc": 0.869,
+  "manual_init_prompt": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+  "manual_init_test_acc": 0.87,
+  "n_classes": 4,
+  "classes": [
+    "World",
+    "Sports",
+    "Business",
+    "Tech"
+  ],
+  "elapsed_sec": 1684.5,
+  "usage": {
+    "calls": 4288,
+    "input_tokens": 394645,
+    "output_tokens": 400068,
+    "total_tokens": 794713
+  }
+}

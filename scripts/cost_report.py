@@ -17,6 +17,7 @@ elsewhere (Claude tokens + human time), which this report flags but cannot bill 
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -26,6 +27,8 @@ from run_evoprompt import FIXTURES, GA_TEMPLATE, _init_prompts  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 TASKS = ["ag_news", "sst5", "trec"]
+# Which arm to report; matches run_evoprompt's EVOPROMPT_ARM (oss default 'evoprompt').
+ARM = os.environ.get("EVOPROMPT_ARM", "evoprompt")
 
 # Observed gpt-oss output tokens per call type (reasoning + answer), 0-shot.
 CLS_OUT = 146  # classification call
@@ -38,7 +41,7 @@ def _est_tokens(text: str) -> int:
 
 
 def _reconstruct(task: str) -> dict | None:
-    log = ROOT / "results" / "evoprompt" / task / "run.log"
+    log = ROOT / "results" / ARM / task / "run.log"
     if not log.exists():
         return None
     lines = log.read_text().splitlines()
@@ -99,13 +102,13 @@ def _arm_usage(arm: str, task: str) -> dict | None:
 
 
 def main() -> int:
-    print("EvoPrompt arm — gpt-oss-20b token cost (search + test scoring)\n")
+    print(f"EvoPrompt arm [{ARM}] token cost (search + test scoring)\n")
     hdr = f"{'task':<10}{'src':<11}{'calls':>8}{'in_tok':>12}{'out_tok':>12}{'total':>12}"
     print(hdr)
     print("-" * len(hdr))
     grand = {"calls": 0, "input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
     for task in TASKS:
-        u = _arm_usage("evoprompt", task) or _reconstruct(task)
+        u = _arm_usage(ARM, task) or _reconstruct(task)
         if not u:
             print(f"{task:<10}{'(not started)':<11}")
             continue

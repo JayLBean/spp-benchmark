@@ -1,0 +1,20 @@
+[trec] preset=default N=8 T=6 dev=80 | 10 init prompts, 6 classes
+[trec]   init 1/10 dev=0.7125 :: Please perform Question Classification task. Given the question, assig
+[trec]   init 2/10 dev=0.8250 :: Determine the type of the given question and choose from Description, 
+[trec]   init 3/10 dev=0.8250 :: Your task is to choose a type of the question, from Description, Entit
+[trec]   init 4/10 dev=0.7750 :: Analyze an English question and identify which category it belongs to:
+[trec]   init 5/10 dev=0.7625 :: You are given a question. You need to detect which category better des
+[trec]   init 6/10 dev=0.6500 :: Please select the correct classification for this sentence: Descriptio
+[trec]   init 7/10 dev=0.7000 :: Classify this sentence into one of these categories: Description, Enti
+[trec]   init 8/10 dev=0.6750 :: Identify the most suitable category for this sentence: Description, En
+[trec]   init 9/10 dev=0.6500 :: Classify this sentence based on the provided categories: Description, 
+[trec]   init 10/10 dev=0.6375 :: Determine the category that best describes this sentence: Description,
+[trec] iter 1/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] iter 2/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] iter 3/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] iter 4/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] iter 5/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] iter 6/6 best_dev=0.8250 (+8 offspring) :: Determine the type of the given question and choose from Description, 
+[trec] scoring best on test (n=500) ...
+[trec] scoring manual-init on test ...
+[trec] DONE best_test=0.804 manual_test=0.828 (28.4 min)
