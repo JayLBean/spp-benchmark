@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 import re
 import sys
@@ -44,7 +45,9 @@ from llm_client import (  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FIXTURES = ROOT / "fixtures"
-RESULTS = ROOT / "results" / "evoprompt"
+# Arm subdir, so the gpt-5-nano re-baseline (EVOPROMPT_ARM=evoprompt_openai) lands
+# beside the oss run (default 'evoprompt') instead of overwriting it.
+RESULTS = ROOT / "results" / os.environ.get("EVOPROMPT_ARM", "evoprompt")
 UPSTREAM = ROOT / "evoprompt" / "upstream"
 
 # EvoPrompt dataset-dir names (upstream) keyed by our task name.
@@ -125,7 +128,9 @@ def evaluate(instruction: str, rows: list[dict], classes: list[str]) -> float:
 
     def one(r: dict) -> int:
         prompt = eval_prompt_text(instruction, r["text"])
-        label, _ = classify(prompt, classes, max_tokens=320)
+        # 1024 cap = headroom for gpt-5-nano low-reasoning (~112 tok) without
+        # truncation; it is a ceiling, billed only for tokens actually generated.
+        label, _ = classify(prompt, classes, max_tokens=1024)
         return int(label == r["label"])
 
     hits = map_parallel(one, rows)
@@ -142,7 +147,7 @@ def _parse_prompt(text: str) -> str | None:
 
 def crossover_mutate(p1: str, p2: str) -> str | None:
     q = GA_TEMPLATE.replace("<prompt1>", p1).replace("<prompt2>", p2)
-    comp = complete(q, max_tokens=512, reasoning_effort="low")
+    comp = complete(q, max_tokens=1024, reasoning_effort="low")
     return _parse_prompt(comp.content)
 
 

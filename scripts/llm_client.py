@@ -30,10 +30,24 @@ BASE_URL = os.environ.get("OMLX_BASE_URL", "http://127.0.0.1:8000/v1")
 API_KEY = os.environ.get("OMLX_API_KEY", "jaywell06")
 MODEL = os.environ.get("OMLX_MODEL", "gpt-oss-20b-MXFP4-Q8")
 
-# oMLX effectively serializes requests on a single model instance; a tiny pool
-# buys ~25% from request overlap, beyond that it is wasted threads.
+# oMLX serializes on a single instance (~3 workers); the OpenAI API parallelizes, so
+# the OpenAI run overrides OMLX_WORKERS up.
 MAX_WORKERS = int(os.environ.get("OMLX_WORKERS", "3"))
 
+# Default reasoning effort when a caller doesn't specify (classification path).
+REASONING_DEFAULT = os.environ.get("OMLX_REASONING", "low")
+
+# GPT-5 / o-series are "reasoning models": they take max_completion_tokens (not
+# max_tokens), reject temperature != 1, and accept reasoning_effort as a top-level
+# param. Detect by name so the local-oss path is unchanged.
+_REASONING_PREFIXES = ("gpt-5", "o1", "o3", "o4")
+
+
+def _is_reasoning_model(model: str) -> bool:
+    return model.startswith(_REASONING_PREFIXES)
+
+
+IS_REASONING = _is_reasoning_model(MODEL)
 _client = OpenAI(base_url=BASE_URL, api_key=API_KEY)
 
 
@@ -75,16 +89,31 @@ def _record(usage: object) -> tuple[int, int]:
     return in_tok, out_tok
 
 
+def _build_kwargs(prompt: str, budget: int, temperature: float, effort: str) -> dict:
+    """Provider-specific request shape. GPT-5/o-series vs oss differ in 3 params."""
+    base = {"model": MODEL, "messages": [{"role": "user", "content": prompt}]}
+    if IS_REASONING:
+        # reasoning model: max_completion_tokens, reasoning_effort top-level, temp=default(1)
+        return {**base, "max_completion_tokens": budget, "reasoning_effort": effort}
+    # oss via oMLX: max_tokens + temperature + reasoning_effort in extra_body
+    return {
+        **base,
+        "max_tokens": budget,
+        "temperature": temperature,
+        "extra_body": {"reasoning_effort": effort},
+    }
+
+
 def complete(
     prompt: str,
     *,
     max_tokens: int = 256,
     temperature: float = 0.0,
-    reasoning_effort: str = "low",
+    reasoning_effort: str | None = None,
     retries: int = 3,
     max_budget: int = 1024,
 ) -> Completion:
-    """One chat completion.
+    """One chat completion (oss-via-oMLX or GPT-5/o-series; see _build_kwargs).
 
     Two distinct failure modes, handled separately:
       - transient (network/server) errors -> retry with backoff, up to `retries`.
@@ -93,17 +122,14 @@ def complete(
         Completion (the caller scores it as a miss) rather than crashing the run — one
         pathological row must never kill a whole eval.
     """
+    effort = reasoning_effort or REASONING_DEFAULT
     last_exc: Exception | None = None
     for attempt in range(retries):
         try:
             budget = max_tokens
             while True:
                 resp = _client.chat.completions.create(
-                    model=MODEL,
-                    messages=[{"role": "user", "content": prompt}],
-                    max_tokens=budget,
-                    temperature=temperature,
-                    extra_body={"reasoning_effort": reasoning_effort},
+                    **_build_kwargs(prompt, budget, temperature, effort)
                 )
                 choice = resp.choices[0]
                 msg = choice.message
