@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ag_news output schema",
+  "description": "Single-label news topic classification. Metric: accuracy.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["label"],
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": ["World", "Sports", "Business", "Tech"],
+      "description": "The single news topic of the article's main subject."
+    }
+  },
+  "labelDefinitions": {
+    "World": "International affairs, politics, conflict, disasters, general news.",
+    "Sports": "Any sport, athlete, team, match, or league.",
+    "Business": "Companies, markets, finance, economy, earnings, trade, jobs.",
+    "Tech": "Science and technology: gadgets, software, research, space, internet."
+  }
+}

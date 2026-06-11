@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "sst5 output schema",
+  "description": "Single-label fine-grained sentiment (5-point ordinal scale). Metric: accuracy.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["label"],
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": ["terrible", "bad", "okay", "good", "great"],
+      "description": "Sentiment degree of a movie-review sentence, ordered terrible<...<great."
+    }
+  },
+  "labelDefinitions": {
+    "terrible": "Strongly negative — harsh condemnation, no redeeming notes.",
+    "bad": "Mildly negative — disappointed, weak, but not scathing.",
+    "okay": "Neutral or mixed — balanced, lukewarm, or noncommittal.",
+    "good": "Mildly positive — favorable with reservations.",
+    "great": "Strongly positive — enthusiastic praise."
+  }
+}

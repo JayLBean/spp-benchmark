@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "trec output schema",
+  "description": "Single-label question classification by expected ANSWER TYPE. Metric: accuracy.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["label"],
+  "properties": {
+    "label": {
+      "type": "string",
+      "enum": ["Description", "Entity", "Expression", "Human", "Location", "Number"],
+      "description": "The type of answer the question expects (not the question's topic)."
+    }
+  },
+  "labelDefinitions": {
+    "Description": "Answer is a definition, description, manner, or reason (what/why/how).",
+    "Entity": "Answer is a thing — animal, color, product, substance, work, etc.",
+    "Expression": "Answer is an abbreviation or its expansion (what does X stand for).",
+    "Human": "Answer is a person, group, or organization (who).",
+    "Location": "Answer is a place — city, country, geographic feature (where).",
+    "Number": "Answer is a count, date, distance, money, or other numeric value."
+  }
+}
