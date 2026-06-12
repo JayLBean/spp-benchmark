@@ -1,0 +1,48 @@
+name: Publish benchmark site
+
+# GitHub Pages serves a single branch, so a single prod workflow is the right
+# fit here (the dev/preview split in the source workflows is a Cloudflare-Pages
+# pattern). Render the Quarto site in `site/` on every push to main that touches
+# it, then publish `site/_site` to the `gh-pages` branch that Pages serves.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-site
+  cancel-in-progress: false
+
+jobs:
+  render-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.7.33
+
+      # No Jupyter glue / Python kernel here (unlike the source workflows): the
+      # benchmark pages are pure markdown with no executable code chunks, so
+      # Quarto renders them without a kernel.
+      - name: Render Quarto site
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: site
+
+      - name: Publish _site to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site/_site
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "publish: ${{ github.sha }}"

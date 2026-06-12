@@ -1,0 +1,88 @@
+---
+title: "Methodology"
+subtitle: "What is held constant, what varies, and how each arm is run."
+---
+
+The benchmark is built around one idea: if you want to know whether a prompt-optimization
+*method* is good, you have to hold everything else still. spp-bm holds the task model, the
+test set, the scoring wrapper, and the starting prompt constant across every arm. The only
+free variable is **who writes the prompt**.
+
+## The fairness invariant
+
+- **One task model, scored one way.** Every arm is evaluated through the *same* model and
+  the *same* label-matching wrapper, 0-shot unless noted. The published three-way results
+  use **gpt-5-nano** (OpenAI; `reasoning_effort=low`, `temperature=1.0`). The harness also
+  supports a local OpenAI-compatible server (e.g. `gpt-oss-20b` via oMLX) for runs that
+  must stay off a paid API — the fairness rule is the same either way: *one* task-model
+  surface, shared by all arms.
+- **One sacred test set.** The same held-out rows score every arm. No arm trains, searches,
+  or tunes on them — they exist only to produce the final number.
+- **One starting point.** All three arms begin from the *identical* seed prompt
+  (`baselines/<task>/prompt_v0.md`, EvoPrompt's `manual_init`). No arm gets a head start on
+  the instruction.
+
+Published paper numbers from the original methods (e.g. EvoPrompt's Alpaca-7b /
+text-davinci-003 results) are **reference only** — they were produced on different models
+and are not comparable to the numbers here.
+
+## The tasks
+
+Three canonical text-classification datasets, chosen to span easy-and-saturated through
+genuinely-hard.
+
+| Task | Kind | #classes | Shared test | Baseline pool | Metric |
+|------|------|---------:|------------:|--------------:|--------|
+| AG News | topic | 4 | 1,000 | 1,000 | accuracy |
+| SST-5 | fine-grained sentiment | 5 | 1,000 | 1,000 | accuracy |
+| TREC | question type (coarse) | 6 | 500 | 1,000 | accuracy |
+
+Label names follow EvoPrompt's verbalizers. The shared test is stratified from each
+dataset's *test* split; the baseline pool is stratified from the *train* split and is
+disjoint from the test by construction. EvoPrompt's dev set (200 rows) is a subset of the
+baseline pool, so both the search-based arms draw training-side data from one shared pool.
+
+Fixtures are built deterministically (`seed=5`) by `scripts/build_fixtures.py`, so the
+splits are reproducible.
+
+::: {.callout-note}
+**Expect saturation on the easy task.** Strong instruction-following models sit near the
+ceiling on AG News, so there is little headroom to separate the arms there. **SST-5 and
+TREC** carry the genuine signal — fine-grained sentiment boundaries and answer-type
+subtleties are where prompt wording (and the spp loop) can actually move the number.
+:::
+
+## The three arms
+
+### 1. spp — human-in-the-loop
+
+A person runs the spp loop (the `/spp-init` → iterate workflow), seeded by
+`baselines/<task>/SEED.md`, fed the unsplit `baseline.csv`, with `test_holdout.csv`
+registered as the sacred test. Each iteration writes or sharpens **one categorical rule**;
+Claude subagents do the per-stage reasoning under information isolation, and a human steers.
+The final prompt is then scored once on the sacred test, through the same wrapper as every
+other arm.
+
+### 2. EvoPrompt — genetic search (automated)
+
+A faithful reimplementation of EvoPrompt's genetic algorithm. It evolves a population of
+prompts against the dev set, then scores the single best prompt on the sacred test. Fully
+automated, 0-shot — no human and no demonstrations.
+
+### 3. DSPy — MIPROv2 few-shot (automated)
+
+DSPy's MIPROv2 optimizer, run in its strongest honest configuration: it bootstraps up to
+four in-context demonstrations. This is **few-shot**, unlike the other two arms — a real,
+disclosed asymmetry. We ran DSPy in its design strength rather than hobble it to 0-shot;
+the [Results](results.qmd) page accounts for what that asymmetry buys it.
+
+## Why dollars, not tokens
+
+The three arms have opposite token profiles — spp is input-heavy/output-light, EvoPrompt is
+output-heavy, DSPy is input-heavy via demos — and on gpt-5-nano output tokens cost 8× input
+tokens. A raw "total tokens" leaderboard therefore mis-ranks the arms on every task. The
+benchmark reports **USD**, verified against the provider usage dashboard where noted. The
+full breakdown, including where token count and dollar cost disagree, is in
+[Results §3](results.qmd).
+
+[See the results →](results.qmd) · [Reproduce the runs →](reproduce.qmd)

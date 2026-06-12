@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "spp-bm"
+  description: >-
+    A fair, single-task-model benchmark comparing prompt-optimization
+    methods: spp (human-in-the-loop) vs EvoPrompt (genetic search) vs
+    DSPy (MIPROv2 few-shot) on three text-classification tasks.
+  site-url: "https://jaylbean.github.io/spp-benchmark/"
+  repo-url: "https://github.com/JayLBean/spp-benchmark"
+  navbar:
+    background: light
+    title: "spp-bm benchmark"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: methodology.qmd
+        text: Methodology
+      - href: results.qmd
+        text: Results
+      - href: reproduce.qmd
+        text: Reproduce
+    right:
+      - icon: github
+        href: https://github.com/JayLBean/spp-benchmark
+        aria-label: GitHub repository
+  page-footer:
+    left: "spp-bm — Supervised Prompt Producer benchmark"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    # `cosmo` is a minimal Bootstrap carrier for the navbar / TOC widgets;
+    # styles/report.css loads after it and wins the cascade, giving the
+    # serif business-report look. (Ported from the 591 VoxPatiens site.)
+    theme: cosmo
+    css: styles/report.css
+    # Full viewport so the wide token/cost tables aren't cramped in
+    # Quarto's default narrow reading column; prose is re-capped in CSS.
+    page-layout: full
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: false
+    link-external-newwindow: true
+    smooth-scroll: true
+    anchor-sections: true
