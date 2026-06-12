@@ -44,6 +44,28 @@ This is what keeps spp writing rules that **transfer** instead of memorizing the
 difference that shows up as spp's dev→test *rise* on TREC where EvoPrompt's GA *fell*.
 :::
 
+## The human's turns — the six gates
+
+spp is human-in-the-loop, and the human's role is concrete: they hold six approval **gates**, and
+the agent does the work between them. Each gate has a fixed approval phrase, recorded verbatim in
+the run's `plan.md` revision log, so every hand-off is auditable after the fact.
+
+| Gate | What the user says | What the agent then does |
+|---|---|---|
+| **G1** plan approval | "approved, proceed to baseline" | canonicalize and quality-audit the imported gold labels |
+| **G2** baseline review | "approved, proceed to splits" | generate the stratified train / dev splits (test held out) |
+| **G3** split confirmation | "approved, start the loop" | build `prompt_v01` (bare seed) and dry-run the runner |
+| **G4** dry-run gate | "approved, run iteration 1" | run the optimization loop — the isolated-subagent relay above |
+| **G5** finalization | "approved, score the test set" | read the sacred test **exactly once**, score the selected prompt |
+| **G6** production decision | "approved, freeze the prompt" | freeze the prompt and record its SHA-256 |
+
+Between gates the human can also steer the plan directly. On TREC, the pre-G1 instruction —
+*"Make sure the dev/train set is the same with EvoPrompt"* — made spp adopt EvoPrompt's **exact**
+200 dev rows, so the two arms optimized on identical data. On AG News, a post-finalize
+*"explore further"* request sent the agent to test few-shot demos and chain-of-thought, both of
+which it then rejected on the dev signal. Each task page below records its own gate-by-gate
+exchange.
+
 ## The three loops at a glance
 
 Dev accuracy on the 80-row (AG News, SST-5) / 200-row (TREC) internal dev split, then the single

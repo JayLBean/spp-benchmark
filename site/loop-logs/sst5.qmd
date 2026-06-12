@@ -14,6 +14,21 @@ great**. The hard part is not topic but *degree* — where one rung ends and the
 loop's edits were all degree-calibration rules on those boundaries, and it climbed from a weak
 0.4625 seed to 0.6000 dev over five iterations before one over-correction told it to stop.
 
+## The interaction, gate by gate
+
+The run as a human-agent exchange — the user's approval phrases (verbatim from `plan.md`) and what
+the agent did in response.
+
+| Step | What the user said | What the agent did |
+|---|---|---|
+| — | *(pre-G1 plan revision)* | dev 100→80 to match EvoPrompt's dev split size; train 80, both stratified-proportional |
+| G1 | "approved, proceed to baseline" | canonicalized the baseline and audited the imported gold → verdict **ready** |
+| G2 | "approved, proceed to splits" | generated stratified-proportional splits: train 80 / dev 80, test held out (1,000 rows) |
+| G3 | "approved, start the loop" | patched the runner for gpt-5 reasoning models; built `prompt_v01` (bare seed); dry-run passed 3/3 |
+| G4 | "approved, run iteration 1" | ran 5 iterations / 8 edits (see trajectory below); EARLY_STOP, selected `prompt_v04` |
+| G5 | "approved, score the test set" | one-time sacred read (1,000 rows) → **test 0.579**, 0 parse failures |
+| G6 | "approved, freeze the prompt" | froze `prompt_v04` → `PROMPT_FROZEN_v01.md` (SHA-256 `16873a41…7676c`) |
+
 ## Dev trajectory
 
 | Iter | Prompt | Edit(s) added | Dev | Train | Decision |

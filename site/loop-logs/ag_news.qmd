@@ -14,6 +14,21 @@ search found nothing better than the seed itself. So the loop's job was narrow: 
 categorical rule the seed was missing, add it, and stop before fitting noise. It did exactly that
 in four iterations.
 
+## The interaction, gate by gate
+
+The run as a human-agent exchange — the user's approval phrases (verbatim from `plan.md`) and what
+the agent did in response.
+
+| Step | What the user said | What the agent did |
+|---|---|---|
+| G1 | "approved, proceed to baseline" | canonicalized the baseline and audited the imported gold → verdict **ready**, exactly class-balanced (250 / 250 / 250 / 250) |
+| G2 | "approved, proceed to splits" | generated stratified splits: train 80 / dev 80 (20 per class), verified 0 baseline↔test overlap |
+| G3 | "approved, start the loop" | built `prompt_v01` (bare seed + output directive only); dry-run on 3 rows passed 3/3 |
+| G4 | "approved, run iteration 1" | ran 4 iterations (see trajectory below); EARLY_STOP, selected `prompt_v03` |
+| — | *"explore further"* (post-loop R&D) | tested 4 few-shot demos → dev 0.8625 (regressed); chain-of-thought at reasoning=medium → dev 0.925 but ~5× output cost, breaks the 0-shot apples-to-apples — **both rejected**, v03 unchanged |
+| G5 | "approved, score the test set" | one-time sacred read (1,000 rows) → **test 0.876**, 0 parse failures |
+| G6 | "approved, freeze the prompt" | froze `prompt_v03` → `PROMPT_FROZEN_v01.md` (SHA-256 `9b7a1fd9…baf96`, byte-verified) |
+
 ## Dev trajectory
 
 | Iter | Prompt | Edit(s) | Dev | Train | Decision |

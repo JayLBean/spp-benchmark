@@ -15,6 +15,21 @@ whole benchmark: spp climbed from a 0.765 seed to 0.895 dev over four iterations
 **generalized upward** to 0.924 on the sacred test — while EvoPrompt's genetic search overfit its
 dev set and fell *below* the seed it started from (dev 0.825 → test 0.804 < 0.828).
 
+## The interaction, gate by gate
+
+The run as a human-agent exchange — the user's approval phrases and instructions (verbatim from
+`plan.md`) and what the agent did in response.
+
+| Step | What the user said | What the agent did |
+|---|---|---|
+| — | *"Make sure the dev/train set is the same with EvoPrompt"* (pre-G1) | revised the plan: dev = EvoPrompt's **exact** 200 dev rows (by `row_id`, all 200 verified present, 0 label disagreements); train = 100 stratified from the disjoint remainder |
+| G1 | "approved, proceed to baseline" | canonicalized the baseline and audited the imported gold → verdict **ready** |
+| G2 | "approved, proceed to splits" | registered the EvoPrompt dev rows + the 100-row train split |
+| G3 | "approved, start the loop" | built `prompt_v01` (the exact bare seed, scored verbatim) |
+| G4 | "approved, run iteration 1" | first pass scored dev 0.72 on the plugin's chat harness — a **harness mismatch**; switched the loop scorer to EvoPrompt's exact wrapper, reset `v01` (then dev 0.765), counted the 303 pre-alignment calls honestly; ran 4 iterations / 14 edits; EARLY_STOP, selected `prompt_v05` |
+| G5 | "approved, score the test set" | one-time sacred read (500 rows) → **test 0.924**, 0 parse failures |
+| G6 | "approved, freeze the prompt" | froze `prompt_v05` → `PROMPT_FROZEN_v01.md` (SHA-256 `2f7b4854…638c`, verified identical) |
+
 ## Dev trajectory
 
 | Iter | Prompt | Edit(s) added | Dev | Train | Decision |
