@@ -1,0 +1,1617 @@
+{
+  "schema_version": "1",
+  "model": "gpt-5-nano",
+  "prompt_path": "spp/sst5/runs/gpt-5-nano/run_04/prompt_v04.md",
+  "prompt_sha256": "16873a41f6b7cc3c119c9be6b6882a12702f9153773f64733eb6fa8341a7676c",
+  "predictions": [
+    {
+      "row_id": "sst5_base_0929",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1463,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0624",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1147,
+      "tokens_used": 433
+    },
+    {
+      "row_id": "sst5_base_0376",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1427,
+      "tokens_used": 514
+    },
+    {
+      "row_id": "sst5_base_0669",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2777,
+      "tokens_used": 428
+    },
+    {
+      "row_id": "sst5_base_0450",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2069,
+      "tokens_used": 558
+    },
+    {
+      "row_id": "sst5_base_0858",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1926,
+      "tokens_used": 571
+    },
+    {
+      "row_id": "sst5_base_0900",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1654,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0281",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 4181,
+      "tokens_used": 584
+    },
+    {
+      "row_id": "sst5_base_0354",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2239,
+      "tokens_used": 647
+    },
+    {
+      "row_id": "sst5_base_0284",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1328,
+      "tokens_used": 494
+    },
+    {
+      "row_id": "sst5_base_0987",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1292,
+      "tokens_used": 507
+    },
+    {
+      "row_id": "sst5_base_0586",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2071,
+      "tokens_used": 636
+    },
+    {
+      "row_id": "sst5_base_0801",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 4532,
+      "tokens_used": 559
+    },
+    {
+      "row_id": "sst5_base_0999",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1192,
+      "tokens_used": 513
+    },
+    {
+      "row_id": "sst5_base_0465",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1434,
+      "tokens_used": 501
+    },
+    {
+      "row_id": "sst5_base_0349",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1454,
+      "tokens_used": 512
+    },
+    {
+      "row_id": "sst5_base_0169",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1633,
+      "tokens_used": 578
+    },
+    {
+      "row_id": "sst5_base_0488",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1738,
+      "tokens_used": 573
+    },
+    {
+      "row_id": "sst5_base_0392",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1708,
+      "tokens_used": 564
+    },
+    {
+      "row_id": "sst5_base_0022",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1272,
+      "tokens_used": 509
+    },
+    {
+      "row_id": "sst5_base_0602",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2135,
+      "tokens_used": 581
+    },
+    {
+      "row_id": "sst5_base_0335",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2036,
+      "tokens_used": 523
+    },
+    {
+      "row_id": "sst5_base_0538",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1403,
+      "tokens_used": 447
+    },
+    {
+      "row_id": "sst5_base_0676",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1104,
+      "tokens_used": 499
+    },
+    {
+      "row_id": "sst5_base_0821",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1491,
+      "tokens_used": 593
+    },
+    {
+      "row_id": "sst5_base_0700",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2521,
+      "tokens_used": 645
+    },
+    {
+      "row_id": "sst5_base_0698",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1470,
+      "tokens_used": 511
+    },
+    {
+      "row_id": "sst5_base_0516",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1517,
+      "tokens_used": 525
+    },
+    {
+      "row_id": "sst5_base_0576",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1933,
+      "tokens_used": 557
+    },
+    {
+      "row_id": "sst5_base_0186",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1635,
+      "tokens_used": 504
+    },
+    {
+      "row_id": "sst5_base_0990",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1278,
+      "tokens_used": 521
+    },
+    {
+      "row_id": "sst5_base_0859",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1440,
+      "tokens_used": 576
+    },
+    {
+      "row_id": "sst5_base_0789",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1679,
+      "tokens_used": 530
+    },
+    {
+      "row_id": "sst5_base_0197",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1338,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0487",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2210,
+      "tokens_used": 711
+    },
+    {
+      "row_id": "sst5_base_0644",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1340,
+      "tokens_used": 509
+    },
+    {
+      "row_id": "sst5_base_0618",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1046,
+      "tokens_used": 502
+    },
+    {
+      "row_id": "sst5_base_0394",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1499,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0844",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2905,
+      "tokens_used": 629
+    },
+    {
+      "row_id": "sst5_base_0863",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1294,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0925",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1812,
+      "tokens_used": 577
+    },
+    {
+      "row_id": "sst5_base_0724",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2721,
+      "tokens_used": 558
+    },
+    {
+      "row_id": "sst5_base_0549",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1290,
+      "tokens_used": 496
+    },
+    {
+      "row_id": "sst5_base_0958",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1306,
+      "tokens_used": 517
+    },
+    {
+      "row_id": "sst5_base_0250",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1031,
+      "tokens_used": 438
+    },
+    {
+      "row_id": "sst5_base_0418",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1546,
+      "tokens_used": 531
+    },
+    {
+      "row_id": "sst5_base_0836",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1613,
+      "tokens_used": 499
+    },
+    {
+      "row_id": "sst5_base_0323",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1223,
+      "tokens_used": 442
+    },
+    {
+      "row_id": "sst5_base_0553",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1125,
+      "tokens_used": 504
+    },
+    {
+      "row_id": "sst5_base_0935",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1080,
+      "tokens_used": 517
+    },
+    {
+      "row_id": "sst5_base_0768",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 4642,
+      "tokens_used": 633
+    },
+    {
+      "row_id": "sst5_base_0166",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1728,
+      "tokens_used": 504
+    },
+    {
+      "row_id": "sst5_base_0012",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1294,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0264",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1510,
+      "tokens_used": 588
+    },
+    {
+      "row_id": "sst5_base_0015",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1145,
+      "tokens_used": 512
+    },
+    {
+      "row_id": "sst5_base_0139",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1171,
+      "tokens_used": 511
+    },
+    {
+      "row_id": "sst5_base_0522",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1859,
+      "tokens_used": 650
+    },
+    {
+      "row_id": "sst5_base_0435",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2315,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0070",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1777,
+      "tokens_used": 564
+    },
+    {
+      "row_id": "sst5_base_0986",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1747,
+      "tokens_used": 559
+    },
+    {
+      "row_id": "sst5_base_0184",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2038,
+      "tokens_used": 643
+    },
+    {
+      "row_id": "sst5_base_0030",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2018,
+      "tokens_used": 628
+    },
+    {
+      "row_id": "sst5_base_0060",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1484,
+      "tokens_used": 510
+    },
+    {
+      "row_id": "sst5_base_0227",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1467,
+      "tokens_used": 524
+    },
+    {
+      "row_id": "sst5_base_0910",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1213,
+      "tokens_used": 507
+    },
+    {
+      "row_id": "sst5_base_0642",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1081,
+      "tokens_used": 507
+    },
+    {
+      "row_id": "sst5_base_0820",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1795,
+      "tokens_used": 568
+    },
+    {
+      "row_id": "sst5_base_0658",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 867,
+      "tokens_used": 438
+    },
+    {
+      "row_id": "sst5_base_0599",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1379,
+      "tokens_used": 527
+    },
+    {
+      "row_id": "sst5_base_0725",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 3096,
+      "tokens_used": 575
+    },
+    {
+      "row_id": "sst5_base_0075",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2295,
+      "tokens_used": 645
+    },
+    {
+      "row_id": "sst5_base_0426",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1219,
+      "tokens_used": 511
+    },
+    {
+      "row_id": "sst5_base_0880",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1549,
+      "tokens_used": 529
+    },
+    {
+      "row_id": "sst5_base_0794",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1964,
+      "tokens_used": 571
+    },
+    {
+      "row_id": "sst5_base_0763",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2264,
+      "tokens_used": 644
+    },
+    {
+      "row_id": "sst5_base_0694",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1184,
+      "tokens_used": 499
+    },
+    {
+      "row_id": "sst5_base_0116",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 3242,
+      "tokens_used": 651
+    },
+    {
+      "row_id": "sst5_base_0636",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1274,
+      "tokens_used": 507
+    },
+    {
+      "row_id": "sst5_base_0361",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1355,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0682",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1462,
+      "tokens_used": 497
+    },
+    {
+      "row_id": "sst5_base_0973",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1463,
+      "tokens_used": 586
+    },
+    {
+      "row_id": "sst5_base_0597",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1905,
+      "tokens_used": 565
+    },
+    {
+      "row_id": "sst5_base_0686",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1539,
+      "tokens_used": 523
+    },
+    {
+      "row_id": "sst5_base_0560",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1368,
+      "tokens_used": 502
+    },
+    {
+      "row_id": "sst5_base_0988",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1092,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0492",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2272,
+      "tokens_used": 595
+    },
+    {
+      "row_id": "sst5_base_0384",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2630,
+      "tokens_used": 598
+    },
+    {
+      "row_id": "sst5_base_0574",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2071,
+      "tokens_used": 498
+    },
+    {
+      "row_id": "sst5_base_0391",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1132,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0437",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1376,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0004",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1563,
+      "tokens_used": 510
+    },
+    {
+      "row_id": "sst5_base_0559",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1057,
+      "tokens_used": 495
+    },
+    {
+      "row_id": "sst5_base_0136",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1396,
+      "tokens_used": 499
+    },
+    {
+      "row_id": "sst5_base_0689",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1289,
+      "tokens_used": 515
+    },
+    {
+      "row_id": "sst5_base_0759",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1022,
+      "tokens_used": 491
+    },
+    {
+      "row_id": "sst5_base_0805",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1409,
+      "tokens_used": 509
+    },
+    {
+      "row_id": "sst5_base_0742",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1492,
+      "tokens_used": 519
+    },
+    {
+      "row_id": "sst5_base_0715",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1368,
+      "tokens_used": 515
+    },
+    {
+      "row_id": "sst5_base_0194",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1748,
+      "tokens_used": 572
+    },
+    {
+      "row_id": "sst5_base_0304",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2596,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0151",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1843,
+      "tokens_used": 579
+    },
+    {
+      "row_id": "sst5_base_0390",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1332,
+      "tokens_used": 500
+    },
+    {
+      "row_id": "sst5_base_0616",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1273,
+      "tokens_used": 513
+    },
+    {
+      "row_id": "sst5_base_0838",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1625,
+      "tokens_used": 595
+    },
+    {
+      "row_id": "sst5_base_0195",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1217,
+      "tokens_used": 512
+    },
+    {
+      "row_id": "sst5_base_0847",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1714,
+      "tokens_used": 514
+    },
+    {
+      "row_id": "sst5_base_0740",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1334,
+      "tokens_used": 523
+    },
+    {
+      "row_id": "sst5_base_0238",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1424,
+      "tokens_used": 583
+    },
+    {
+      "row_id": "sst5_base_0068",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1231,
+      "tokens_used": 504
+    },
+    {
+      "row_id": "sst5_base_0552",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2163,
+      "tokens_used": 574
+    },
+    {
+      "row_id": "sst5_base_0427",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1449,
+      "tokens_used": 512
+    },
+    {
+      "row_id": "sst5_base_0710",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1925,
+      "tokens_used": 527
+    },
+    {
+      "row_id": "sst5_base_0906",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1755,
+      "tokens_used": 496
+    },
+    {
+      "row_id": "sst5_base_0032",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2150,
+      "tokens_used": 496
+    },
+    {
+      "row_id": "sst5_base_0131",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1436,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0802",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1403,
+      "tokens_used": 493
+    },
+    {
+      "row_id": "sst5_base_0344",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2188,
+      "tokens_used": 630
+    },
+    {
+      "row_id": "sst5_base_0397",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1558,
+      "tokens_used": 503
+    },
+    {
+      "row_id": "sst5_base_0154",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1533,
+      "tokens_used": 524
+    },
+    {
+      "row_id": "sst5_base_0373",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1136,
+      "tokens_used": 520
+    },
+    {
+      "row_id": "sst5_base_0083",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2128,
+      "tokens_used": 555
+    },
+    {
+      "row_id": "sst5_base_0687",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1521,
+      "tokens_used": 579
+    },
+    {
+      "row_id": "sst5_base_0891",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1861,
+      "tokens_used": 585
+    },
+    {
+      "row_id": "sst5_base_0400",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1298,
+      "tokens_used": 507
+    },
+    {
+      "row_id": "sst5_base_0268",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1424,
+      "tokens_used": 505
+    },
+    {
+      "row_id": "sst5_base_0923",
+      "raw_response": "terrible",
+      "parsed_label": "terrible",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1144,
+      "tokens_used": 439
+    },
+    {
+      "row_id": "sst5_base_0057",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1412,
+      "tokens_used": 521
+    },
+    {
+      "row_id": "sst5_base_0243",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1537,
+      "tokens_used": 511
+    },
+    {
+      "row_id": "sst5_base_0441",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1156,
+      "tokens_used": 537
+    },
+    {
+      "row_id": "sst5_base_0181",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1208,
+      "tokens_used": 512
+    },
+    {
+      "row_id": "sst5_base_0065",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1501,
+      "tokens_used": 521
+    },
+    {
+      "row_id": "sst5_base_0804",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2367,
+      "tokens_used": 635
+    },
+    {
+      "row_id": "sst5_base_0288",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1347,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0099",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1719,
+      "tokens_used": 629
+    },
+    {
+      "row_id": "sst5_base_0774",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1439,
+      "tokens_used": 526
+    },
+    {
+      "row_id": "sst5_base_0231",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 952,
+      "tokens_used": 441
+    },
+    {
+      "row_id": "sst5_base_0462",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1209,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0134",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1066,
+      "tokens_used": 432
+    },
+    {
+      "row_id": "sst5_base_0831",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1324,
+      "tokens_used": 510
+    },
+    {
+      "row_id": "sst5_base_0375",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1297,
+      "tokens_used": 501
+    },
+    {
+      "row_id": "sst5_base_0848",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1354,
+      "tokens_used": 511
+    },
+    {
+      "row_id": "sst5_base_0153",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 3255,
+      "tokens_used": 527
+    },
+    {
+      "row_id": "sst5_base_0495",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1551,
+      "tokens_used": 579
+    },
+    {
+      "row_id": "sst5_base_0135",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1713,
+      "tokens_used": 559
+    },
+    {
+      "row_id": "sst5_base_0111",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1259,
+      "tokens_used": 508
+    },
+    {
+      "row_id": "sst5_base_0319",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1180,
+      "tokens_used": 504
+    },
+    {
+      "row_id": "sst5_base_0733",
+      "raw_response": "bad",
+      "parsed_label": "bad",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2134,
+      "tokens_used": 576
+    },
+    {
+      "row_id": "sst5_base_0572",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1242,
+      "tokens_used": 432
+    },
+    {
+      "row_id": "sst5_base_0087",
+      "raw_response": "good",
+      "parsed_label": "good",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1143,
+      "tokens_used": 510
+    },
+    {
+      "row_id": "sst5_base_0558",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1006,
+      "tokens_used": 446
+    },
+    {
+      "row_id": "sst5_base_0003",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1033,
+      "tokens_used": 497
+    },
+    {
+      "row_id": "sst5_base_0110",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 956,
+      "tokens_used": 445
+    },
+    {
+      "row_id": "sst5_base_0601",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 974,
+      "tokens_used": 432
+    },
+    {
+      "row_id": "sst5_base_0886",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1041,
+      "tokens_used": 501
+    },
+    {
+      "row_id": "sst5_base_0752",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1430,
+      "tokens_used": 492
+    },
+    {
+      "row_id": "sst5_base_0480",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1025,
+      "tokens_used": 434
+    },
+    {
+      "row_id": "sst5_base_0705",
+      "raw_response": "okay",
+      "parsed_label": "okay",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1689,
+      "tokens_used": 521
+    },
+    {
+      "row_id": "sst5_base_0272",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1802,
+      "tokens_used": 592
+    },
+    {
+      "row_id": "sst5_base_0798",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1898,
+      "tokens_used": 584
+    },
+    {
+      "row_id": "sst5_base_0816",
+      "raw_response": "great",
+      "parsed_label": "great",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1358,
+      "tokens_used": 515
+    }
+  ],
+  "summary": {
+    "n_rows": 160,
+    "n_parsed": 160,
+    "n_parse_failures": 0,
+    "total_tokens": 84891,
+    "total_latency_ms": 261422,
+    "wall_clock_ms": 33584
+  },
+  "batch_invariance": null
+}

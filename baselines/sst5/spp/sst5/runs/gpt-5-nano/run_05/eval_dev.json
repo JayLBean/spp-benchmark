@@ -1,0 +1,573 @@
+{
+  "schema_version": "1",
+  "metric": "accuracy",
+  "metric_kwargs": {},
+  "primary_value": 0.5875,
+  "n_rows_evaluated": 80,
+  "n_parse_failures_in_input": 0,
+  "confusion_matrix": [
+    [
+      8,
+      1,
+      0,
+      5,
+      7
+    ],
+    [
+      1,
+      12,
+      5,
+      4,
+      0
+    ],
+    [
+      0,
+      1,
+      10,
+      1,
+      0
+    ],
+    [
+      2,
+      3,
+      0,
+      7,
+      3
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      10
+    ]
+  ],
+  "labels": [
+    "bad",
+    "good",
+    "great",
+    "okay",
+    "terrible"
+  ],
+  "per_class": {
+    "bad": {
+      "precision": 0.7272727272727273,
+      "recall": 0.38095238095238093,
+      "f1": 0.5,
+      "support": 21
+    },
+    "good": {
+      "precision": 0.7058823529411765,
+      "recall": 0.5454545454545454,
+      "f1": 0.6153846153846154,
+      "support": 22
+    },
+    "great": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8333333333333334,
+      "f1": 0.7407407407407407,
+      "support": 12
+    },
+    "okay": {
+      "precision": 0.4117647058823529,
+      "recall": 0.4666666666666667,
+      "f1": 0.4375,
+      "support": 15
+    },
+    "terrible": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 10
+    }
+  },
+  "per_field": null,
+  "aggregate": null,
+  "floor_compliance": null,
+  "per_row": [
+    {
+      "row_id": "sst5_base_0973",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0597",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0686",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0560",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0988",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0492",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0384",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0574",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0391",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0437",
+      "y_true": "terrible",
+      "y_pred": "terrible",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0004",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0559",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0136",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0689",
+      "y_true": "bad",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0759",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0805",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0742",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0715",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0194",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0304",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0151",
+      "y_true": "bad",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0390",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0616",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0838",
+      "y_true": "bad",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0195",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0847",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0740",
+      "y_true": "bad",
+      "y_pred": "bad",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0238",
+      "y_true": "bad",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0068",
+      "y_true": "bad",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0552",
+      "y_true": "bad",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0427",
+      "y_true": "bad",
+      "y_pred": "good",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0710",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0906",
+      "y_true": "okay",
+      "y_pred": "good",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0032",
+      "y_true": "okay",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0131",
+      "y_true": "okay",
+      "y_pred": "bad",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0802",
+      "y_true": "okay",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0344",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0397",
+      "y_true": "okay",
+      "y_pred": "good",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0154",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0373",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0083",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0687",
+      "y_true": "okay",
+      "y_pred": "good",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0891",
+      "y_true": "okay",
+      "y_pred": "bad",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0400",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0268",
+      "y_true": "okay",
+      "y_pred": "okay",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0923",
+      "y_true": "okay",
+      "y_pred": "terrible",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0057",
+      "y_true": "good",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0243",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0441",
+      "y_true": "good",
+      "y_pred": "great",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0181",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0065",
+      "y_true": "good",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0804",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0288",
+      "y_true": "good",
+      "y_pred": "bad",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0099",
+      "y_true": "good",
+      "y_pred": "great",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0774",
+      "y_true": "good",
+      "y_pred": "great",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0231",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0462",
+      "y_true": "good",
+      "y_pred": "great",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0134",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0831",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0375",
+      "y_true": "good",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0848",
+      "y_true": "good",
+      "y_pred": "great",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0153",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0495",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0135",
+      "y_true": "good",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0111",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0319",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0733",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0572",
+      "y_true": "good",
+      "y_pred": "good",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0087",
+      "y_true": "great",
+      "y_pred": "good",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0558",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0003",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0110",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0601",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0886",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0752",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0480",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0705",
+      "y_true": "great",
+      "y_pred": "okay",
+      "correct": false
+    },
+    {
+      "row_id": "sst5_base_0272",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0798",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    },
+    {
+      "row_id": "sst5_base_0816",
+      "y_true": "great",
+      "y_pred": "great",
+      "correct": true
+    }
+  ],
+  "per_language": {},
+  "aggregate_ci": null,
+  "dev_test_gap_ci": null,
+  "auxiliary_metrics": {}
+}
