@@ -1,0 +1,96 @@
+---
+title: "Reproduce"
+subtitle: "Setup and the exact commands to re-run every arm."
+---
+
+Everything below runs from the repository root. The full source is at
+[github.com/JayLBean/spp-benchmark](https://github.com/JayLBean/spp-benchmark).
+
+## Prerequisites
+
+- **Python 3.11+**
+- An **OpenAI-compatible endpoint** for the task model. The published three-way numbers use
+  OpenAI's `gpt-5-nano`; the same harness also drives a local server (e.g. `gpt-oss-20b`
+  via oMLX) — only the endpoint and model name change.
+
+## 1. Install
+
+```sh
+python3 -m venv .venv && ./.venv/bin/pip install -r requirements.txt
+```
+
+## 2. Configure the task model
+
+The shared client (`scripts/llm_client.py`) reads its endpoint, key, and model from
+environment variables, so every arm hits one configurable task-model surface.
+
+```sh
+# Published runs — OpenAI gpt-5-nano:
+export OMLX_BASE_URL=https://api.openai.com/v1
+export OMLX_API_KEY=$OPENAI_API_KEY
+export OMLX_MODEL=gpt-5-nano
+export OMLX_REASONING=low
+
+# Local alternative — gpt-oss-20b served by oMLX:
+# export OMLX_BASE_URL=http://127.0.0.1:8000/v1
+# export OMLX_API_KEY=<your-key>
+# export OMLX_MODEL=gpt-oss-20b-MXFP4-Q8
+```
+
+The DSPy arm uses a **dedicated** key (`OPENAI_API_KEY_DSPY`) read from a gitignored `.env`,
+so its spend stays isolated on the usage dashboard.
+
+## 3. Build the fixtures
+
+Deterministic (`seed=5`); already committed, so re-run only to regenerate.
+
+```sh
+git clone --depth 1 https://github.com/beeevita/EvoPrompt.git evoprompt/upstream
+HF_DATASETS_CACHE=$PWD/data/hf_cache ./.venv/bin/python scripts/build_fixtures.py
+```
+
+This writes `fixtures/<task>/` (dev/test splits + EvoPrompt-format text) and
+`baselines/<task>/` (`baseline.csv` unsplit, `test_holdout.csv` sacred test, `SEED.md`).
+
+## 4. Run the three arms
+
+### EvoPrompt (automated, 0-shot)
+
+Evolves a prompt against the dev set, then scores the best on the sacred test.
+
+```sh
+./.venv/bin/python scripts/run_evoprompt.py --tasks ag_news sst5 trec --preset default
+```
+
+### DSPy (automated, few-shot)
+
+MIPROv2, bootstrapping up to four demonstrations.
+
+```sh
+bash dspy_arm/run_dspy.sh ag_news sst5 trec --auto medium --demos 4
+```
+
+### spp (human-in-the-loop)
+
+In the spp plugin, run `/spp-init` seeded by `baselines/<task>/SEED.md`, feed
+`baseline.csv` (unsplit), and register `test_holdout.csv` as the sacred test. Run the loop.
+Then score spp's final prompt on the identical test set:
+
+```sh
+./.venv/bin/python scripts/score_prompt.py --task trec --prompt-file <spp_prompt.txt> --label spp
+```
+
+`score_prompt.py` writes `results/spp/<task>/result.json`, the same shape the other arms
+produce.
+
+## 5. Compare and cost
+
+```sh
+# Accuracy table across all arms (reads results/<arm>/<task>/result.json):
+./.venv/bin/python scripts/compare.py
+
+# Per-arm cost/token ledger:
+EVOPROMPT_ARM=<arm> ./.venv/bin/python scripts/cost_report.py
+```
+
+See [Results](results.qmd) for the published tables these commands regenerate.

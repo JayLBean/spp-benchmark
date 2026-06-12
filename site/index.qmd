@@ -1,0 +1,66 @@
+---
+title: "spp-bm — Supervised Prompt Producer benchmark"
+subtitle: "Does a human-in-the-loop prompt method beat fully-automated optimizers, on the same model, for the same money?"
+---
+
+**spp-bm** is a small, deliberately fair benchmark. It puts three prompt-optimization
+methods head-to-head on three text-classification tasks, scores every one of them on the
+**same task model** and the **same sacred test rows**, and reports the result in the only
+unit that compares fairly across them: **dollars**.
+
+The three methods are:
+
+- **spp** — *Supervised Prompt Producer*, a human-in-the-loop loop in which a person and
+  Claude subagents iterate one categorical rule at a time.
+- **EvoPrompt** — automated genetic-algorithm prompt search (Guo et al., ICLR 2024).
+- **DSPy** — MIPROv2, which bootstraps few-shot demonstrations automatically.
+
+## The fairness invariant
+
+Everything that could give one method an unearned edge is held constant. The only thing
+that varies is **who writes the prompt**.
+
+- **One task model.** Every arm is scored through the *same* model and the *same*
+  label-matching wrapper.
+- **One sacred test set.** The same held-out rows score every arm; no arm ever trains or
+  searches on them.
+- **One starting point.** All three arms begin from the *identical* seed prompt. No arm
+  gets a head start on the instruction.
+
+[Read the full methodology →](methodology.qmd)
+
+## Headline result
+
+Test accuracy on the sacred holdout, gpt-5-nano task model. **Bold = best on that task.**
+
+| Task | Seed | EvoPrompt | spp | DSPy |
+|---|---:|---:|---:|---:|
+| AG News | 0.870 | 0.869 | 0.876 | **0.881** |
+| SST-5 | 0.557 | 0.561 | 0.579 | **0.580** |
+| TREC | 0.828 | 0.804 | **0.924** | 0.874 |
+| **Mean** | 0.752 | 0.745 | **0.793** | 0.778 |
+
+And the deciding axis — total task-model spend (search + scoring), per task:
+
+| Task | EvoPrompt | spp | DSPy |
+|---|---:|---:|---:|
+| AG News | $0.18 | **$0.04** | $0.15 |
+| SST-5 | $0.21 | **$0.10** | $0.19 |
+| TREC | $0.24 | **$0.11** | $0.18 |
+| **Total** | $0.63 | **$0.25** | $0.52 |
+
+In one sentence: **spp posts the highest mean accuracy and is the cheapest arm on every
+task** — with one honest caveat, that its human/Claude effort is not billed in those
+dollars. The full reading, task by task and with the complete fairness ledger, is on the
+[Results](results.qmd) page.
+
+## Where to go next
+
+- **[Methodology](methodology.qmd)** — the tasks, the fairness invariant in full, and how
+  each of the three arms is run.
+- **[Results](results.qmd)** — accuracy, cost, tokens, the fairness ledger (what cuts
+  *against* spp), and the design signal for spp v2.
+- **[Reproduce](reproduce.qmd)** — setup and the exact commands to re-run every arm.
+
+This site is the home for the benchmark as it grows — new tasks, new task models, and new
+optimizer arms get added here.
