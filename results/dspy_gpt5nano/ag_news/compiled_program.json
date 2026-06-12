@@ -1,0 +1,46 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "China Typhoon Death Toll Rises to 164 (Reuters) Reuters - The worst typhoon to hit China in seven\\years killed at least 164 people and another 24 were listed as\\missing, Xinhua news agency said on Tuesday.",
+      "label": "World"
+    },
+    {
+      "augmented": true,
+      "text": "Judge Approves a WorldCom Settlement A federal judge in New York has approved a \\$2.6 billion settlement of a class-action lawsuit on behalf of more than 170,000 WorldCom investors who claimed they were defrauded by Citigroup.",
+      "label": "Business"
+    },
+    {
+      "augmented": true,
+      "text": "Afghan Poll Is Mostly Calm, but Challengers Cry Foul Afghans turned out to vote in large numbers on Saturday, but Hamid Karzai and his rivals disputed the integrity of the vote.",
+      "label": "World"
+    },
+    {
+      "text": "Dow to Sell Stake in Venture to DuPont (Reuters) Reuters - Dow Chemical Co.  on Monday\\said DuPont Co.  will buy its remaining equity stake in\\DuPont Dow Elastomers LLC, a 50/50 joint venture between the\\two companies, for  #36;87 million.",
+      "label": "Business"
+    }
+  ],
+  "signature": {
+    "instructions": "Classify the provided news Text into one of the four categories: World, Sports, Business, or Tech. Use the article’s content to determine the correct category, relying on explicit topics such as geopolitical events for World, athletic events for Sports, markets/companies/finances for Business, and technology/science/IT topics for Tech. If the category is unclear, choose the closest match based on the strongest cues in the text. Output only the exact label: World, Sports, Business, or Tech (no extra words or punctuation).",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Label:",
+        "description": "${label}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

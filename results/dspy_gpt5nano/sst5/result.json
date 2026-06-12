@@ -1,0 +1,33 @@
+{
+  "task": "sst5",
+  "arm": "dspy_gpt5nano",
+  "optimizer": "MIPROv2(auto=medium, demos=4, few-shot)",
+  "model": "gpt-5-nano",
+  "seed_instruction": "Examine the comment provided and classify it into one of five categories: terrible, bad, okay, good, or great.",
+  "n_classes": 5,
+  "classes": [
+    "terrible",
+    "bad",
+    "okay",
+    "good",
+    "great"
+  ],
+  "test_n": 1000,
+  "best_test_acc": 0.58,
+  "elapsed_sec": 781.6,
+  "usage": {
+    "calls": 2084,
+    "input_tokens": 1283741,
+    "output_tokens": 318806,
+    "total_tokens": 1602547
+  },
+  "usage_breakdown": {
+    "compile": {
+      "calls": 1084,
+      "input_tokens": 596708,
+      "output_tokens": 177117,
+      "total_tokens": 773825
+    },
+    "test_calls": 1000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "but they lack their idol 's energy and passion for detail .",
+      "label": "bad"
+    },
+    {
+      "augmented": true,
+      "text": "the slam-bang superheroics are kinetic enough to engross even the most antsy youngsters .",
+      "label": "great"
+    },
+    {
+      "augmented": true,
+      "text": "such master screenwriting comes courtesy of john pogue , the yale grad who previously gave us `` the skulls '' and last year 's `` rollerball . ''",
+      "label": "great"
+    },
+    {
+      "augmented": true,
+      "text": "the rock has a great presence but one battle after another is not the same as one battle followed by killer cgi effects .",
+      "label": "okay"
+    }
+  ],
+  "signature": {
+    "instructions": "You are a text classifier for film criticism. For each given review, assign one of five labels that best represents the overall judgment: terrible, bad, okay, good, or great.\n\nGuidelines:\n- Base your label on the review’s sentiment and the quality of its reasoning about filmmaking. Look for explicit or implicit judgments about craft elements (performance, direction, pacing, originality) and how strongly the review argues its point.\n- Use the following mapping as a reference:\n  - terrible: extremely negative, with strong emphasis on flaws and failures.\n  - bad: clearly negative, with notable criticisms but not as extreme as terrible.\n  - okay: mixed or mild opinion with caveats; not strongly positive or negative.\n  - good: clearly positive, focusing on solid craft and enjoyable aspects.\n  - great: highly positive, often praising multiple craft elements with persuasive justification.\n- Do not output anything other than the single label. Do not provide explanations, justifications, or extra text.\n- If the review is ambiguous or balanced, select okay or good based on which side of the balance the text leans toward, with emphasis on the strongest sentiment expressed.\n- Treat quotes, ellipses, asides, and stylistic flourishes as part of the writing style, not separate content to be judged; weigh the substantive evaluation of craft and storytelling.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Label:",
+        "description": "${label}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

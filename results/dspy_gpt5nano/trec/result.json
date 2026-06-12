@@ -1,0 +1,34 @@
+{
+  "task": "trec",
+  "arm": "dspy_gpt5nano",
+  "optimizer": "MIPROv2(auto=medium, demos=4, few-shot)",
+  "model": "gpt-5-nano",
+  "seed_instruction": "Determine the type of the given question and choose from Description, Entity, Expression, Human, Location and Number.",
+  "n_classes": 6,
+  "classes": [
+    "Description",
+    "Entity",
+    "Expression",
+    "Human",
+    "Location",
+    "Number"
+  ],
+  "test_n": 500,
+  "best_test_acc": 0.874,
+  "elapsed_sec": 774.2,
+  "usage": {
+    "calls": 1577,
+    "input_tokens": 748696,
+    "output_tokens": 345665,
+    "total_tokens": 1094361
+  },
+  "usage_breakdown": {
+    "compile": {
+      "calls": 1075,
+      "input_tokens": 511592,
+      "output_tokens": 253709,
+      "total_tokens": 765301
+    },
+    "test_calls": 502
+  }
+}

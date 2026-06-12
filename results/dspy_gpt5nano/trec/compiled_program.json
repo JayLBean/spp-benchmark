@@ -1,0 +1,46 @@
+{
+  "traces": [],
+  "train": [],
+  "demos": [
+    {
+      "augmented": true,
+      "text": "What Asian leader was known as The Little Brown Saint ?",
+      "label": "Human"
+    },
+    {
+      "augmented": true,
+      "text": "Where was `` I have fallen , and I can 't get up '' said first ?",
+      "label": "Location"
+    },
+    {
+      "augmented": true,
+      "text": "What nuclear-powered Russian submarine sank in the Norwegian Sea on April 7 , 1989 ?",
+      "label": "Entity"
+    },
+    {
+      "text": "What 's men 's par on a 455-yard golf hole ?",
+      "label": "Number"
+    }
+  ],
+  "signature": {
+    "instructions": "Given a Text prompt, determine the category of the expected answer and output exactly one of the following labels: Description, Entity, Expression, Human, Location, Number. Do not provide the actual answer or any explanation—only the label. The labels correspond to the type of answer the prompt is likely to elicit (e.g., a person -> Human, a year/quantity -> Number, etc.). Ensure concise, deterministic labeling even in the presence of punctuation/formatting noise.",
+    "fields": [
+      {
+        "prefix": "Text:",
+        "description": "${text}"
+      },
+      {
+        "prefix": "Label:",
+        "description": "${label}"
+      }
+    ]
+  },
+  "lm": null,
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.14",
+      "dspy": "3.2.1",
+      "cloudpickle": "3.1"
+    }
+  }
+}

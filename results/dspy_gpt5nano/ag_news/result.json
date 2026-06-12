@@ -1,0 +1,32 @@
+{
+  "task": "ag_news",
+  "arm": "dspy_gpt5nano",
+  "optimizer": "MIPROv2(auto=medium, demos=4, few-shot)",
+  "model": "gpt-5-nano",
+  "seed_instruction": "Based on the main theme of given the news article, categorize it into World, Sports, Business, or Tech.",
+  "n_classes": 4,
+  "classes": [
+    "World",
+    "Sports",
+    "Business",
+    "Tech"
+  ],
+  "test_n": 1000,
+  "best_test_acc": 0.881,
+  "elapsed_sec": 668.9,
+  "usage": {
+    "calls": 2071,
+    "input_tokens": 1327021,
+    "output_tokens": 205039,
+    "total_tokens": 1532060
+  },
+  "usage_breakdown": {
+    "compile": {
+      "calls": 1071,
+      "input_tokens": 673866,
+      "output_tokens": 110737,
+      "total_tokens": 784603
+    },
+    "test_calls": 1000
+  }
+}
