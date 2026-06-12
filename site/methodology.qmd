@@ -61,7 +61,8 @@ A person runs the spp loop (the `/spp-init` → iterate workflow), seeded by
 registered as the sacred test. Each iteration writes or sharpens **one categorical rule**;
 Claude subagents do the per-stage reasoning under information isolation, and a human steers.
 The final prompt is then scored once on the sacred test, through the same wrapper as every
-other arm.
+other arm. The full iteration-by-iteration trace for each task — what each loop stage saw and
+decided — is on the [Loop logs](loop-logs/index.qmd) pages.
 
 ### 2. EvoPrompt — genetic search (automated)
 

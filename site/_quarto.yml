@@ -20,6 +20,16 @@ website:
         text: Methodology
       - href: results.qmd
         text: Results
+      - text: "Loop logs"
+        menu:
+          - href: loop-logs/index.qmd
+            text: Overview
+          - href: loop-logs/ag_news.qmd
+            text: AG News
+          - href: loop-logs/sst5.qmd
+            text: SST-5
+          - href: loop-logs/trec.qmd
+            text: TREC
       - href: reproduce.qmd
         text: Reproduce
     right:

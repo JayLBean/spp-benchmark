@@ -60,6 +60,8 @@ dollars. The full reading, task by task and with the complete fairness ledger, i
   each of the three arms is run.
 - **[Results](results.qmd)** — accuracy, cost, tokens, the fairness ledger (what cuts
   *against* spp), and the design signal for spp v2.
+- **[Loop logs](loop-logs/index.qmd)** — how spp's prompt was earned, iteration by iteration:
+  the per-stage interaction inside the loop, recorded per task.
 - **[Reproduce](reproduce.qmd)** — setup and the exact commands to re-run every arm.
 
 This site is the home for the benchmark as it grows — new tasks, new task models, and new

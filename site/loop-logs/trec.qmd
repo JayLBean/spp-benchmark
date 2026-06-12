@@ -1,0 +1,84 @@
+---
+title: "Loop log — TREC"
+subtitle: "Question answer-type classification (6-class). 4 iterations, 14 rules, the decisive win."
+---
+
+*Task model: gpt-5-nano (reasoning_effort low), locked. Internal splits: dev 200 (EvoPrompt's
+exact dev rows) + train 100. Sacred test: 500 rows, read once at finalize. Full report:
+`baselines/trec/spp/trec/runs/gpt-5-nano/REPORT.md`.*
+
+## The shape of this run
+
+TREC classifies a question by **the type of answer it expects** — Description, Entity, Expression,
+Human, Location, Number — *not* by its topic. This is the task with the clearest result in the
+whole benchmark: spp climbed from a 0.765 seed to 0.895 dev over four iterations, and then
+**generalized upward** to 0.924 on the sacred test — while EvoPrompt's genetic search overfit its
+dev set and fell *below* the seed it started from (dev 0.825 → test 0.804 < 0.828).
+
+## Dev trajectory
+
+| Iter | Prompt | Edit(s) added | Dev | Train | Decision |
+|---|---|---|---:|---:|---|
+| — | v01 (bare seed) | exact seed, no structure | 0.765 | 0.780 | baseline |
+| 1 | v02 | 6 answer-type rules: Entity-vs-Description, Location places, Human collectives, **tight Expression** (abbreviation-only), Number quantities, answer-type-over-topic | 0.820 | 0.880 | accepted |
+| 2 | v03 | strengthen Location cues, broaden Human, sharper Entity-vs-Description by answer-shape, tie-break ordering | 0.850 | 0.900 | accepted |
+| 3 | v04 | ordered **decision procedure** (Expression → Location → Human → Number → Entity/Description, first-match-wins) + 2 precedence clarifications | 0.875 | 0.900 | accepted |
+| 4 | **v05** | noun-first Entity/Description fallback + composition/consumption cue | **0.895** | 0.930 | **best — selected** |
+
+Dev rose **monotonically every iteration** — the signature of edits that generalize rather than
+fit. Total: **14 rule edits, every one verdicted `categorical`**, 0 overrides, train−dev ≤ 0.06
+throughout.
+
+## What happened, iteration by iteration
+
+**Baseline (v01).** The exact EvoPrompt seed, scored verbatim — no added directive. Dev 0.765 on
+the identical 200 dev rows EvoPrompt used. The seed's biggest gaps: the rare **Expression** class
+(abbreviation questions) scored 0/3, and Location/Human were bleeding into Entity.
+
+**Iteration 1 — six structural rules at once.** The discrepancy stage found the model classifying
+by *topic* instead of *answer type*. The edit added six categorical answer-type rules, the most
+important being a **tight Expression rule** (abbreviation-only) and an explicit "answer-type over
+topic" principle. Dev → 0.820.
+
+**Iteration 2 — sharpen the boundaries.** Strengthen Location (Where / city / nationality cues),
+broaden Human (name-parts, professions, named groups), and sharpen Entity-vs-Description by the
+*shape* of the expected answer. Dev → 0.850.
+
+**Iteration 3 — impose an order.** The single highest-leverage structural change: an **ordered,
+first-match-wins decision procedure** (Expression → Location → Human → Number → Entity/Description)
+so overlapping cues resolve deterministically instead of competing. Dev → 0.875.
+
+**Iteration 4 — the last general rule. (Selected.)** A noun-first Entity/Description fallback plus
+a composition/consumption cue. Dev → **0.895**, the peak.
+
+## Why it stopped
+
+After v05 the 21 remaining disagreed dev rows were a **balanced Entity↔Description seesaw** (5 one
+way, 4 the other — pushing either direction trades the other) plus genuinely-ambiguous gold
+("oldest profession" → Human, "best way to remove wallpaper" → Entity). No further *categorical*
+edit was available; the only remaining "improvements" would be row-specific patches, which the
+score-blind auditor exists to reject. The loop early-stopped at categorical-edit convergence and
+selected v05.
+
+## Transparency note — the harness recalibration
+
+Iteration 1's first pass used the plugin's default chat harness (instruction as a *system* message)
+and scored dev 0.72. That is **not** the harness the bar was produced on: EvoPrompt wraps every row
+as a single user message `{instruction}\n\nSentence: {text}\nLabel:`. To keep the comparison
+apples-to-apples, the loop scorer was switched to that exact wrapper and v01 reset to the exact bare
+seed (which then scored dev 0.765). The pre-alignment calls (~50k tokens, ~2.6% of the arm's total)
+are counted honestly in the `calibration` ledger row — not hidden.
+
+## Result and generalization
+
+- **Test accuracy 0.924** on 500 sacred rows (0 parse failures) — **+12.0 over EvoPrompt** (0.804),
+  +9.6 over the seed (0.828), and +5.0 over DSPy's few-shot 0.874.
+- **Dev 0.895 → test 0.924, a +0.029 *rise*.** spp generalized *better* on test than dev. The rare
+  **Expression** class went 0/3 at the seed to **9/9 on test** via one tight categorical
+  abbreviation rule — a definitional rule, not example-fitting.
+- The headline contrast the benchmark was designed to surface: **spp's rule discipline generalized
+  (dev→test up); EvoPrompt's GA overfit (dev→test down, below its own seed).**
+
+**Integrity:** all 14 edits verdicted `categorical`, 0 overrides, overfit guard never tripped
+(train and dev moved together), sacred test untouched until finalize. See [Results](../results.qmd)
+for the full three-way comparison.

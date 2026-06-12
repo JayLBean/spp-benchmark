@@ -1,0 +1,80 @@
+---
+title: "spp loop logs"
+subtitle: "How spp's prompt was earned, one categorical rule at a time — the per-iteration interaction, recorded."
+---
+
+The [Results](../results.qmd) page reports *what* spp scored. These pages record *how* it got
+there: the iteration-by-iteration interaction inside the spp loop, reconstructed from the
+artifacts each run left behind (`discrepancy_analysis.md`, `prompt_vNN.md`,
+`auditor_review.md`, `eval_*.json`, and `EARLY_STOP.md`).
+
+There is one page per task:
+
+- **[AG News](ag_news.qmd)** — near-saturated; converged in 4 iterations on a single rule.
+- **[SST-5](sst5.qmd)** — degree-calibration on a 5-point ordinal scale; 5 iterations, 8 edits.
+- **[TREC](trec.qmd)** — the decisive win; 4 iterations, 14 edits, dev rose monotonically.
+
+## What one iteration actually is
+
+spp does not "ask a model to improve a prompt." Each iteration is a short relay of **isolated
+subagents**, each with a strict allow-list of inputs. The orchestrator coordinates; it does no
+cognitive work. One pass looks like this:
+
+1. **Run.** Score the current prompt on the internal train + dev splits (never the test set).
+2. **Discrepancy.** A subagent sees the disagreed rows and the eval, diagnoses the error
+   *structure*, and proposes a categorical edit. Its written artifact references rows **by ID
+   only**.
+3. **Rule edit.** A second subagent rewrites the prompt from the diagnosis. It sees the prompt,
+   the discrepancy (IDs only), and the class definitions — **never row content, never scores**.
+4. **Audit.** A **score-blind** auditor sees the prompt diff, the discrepancy, and the class
+   definitions — **never any scores** — and verdicts each edit *categorical*, *row-specific*, or
+   *unclear*. Only categorical edits pass.
+5. **Select.** The dev signal chooses among auditor-approved edits. If dev regresses, the edit is
+   rejected or reverted.
+
+This continues until the dev signal peaks and remaining errors are noise or contradictory gold
+(an **early stop**), after which `/spp-finalize` scores the frozen prompt on the sacred test
+**exactly once**.
+
+::: {.callout-note}
+**Why the isolation matters.** The auditor never sees scores, so it cannot rationalize a
+row-fitting patch as "it helped." The rule-edit stage never sees row content, so it cannot encode
+specific examples. The dev signal only *selects* among edits the auditor already judged general.
+This is what keeps spp writing rules that **transfer** instead of memorizing the dev split — the
+difference that shows up as spp's dev→test *rise* on TREC where EvoPrompt's GA *fell*.
+:::
+
+## The three loops at a glance
+
+Dev accuracy on the 80-row (AG News, SST-5) / 200-row (TREC) internal dev split, then the single
+sacred-test read. **Every edit across all three tasks was verdicted `categorical`; zero overrides;
+the overfit guard never tripped.**
+
+| Task | Iterations | Rule edits | Seed dev → best dev | Dev → Test | Test acc | Outcome |
+|---|---:|---:|---|---|---:|---|
+| [AG News](ag_news.qmd) | 4 | 4 | 0.8875 → **0.9125** | 0.9125 → 0.876 | 0.876 | matched ceiling, ¼ the cost |
+| [SST-5](sst5.qmd) | 5 | 8 | 0.4625 → **0.6000** | 0.6000 → 0.579 | 0.579 | +1.8 over EvoPrompt |
+| [TREC](trec.qmd) | 4 | 14 | 0.765 → **0.895** | 0.895 → 0.924 | 0.924 | +12.0 over EvoPrompt; dev→test *rose* |
+
+## A worked example of the interaction (AG News, iteration 3)
+
+To make the relay concrete, here is one real hand-off. The **discrepancy** stage diagnosed the
+one signal left after the science rule landed:
+
+> **Tech→Business cluster — the one genuine categorical signal left (dev 4, train 2).** gold=Tech,
+> pred=Business: "AOL Aims to Lead Internet Travel Purchases", "IBM To Spin Off PC Unit" … All are
+> computing/internet companies whose news peg is a corporate event; AG News labels them Tech. …
+> **Edit 4:** add a *Tech-pulling-only* line … **No** "financial → Business" clause (that was the
+> source of the v02 collateral).
+
+The **score-blind auditor** then ruled on it without ever seeing whether dev went up or down:
+
+> **Is the reversion legitimate, or is it score-chasing a row set?** … Removing a rule that
+> over-generalizes is itself a categorical action — it does not encode any specific row … v03
+> contains zero row references and zero few-shot examples. **Gate decision: Edit categorical,
+> reversion legitimate. 0 row-specific, 0 unclear.**
+
+Only after that verdict did the dev signal get to vote on whether to keep the edit. That ordering —
+diagnose, then audit *blind*, then select — is the whole method in miniature.
+
+[Read the AG News log →](ag_news.qmd) · [SST-5 →](sst5.qmd) · [TREC →](trec.qmd)

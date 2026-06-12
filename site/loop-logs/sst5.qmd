@@ -1,0 +1,70 @@
+---
+title: "Loop log — SST-5"
+subtitle: "Fine-grained sentiment on a 5-point ordinal scale. 5 iterations, 8 degree-calibration rules."
+---
+
+*Task model: gpt-5-nano (reasoning_effort low), locked. Internal splits: train 80 / dev 80,
+stratified to baseline prevalence. Sacred test: 1,000 rows, read once at finalize. Full report:
+`baselines/sst5/spp/sst5/runs/gpt-5-nano/REPORT.md`.*
+
+## The shape of this run
+
+SST-5 grades a movie-review sentence on an ordinal scale: **terrible < bad < okay < good <
+great**. The hard part is not topic but *degree* — where one rung ends and the next begins. The
+loop's edits were all degree-calibration rules on those boundaries, and it climbed from a weak
+0.4625 seed to 0.6000 dev over five iterations before one over-correction told it to stop.
+
+## Dev trajectory
+
+| Iter | Prompt | Edit(s) added | Dev | Train | Decision |
+|---|---|---|---:|---:|---|
+| 1 | v01 | bare seed + output directive | 0.4625 | 0.4875 | baseline |
+| 2 | v02 | degree rules: good/great over-rating, bad/terrible under-rating, okay-middle collapse (Edits 1–3) | 0.5125 | 0.5500 | accepted |
+| 3 | v03 | anti-understatement `terrible`, net-lean tie-break for mixed reviews (Edits 4–5) | 0.5750 | 0.5750 | accepted |
+| 4 | **v04** | great-threshold loosen, okay-floor vs faint dismissal (Edits 6–7) | **0.6000** | 0.5500 | **best — selected** |
+| 5 | v05 | `terrible` ordinal tie-break (Edit 8) | 0.5875 | 0.4750 | over-corrected `bad`→`terrible` → rejected |
+
+## What happened, iteration by iteration
+
+**Iteration 1 — baseline.** The bare EvoPrompt seed ("classify into terrible, bad, okay, good, or
+great") plus an output directive. Dev 0.4625 — the model's uncalibrated priors over-rate the
+positive pole and under-use the extremes.
+
+**Iteration 2 — calibrate the obvious degree errors.** Three categorical rules at once: rein in
+good/great over-rating, fix bad/terrible under-rating, and stop the `okay` middle from collapsing
+into the poles. Dev → 0.5125.
+
+**Iteration 3 — the extremes and mixed reviews.** Two more rules: an anti-understatement rule for
+`terrible`, and a net-lean tie-break so genuinely mixed reviews resolve to their dominant
+sentiment rather than defaulting to `okay`. Dev → 0.5750.
+
+**Iteration 4 — the positive pole and the `okay` floor. (Selected.)** Loosen the `great` threshold
+so a single strong positive can reach `great`, and set an `okay` floor distinguishing lukewarm
+praise from faint dismissal. Dev → **0.6000**, the peak.
+
+**Iteration 5 — one rule too far.** An ordinal tie-break meant to recover more `terrible` instead
+**over-corrected**, pulling `bad` down into `terrible` (train collapsed to 0.4750). Dev fell to
+0.5875. The dev signal rejected it.
+
+## Why it stopped
+
+Dev peaked at v04 and the next edit regressed by over-correcting. The remaining errors are
+**structural** — gpt-5-nano systematically under-uses the `terrible` extreme, and the `okay`
+middle splits to the poles — not fixable by another categorical rule at this budget without
+trading one class for another. The loop early-stopped and selected v04.
+
+## Result and generalization
+
+- **Test accuracy 0.579** on 1,000 sacred rows (0 parse failures) — **+1.8 over EvoPrompt**
+  (0.561) and +2.2 over the seed (0.557).
+- **Dev 0.600 → test 0.579**, a −0.021 gap well inside the 80-row dev noise (SE ≈ 0.055).
+- Per-class recall: `bad` 0.81 and `good` 0.65 are strong (the high-prevalence classes the
+  net-lean and faint-dismissal rules targeted); `terrible` 0.34 and `okay` 0.32 are the known
+  structural limits.
+
+The notable cross-arm finding: **spp's 0-shot rule-writing matched DSPy's few-shot accuracy here
+(0.579 ≈ 0.580) with zero demonstrations.**
+
+**Integrity:** all 8 edits verdicted `categorical`, 0 overrides, overfit guard never tripped,
+sacred test untouched until finalize. The over-correction at v05 was caught by the dev signal, not
+papered over. See [Results](../results.qmd) for the full cross-arm picture.
