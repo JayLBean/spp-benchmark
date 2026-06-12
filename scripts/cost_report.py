@@ -35,6 +35,17 @@ CLS_OUT = 146  # classification call
 GEN_OUT = 250  # GA crossover+mutation generation call
 CHARS_PER_TOK = 4  # rough o200k input estimate
 
+# gpt-5-nano list pricing (USD per 1M tokens). Output is 8x input, so dollars — not raw
+# token count — is the honest cost axis across arms (an output-heavy arm can post fewer
+# total tokens yet cost more). Verified to the cent against the OpenAI dashboard on the
+# spp sst5 arm. Override via env for other task models.
+PRICE_IN_PER_M = float(os.environ.get("PRICE_IN_PER_M", "0.05"))
+PRICE_OUT_PER_M = float(os.environ.get("PRICE_OUT_PER_M", "0.40"))
+
+
+def _cost_usd(in_tok: int, out_tok: int) -> float:
+    return in_tok / 1e6 * PRICE_IN_PER_M + out_tok / 1e6 * PRICE_OUT_PER_M
+
 
 def _est_tokens(text: str) -> int:
     return max(1, len(text) // CHARS_PER_TOK)
@@ -102,8 +113,10 @@ def _arm_usage(arm: str, task: str) -> dict | None:
 
 
 def main() -> int:
-    print(f"EvoPrompt arm [{ARM}] token cost (search + test scoring)\n")
-    hdr = f"{'task':<10}{'src':<11}{'calls':>8}{'in_tok':>12}{'out_tok':>12}{'total':>12}"
+    print(f"arm [{ARM}] cost (search + test scoring)\n")
+    hdr = (
+        f"{'task':<10}{'src':<11}{'calls':>8}{'in_tok':>12}{'out_tok':>12}{'total':>12}{'cost$':>9}"
+    )
     print(hdr)
     print("-" * len(hdr))
     grand = {"calls": 0, "input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
@@ -113,16 +126,18 @@ def main() -> int:
             print(f"{task:<10}{'(not started)':<11}")
             continue
         tag = u["source"] + ("" if u.get("complete", True) else "*")
+        cost = _cost_usd(u["input_tokens"], u["output_tokens"])
         print(
             f"{task:<10}{tag:<11}{u['calls']:>8,}{u['input_tokens']:>12,}"
-            f"{u['output_tokens']:>12,}{u['total_tokens']:>12,}"
+            f"{u['output_tokens']:>12,}{u['total_tokens']:>12,}{cost:>8.2f}$"
         )
         for k in grand:
             grand[k] += u[k]
     print("-" * len(hdr))
+    grand_cost = _cost_usd(grand["input_tokens"], grand["output_tokens"])
     print(
         f"{'TOTAL':<10}{'':<11}{grand['calls']:>8,}{grand['input_tokens']:>12,}"
-        f"{grand['output_tokens']:>12,}{grand['total_tokens']:>12,}"
+        f"{grand['output_tokens']:>12,}{grand['total_tokens']:>12,}{grand_cost:>8.2f}$"
     )
     print("\n* = task still running (partial). 'estimated': calls exact, tokens ~4 chars/tok in,")
     print(

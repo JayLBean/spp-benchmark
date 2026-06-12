@@ -26,18 +26,27 @@ lives elsewhere and is not billed here — only gpt-5-nano task-model tokens.
 ## spp cumulative total
 
 Final, at /spp-finalize (search loop + sacred-test scoring), gpt-5-nano task-model
-tokens only. Directly comparable to the EvoPrompt arm above.
+tokens only. **Verified against the OpenAI dashboard (Jun 12):** total requests 1,803 ✓
+and input tokens 697,609 ✓ both match exactly; total spend **$0.10** matches the
+cost computed below. (The dashboard's "Total tokens" headline shows *input* tokens;
+completion/reasoning output tokens are billed separately and are included in the $ cost.)
 
-| arm | calls | input_tokens | output_tokens | total_tokens | test_acc |
-|---|---:|---:|---:|---:|---:|
-| **spp_gpt5nano** | **1,803** | **697,609** | **166,658** | **864,267** | **0.579** |
-| evoprompt_gpt5nano | 4,368 | 289,403 | 494,455 | 783,858 | 0.561 |
+| arm | calls | input_tokens | output_tokens | total_tokens | **cost (USD)** | test_acc |
+|---|---:|---:|---:|---:|---:|---:|
+| **spp_gpt5nano** | **1,803** | **697,609** | **166,658** | **864,267** | **$0.10** | **0.579** |
+| evoprompt_gpt5nano | 4,368 | 289,403 | 494,455 | 783,858 | $0.21 | 0.561 |
 
-**Read:** spp reaches **higher test accuracy (0.579 vs 0.561, +1.8 pts; +2.2 over the
-shared seed 0.557) with 2.4× fewer task-model calls (1,803 vs 4,368).** Total tokens are
-~10% higher (864k vs 784k) because spp's six-section refined prompt carries more input
-per call, concentrated in the one-time 1,000-row test scoring (436k input there alone);
-spp's *search* cost only 337k over 5 iterations vs EvoPrompt's population×generations
-search. Per cost_report.py's framing, spp additionally offloads the optimization
-reasoning to Claude subagents + the human, which this gpt-5-nano-only ledger does not
-bill.
+Cost uses gpt-5-nano list pricing **$0.05/1M input, $0.40/1M output** (the $0.10 spp figure
+reproduces the dashboard's spend to the cent; no prompt caching was in play — spp's
+~430-token system prompt is below gpt-5-nano's 1024-token cache threshold).
+
+**Read (the efficiency axis, corrected):** spp wins a clean sweep —
+**+1.8 accuracy points (0.579 vs 0.561), 2.4× fewer task-model calls (1,803 vs 4,368),
+and ~2.1× cheaper ($0.10 vs $0.21).** Raw *token count* is the misleading metric here:
+spp's total (864k) edges above EvoPrompt's (784k), but output tokens cost 8× input, and
+the two arms have opposite profiles — spp is **input-heavy / output-light** (one rich,
+static six-section prompt replayed per row; 167k output) while EvoPrompt is
+**output-heavy** (population × generations of GA text + per-call reasoning; 494k output).
+On the metric that bills — dollars — spp is half the cost. (Per cost_report.py's framing,
+spp additionally offloads the optimization *reasoning* to Claude subagents + the human,
+which this gpt-5-nano-only ledger does not bill at all.)
