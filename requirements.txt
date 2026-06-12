@@ -3,3 +3,5 @@ datasets>=2.18        # HF dataset loading (ag_news, sst5, trec)
 pandas>=2.0           # fixture/baseline.csv assembly
 scikit-learn>=1.3     # stratified splits + accuracy/macro-F1
 openai>=1.30          # OpenAI-compatible client → oMLX local endpoint
+dspy>=3.2
+optuna>=4.0
