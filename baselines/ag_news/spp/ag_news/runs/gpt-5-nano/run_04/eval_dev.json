@@ -1,0 +1,555 @@
+{
+  "schema_version": "1",
+  "metric": "accuracy",
+  "metric_kwargs": {},
+  "primary_value": 0.9,
+  "n_rows_evaluated": 80,
+  "n_parse_failures_in_input": 0,
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      19,
+      0,
+      0
+    ],
+    [
+      3,
+      0,
+      17,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      18
+    ]
+  ],
+  "labels": [
+    "Business",
+    "Sports",
+    "Tech",
+    "World"
+  ],
+  "per_class": {
+    "Business": {
+      "precision": 0.782608695652174,
+      "recall": 0.9,
+      "f1": 0.8372093023255814,
+      "support": 20
+    },
+    "Sports": {
+      "precision": 0.95,
+      "recall": 0.95,
+      "f1": 0.95,
+      "support": 20
+    },
+    "Tech": {
+      "precision": 0.9444444444444444,
+      "recall": 0.85,
+      "f1": 0.8947368421052632,
+      "support": 20
+    },
+    "World": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9,
+      "f1": 0.9230769230769231,
+      "support": 20
+    }
+  },
+  "per_field": null,
+  "aggregate": null,
+  "floor_compliance": null,
+  "per_row": [
+    {
+      "row_id": "ag_news_base_0077",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0868",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0728",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0924",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0612",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0323",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0817",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0958",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0433",
+      "y_true": "World",
+      "y_pred": "Business",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0494",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0674",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0158",
+      "y_true": "World",
+      "y_pred": "Sports",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0890",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0710",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0445",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0694",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0607",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0553",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0560",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0253",
+      "y_true": "World",
+      "y_pred": "World",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0767",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0048",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0089",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0263",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0136",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0239",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0194",
+      "y_true": "Sports",
+      "y_pred": "Business",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0581",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0550",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0313",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0641",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0132",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0828",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0360",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0565",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0909",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0131",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_1000",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0003",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0792",
+      "y_true": "Sports",
+      "y_pred": "Sports",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0626",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0956",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0151",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0372",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0010",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0198",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0362",
+      "y_true": "Business",
+      "y_pred": "World",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0621",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0165",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0141",
+      "y_true": "Business",
+      "y_pred": "Tech",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0900",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0988",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0052",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0493",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0879",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0579",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0269",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0672",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0310",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0738",
+      "y_true": "Business",
+      "y_pred": "Business",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0693",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0358",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0464",
+      "y_true": "Tech",
+      "y_pred": "Business",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0489",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0730",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0803",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0062",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0195",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0222",
+      "y_true": "Tech",
+      "y_pred": "Business",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0424",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0712",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0065",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0659",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0250",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0657",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0102",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0213",
+      "y_true": "Tech",
+      "y_pred": "Business",
+      "correct": false
+    },
+    {
+      "row_id": "ag_news_base_0772",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0199",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    },
+    {
+      "row_id": "ag_news_base_0363",
+      "y_true": "Tech",
+      "y_pred": "Tech",
+      "correct": true
+    }
+  ],
+  "per_language": {},
+  "aggregate_ci": null,
+  "dev_test_gap_ci": null,
+  "auxiliary_metrics": {}
+}

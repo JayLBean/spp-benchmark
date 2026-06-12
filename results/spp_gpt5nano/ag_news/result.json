@@ -1,0 +1,19 @@
+{
+  "task": "ag_news",
+  "arm": "spp_gpt5nano",
+  "test_n": 1000,
+  "test_acc": 0.876,
+  "prompt": "<task>\nBased on the main theme of the given news article, categorize it into exactly one of four topics: World, Sports, Business, or Tech.\n</task>\n<rules>\n- World \u2014 international affairs, politics, conflict, diplomacy, elections, disasters, crime, and general or human-interest news.\n- Sports \u2014 any sport, athlete, team, match, league, or competition.\n- Business \u2014 companies, markets, finance, the economy, earnings, deals, trade, and jobs.\n- Tech \u2014 science AND technology: scientific research and discovery, nature and the environment, space, medical and biological research, gadgets, computing, software, and the internet. A science or nature story belongs in Tech even when it reads like world or human-interest news.\n</rules>\n<output_format>\nRespond with exactly one word \u2014 the category, capitalized exactly as one of World, Sports, Business, or Tech \u2014 and nothing else. No punctuation, no explanation.\n</output_format>",
+  "classes": [
+    "World",
+    "Sports",
+    "Business",
+    "Tech"
+  ],
+  "usage": {
+    "calls": 1000,
+    "input_tokens": 258896,
+    "output_tokens": 26580,
+    "total_tokens": 285476
+  }
+}

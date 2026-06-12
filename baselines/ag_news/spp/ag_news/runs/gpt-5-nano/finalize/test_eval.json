@@ -1,0 +1,17 @@
+{
+  "schema_version": "1",
+  "metric": "accuracy",
+  "metric_kwargs": {},
+  "primary_value": 0.876,
+  "n_rows_evaluated": 1000,
+  "n_parse_failures_in_input": 0,
+  "selected_prompt": "runs/gpt-5-nano/run_03/prompt_v03.md",
+  "scorer": "scripts/score_prompt.py (EvoPrompt-identical evaluate() on fixtures/ag_news/test.jsonl == test_holdout.csv)",
+  "note": "Single sanctioned read of the sacred test (1000 rows) at /spp-finalize via the official apples-to-apples bridge \u2014 the same wrapper, test rows, and label matching the EvoPrompt arm used. Per-class/confusion breakdown was not separately materialized to keep the sacred read to one pass (the bridge's evaluate() returns accuracy only); the dev confusion in run_03/discrepancy_analysis.md is the error diagnostic.",
+  "usage": {
+    "calls": 1000,
+    "input_tokens": 258896,
+    "output_tokens": 26580,
+    "total_tokens": 285476
+  }
+}

@@ -1,0 +1,1617 @@
+{
+  "schema_version": "1",
+  "model": "gpt-5-nano",
+  "prompt_path": "spp/ag_news/runs/gpt-5-nano/run_01/prompt_v01.md",
+  "prompt_sha256": "68ddd4414e00314d38c9cd99d0611c08a81cfa1db02014a0b6cca3450d0635f0",
+  "predictions": [
+    {
+      "row_id": "ag_news_base_0338",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2176,
+      "tokens_used": 116
+    },
+    {
+      "row_id": "ag_news_base_0057",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1307,
+      "tokens_used": 132
+    },
+    {
+      "row_id": "ag_news_base_0128",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1753,
+      "tokens_used": 134
+    },
+    {
+      "row_id": "ag_news_base_0481",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1677,
+      "tokens_used": 160
+    },
+    {
+      "row_id": "ag_news_base_0979",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 2159,
+      "tokens_used": 192
+    },
+    {
+      "row_id": "ag_news_base_0357",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 922,
+      "tokens_used": 193
+    },
+    {
+      "row_id": "ag_news_base_0248",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 939,
+      "tokens_used": 128
+    },
+    {
+      "row_id": "ag_news_base_0340",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 995,
+      "tokens_used": 120
+    },
+    {
+      "row_id": "ag_news_base_0343",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1080,
+      "tokens_used": 168
+    },
+    {
+      "row_id": "ag_news_base_0533",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1056,
+      "tokens_used": 145
+    },
+    {
+      "row_id": "ag_news_base_0901",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1005,
+      "tokens_used": 143
+    },
+    {
+      "row_id": "ag_news_base_0019",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 921,
+      "tokens_used": 128
+    },
+    {
+      "row_id": "ag_news_base_0441",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 811,
+      "tokens_used": 134
+    },
+    {
+      "row_id": "ag_news_base_0021",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1016,
+      "tokens_used": 126
+    },
+    {
+      "row_id": "ag_news_base_0229",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1358,
+      "tokens_used": 127
+    },
+    {
+      "row_id": "ag_news_base_0192",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1339,
+      "tokens_used": 116
+    },
+    {
+      "row_id": "ag_news_base_0595",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1252,
+      "tokens_used": 168
+    },
+    {
+      "row_id": "ag_news_base_0458",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1029,
+      "tokens_used": 121
+    },
+    {
+      "row_id": "ag_news_base_0949",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 925,
+      "tokens_used": 121
+    },
+    {
+      "row_id": "ag_news_base_0888",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 986,
+      "tokens_used": 177
+    },
+    {
+      "row_id": "ag_news_base_0739",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 982,
+      "tokens_used": 140
+    },
+    {
+      "row_id": "ag_news_base_0216",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 983,
+      "tokens_used": 154
+    },
+    {
+      "row_id": "ag_news_base_0452",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 934,
+      "tokens_used": 127
+    },
+    {
+      "row_id": "ag_news_base_0127",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1236,
+      "tokens_used": 128
+    },
+    {
+      "row_id": "ag_news_base_0422",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1046,
+      "tokens_used": 192
+    },
+    {
+      "row_id": "ag_news_base_0013",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1049,
+      "tokens_used": 121
+    },
+    {
+      "row_id": "ag_news_base_0093",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1268,
+      "tokens_used": 189
+    },
+    {
+      "row_id": "ag_news_base_0646",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 930,
+      "tokens_used": 191
+    },
+    {
+      "row_id": "ag_news_base_0745",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1012,
+      "tokens_used": 107
+    },
+    {
+      "row_id": "ag_news_base_0226",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 797,
+      "tokens_used": 130
+    },
+    {
+      "row_id": "ag_news_base_0877",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 794,
+      "tokens_used": 117
+    },
+    {
+      "row_id": "ag_news_base_0314",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 759,
+      "tokens_used": 133
+    },
+    {
+      "row_id": "ag_news_base_0044",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 888,
+      "tokens_used": 144
+    },
+    {
+      "row_id": "ag_news_base_0009",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1301,
+      "tokens_used": 111
+    },
+    {
+      "row_id": "ag_news_base_0005",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1824,
+      "tokens_used": 188
+    },
+    {
+      "row_id": "ag_news_base_0275",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1299,
+      "tokens_used": 136
+    },
+    {
+      "row_id": "ag_news_base_0707",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1017,
+      "tokens_used": 129
+    },
+    {
+      "row_id": "ag_news_base_0162",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1512,
+      "tokens_used": 178
+    },
+    {
+      "row_id": "ag_news_base_0421",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1349,
+      "tokens_used": 124
+    },
+    {
+      "row_id": "ag_news_base_0252",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1268,
+      "tokens_used": 137
+    },
+    {
+      "row_id": "ag_news_base_0265",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1131,
+      "tokens_used": 266
+    },
+    {
+      "row_id": "ag_news_base_0328",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1126,
+      "tokens_used": 209
+    },
+    {
+      "row_id": "ag_news_base_0389",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1003,
+      "tokens_used": 138
+    },
+    {
+      "row_id": "ag_news_base_0204",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1448,
+      "tokens_used": 461
+    },
+    {
+      "row_id": "ag_news_base_0267",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1027,
+      "tokens_used": 189
+    },
+    {
+      "row_id": "ag_news_base_0501",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 941,
+      "tokens_used": 130
+    },
+    {
+      "row_id": "ag_news_base_0636",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1009,
+      "tokens_used": 142
+    },
+    {
+      "row_id": "ag_news_base_0060",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1025,
+      "tokens_used": 185
+    },
+    {
+      "row_id": "ag_news_base_0618",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 804,
+      "tokens_used": 121
+    },
+    {
+      "row_id": "ag_news_base_0477",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1545,
+      "tokens_used": 200
+    },
+    {
+      "row_id": "ag_news_base_0395",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 747,
+      "tokens_used": 192
+    },
+    {
+      "row_id": "ag_news_base_0532",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1219,
+      "tokens_used": 200
+    },
+    {
+      "row_id": "ag_news_base_0173",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1255,
+      "tokens_used": 177
+    },
+    {
+      "row_id": "ag_news_base_0146",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 884,
+      "tokens_used": 105
+    },
+    {
+      "row_id": "ag_news_base_0316",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1018,
+      "tokens_used": 195
+    },
+    {
+      "row_id": "ag_news_base_0714",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 858,
+      "tokens_used": 182
+    },
+    {
+      "row_id": "ag_news_base_0258",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 770,
+      "tokens_used": 131
+    },
+    {
+      "row_id": "ag_news_base_0139",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1088,
+      "tokens_used": 190
+    },
+    {
+      "row_id": "ag_news_base_0798",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 625,
+      "tokens_used": 121
+    },
+    {
+      "row_id": "ag_news_base_0830",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 868,
+      "tokens_used": 119
+    },
+    {
+      "row_id": "ag_news_base_0889",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 782,
+      "tokens_used": 108
+    },
+    {
+      "row_id": "ag_news_base_0307",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 753,
+      "tokens_used": 127
+    },
+    {
+      "row_id": "ag_news_base_0980",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1904,
+      "tokens_used": 231
+    },
+    {
+      "row_id": "ag_news_base_0633",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1445,
+      "tokens_used": 162
+    },
+    {
+      "row_id": "ag_news_base_0513",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 735,
+      "tokens_used": 122
+    },
+    {
+      "row_id": "ag_news_base_0390",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1076,
+      "tokens_used": 118
+    },
+    {
+      "row_id": "ag_news_base_0525",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1067,
+      "tokens_used": 125
+    },
+    {
+      "row_id": "ag_news_base_0051",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 904,
+      "tokens_used": 112
+    },
+    {
+      "row_id": "ag_news_base_0403",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 951,
+      "tokens_used": 137
+    },
+    {
+      "row_id": "ag_news_base_0906",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1062,
+      "tokens_used": 159
+    },
+    {
+      "row_id": "ag_news_base_0760",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1570,
+      "tokens_used": 185
+    },
+    {
+      "row_id": "ag_news_base_0929",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1111,
+      "tokens_used": 229
+    },
+    {
+      "row_id": "ag_news_base_0916",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1318,
+      "tokens_used": 213
+    },
+    {
+      "row_id": "ag_news_base_0264",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 841,
+      "tokens_used": 125
+    },
+    {
+      "row_id": "ag_news_base_0471",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1190,
+      "tokens_used": 119
+    },
+    {
+      "row_id": "ag_news_base_0074",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 687,
+      "tokens_used": 119
+    },
+    {
+      "row_id": "ag_news_base_0702",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1082,
+      "tokens_used": 136
+    },
+    {
+      "row_id": "ag_news_base_0617",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 934,
+      "tokens_used": 114
+    },
+    {
+      "row_id": "ag_news_base_0519",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1025,
+      "tokens_used": 132
+    },
+    {
+      "row_id": "ag_news_base_0788",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1068,
+      "tokens_used": 208
+    },
+    {
+      "row_id": "ag_news_base_0077",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 759,
+      "tokens_used": 115
+    },
+    {
+      "row_id": "ag_news_base_0868",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1021,
+      "tokens_used": 176
+    },
+    {
+      "row_id": "ag_news_base_0728",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 862,
+      "tokens_used": 124
+    },
+    {
+      "row_id": "ag_news_base_0924",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 734,
+      "tokens_used": 128
+    },
+    {
+      "row_id": "ag_news_base_0612",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 983,
+      "tokens_used": 187
+    },
+    {
+      "row_id": "ag_news_base_0323",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1221,
+      "tokens_used": 176
+    },
+    {
+      "row_id": "ag_news_base_0817",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 799,
+      "tokens_used": 136
+    },
+    {
+      "row_id": "ag_news_base_0958",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 888,
+      "tokens_used": 117
+    },
+    {
+      "row_id": "ag_news_base_0433",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 776,
+      "tokens_used": 132
+    },
+    {
+      "row_id": "ag_news_base_0494",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 874,
+      "tokens_used": 132
+    },
+    {
+      "row_id": "ag_news_base_0674",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 828,
+      "tokens_used": 124
+    },
+    {
+      "row_id": "ag_news_base_0158",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1107,
+      "tokens_used": 154
+    },
+    {
+      "row_id": "ag_news_base_0890",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1013,
+      "tokens_used": 131
+    },
+    {
+      "row_id": "ag_news_base_0710",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1094,
+      "tokens_used": 129
+    },
+    {
+      "row_id": "ag_news_base_0445",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 971,
+      "tokens_used": 191
+    },
+    {
+      "row_id": "ag_news_base_0694",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 899,
+      "tokens_used": 142
+    },
+    {
+      "row_id": "ag_news_base_0607",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 801,
+      "tokens_used": 138
+    },
+    {
+      "row_id": "ag_news_base_0553",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 842,
+      "tokens_used": 107
+    },
+    {
+      "row_id": "ag_news_base_0560",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1103,
+      "tokens_used": 190
+    },
+    {
+      "row_id": "ag_news_base_0253",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1274,
+      "tokens_used": 108
+    },
+    {
+      "row_id": "ag_news_base_0767",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 884,
+      "tokens_used": 122
+    },
+    {
+      "row_id": "ag_news_base_0048",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 786,
+      "tokens_used": 103
+    },
+    {
+      "row_id": "ag_news_base_0089",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1179,
+      "tokens_used": 178
+    },
+    {
+      "row_id": "ag_news_base_0263",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1271,
+      "tokens_used": 182
+    },
+    {
+      "row_id": "ag_news_base_0136",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 759,
+      "tokens_used": 132
+    },
+    {
+      "row_id": "ag_news_base_0239",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 918,
+      "tokens_used": 126
+    },
+    {
+      "row_id": "ag_news_base_0194",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 992,
+      "tokens_used": 181
+    },
+    {
+      "row_id": "ag_news_base_0581",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 687,
+      "tokens_used": 135
+    },
+    {
+      "row_id": "ag_news_base_0550",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 877,
+      "tokens_used": 120
+    },
+    {
+      "row_id": "ag_news_base_0313",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 911,
+      "tokens_used": 189
+    },
+    {
+      "row_id": "ag_news_base_0641",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1258,
+      "tokens_used": 131
+    },
+    {
+      "row_id": "ag_news_base_0132",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 785,
+      "tokens_used": 116
+    },
+    {
+      "row_id": "ag_news_base_0828",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1113,
+      "tokens_used": 116
+    },
+    {
+      "row_id": "ag_news_base_0360",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 942,
+      "tokens_used": 139
+    },
+    {
+      "row_id": "ag_news_base_0565",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 994,
+      "tokens_used": 130
+    },
+    {
+      "row_id": "ag_news_base_0909",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1086,
+      "tokens_used": 134
+    },
+    {
+      "row_id": "ag_news_base_0131",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 890,
+      "tokens_used": 119
+    },
+    {
+      "row_id": "ag_news_base_1000",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 890,
+      "tokens_used": 205
+    },
+    {
+      "row_id": "ag_news_base_0003",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 794,
+      "tokens_used": 116
+    },
+    {
+      "row_id": "ag_news_base_0792",
+      "raw_response": "Sports",
+      "parsed_label": "Sports",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 920,
+      "tokens_used": 153
+    },
+    {
+      "row_id": "ag_news_base_0626",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 805,
+      "tokens_used": 129
+    },
+    {
+      "row_id": "ag_news_base_0956",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 800,
+      "tokens_used": 214
+    },
+    {
+      "row_id": "ag_news_base_0151",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 730,
+      "tokens_used": 134
+    },
+    {
+      "row_id": "ag_news_base_0372",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 928,
+      "tokens_used": 163
+    },
+    {
+      "row_id": "ag_news_base_0010",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 818,
+      "tokens_used": 124
+    },
+    {
+      "row_id": "ag_news_base_0198",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 986,
+      "tokens_used": 125
+    },
+    {
+      "row_id": "ag_news_base_0362",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 832,
+      "tokens_used": 145
+    },
+    {
+      "row_id": "ag_news_base_0621",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1024,
+      "tokens_used": 128
+    },
+    {
+      "row_id": "ag_news_base_0165",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1131,
+      "tokens_used": 173
+    },
+    {
+      "row_id": "ag_news_base_0141",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1040,
+      "tokens_used": 200
+    },
+    {
+      "row_id": "ag_news_base_0900",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 880,
+      "tokens_used": 131
+    },
+    {
+      "row_id": "ag_news_base_0988",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1796,
+      "tokens_used": 190
+    },
+    {
+      "row_id": "ag_news_base_0052",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1165,
+      "tokens_used": 118
+    },
+    {
+      "row_id": "ag_news_base_0493",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 960,
+      "tokens_used": 204
+    },
+    {
+      "row_id": "ag_news_base_0879",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 892,
+      "tokens_used": 141
+    },
+    {
+      "row_id": "ag_news_base_0579",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 846,
+      "tokens_used": 145
+    },
+    {
+      "row_id": "ag_news_base_0269",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1160,
+      "tokens_used": 334
+    },
+    {
+      "row_id": "ag_news_base_0672",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 937,
+      "tokens_used": 123
+    },
+    {
+      "row_id": "ag_news_base_0310",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1038,
+      "tokens_used": 114
+    },
+    {
+      "row_id": "ag_news_base_0738",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1014,
+      "tokens_used": 182
+    },
+    {
+      "row_id": "ag_news_base_0693",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 904,
+      "tokens_used": 123
+    },
+    {
+      "row_id": "ag_news_base_0358",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1184,
+      "tokens_used": 168
+    },
+    {
+      "row_id": "ag_news_base_0464",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1110,
+      "tokens_used": 136
+    },
+    {
+      "row_id": "ag_news_base_0489",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1200,
+      "tokens_used": 142
+    },
+    {
+      "row_id": "ag_news_base_0730",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1273,
+      "tokens_used": 202
+    },
+    {
+      "row_id": "ag_news_base_0803",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1774,
+      "tokens_used": 167
+    },
+    {
+      "row_id": "ag_news_base_0062",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1251,
+      "tokens_used": 180
+    },
+    {
+      "row_id": "ag_news_base_0195",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1345,
+      "tokens_used": 164
+    },
+    {
+      "row_id": "ag_news_base_0222",
+      "raw_response": "Business",
+      "parsed_label": "Business",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 950,
+      "tokens_used": 125
+    },
+    {
+      "row_id": "ag_news_base_0424",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1102,
+      "tokens_used": 140
+    },
+    {
+      "row_id": "ag_news_base_0712",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1531,
+      "tokens_used": 201
+    },
+    {
+      "row_id": "ag_news_base_0065",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1267,
+      "tokens_used": 129
+    },
+    {
+      "row_id": "ag_news_base_0659",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1286,
+      "tokens_used": 180
+    },
+    {
+      "row_id": "ag_news_base_0250",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1106,
+      "tokens_used": 125
+    },
+    {
+      "row_id": "ag_news_base_0657",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1018,
+      "tokens_used": 119
+    },
+    {
+      "row_id": "ag_news_base_0102",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1134,
+      "tokens_used": 167
+    },
+    {
+      "row_id": "ag_news_base_0213",
+      "raw_response": "World",
+      "parsed_label": "World",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1131,
+      "tokens_used": 221
+    },
+    {
+      "row_id": "ag_news_base_0772",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1573,
+      "tokens_used": 184
+    },
+    {
+      "row_id": "ag_news_base_0199",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1054,
+      "tokens_used": 103
+    },
+    {
+      "row_id": "ag_news_base_0363",
+      "raw_response": "Tech",
+      "parsed_label": "Tech",
+      "parse_error": null,
+      "parsed_fields": null,
+      "field_parse_errors": {},
+      "latency_ms": 1133,
+      "tokens_used": 118
+    }
+  ],
+  "summary": {
+    "n_rows": 160,
+    "n_parsed": 160,
+    "n_parse_failures": 0,
+    "total_tokens": 24334,
+    "total_latency_ms": 170743,
+    "wall_clock_ms": 34564
+  },
+  "batch_invariance": null
+}
