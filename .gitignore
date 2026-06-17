@@ -10,6 +10,17 @@ data/hf_cache/
 # Vendored upstream (cloned in setup, not our source of truth)
 evoprompt/upstream/
 
+# Raw run logs / stdout captures — the result.json artifacts and per-task
+# token_usage.md ledgers are the record; the captured stdout is not.
+*.out
+**/run.log
+results/overnight.log
+
+# Loop scratch — dry-run probes and rejected R&D experiments. The decisions
+# they informed are documented in each run's REPORT.md / plan.md.
+**/runs/*/_dryrun/
+**/runs/*/_exp_*/
+
 # Secrets — never commit the oMLX key
 .env
 
