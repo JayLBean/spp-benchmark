@@ -1,0 +1,235 @@
+/* =========================================================================
+ * spp-bm benchmark site — consulting-deliverable aesthetic.
+ * Serif body, restrained headings, single navy accent. No bootswatch.
+ * Adapted from the VoxPatiens (591) report.css; the sidebar/TOC collapse
+ * toggles and the markdown-export button were dropped — this site uses a
+ * top navbar and has no executable chunks, so neither feature applies.
+ * ========================================================================= */
+
+/* ---------- Tokens ------------------------------------------------------ */
+:root {
+  --serif: "Times New Roman", Times, Georgia, serif;
+  --mono:  "SF Mono", Menlo, Consolas, monospace;
+
+  --ink:        #111;       /* body text */
+  --ink-soft:   #555;       /* captions, metadata, secondary */
+  --rule:       #d8d4cc;    /* hairline rules */
+  --bg:         #ffffff;
+  --code-bg:    #f4f1ec;    /* warm off-white, harmonizes with serif */
+
+  --accent:        #1f3a5f; /* navy — links, accent rules, callout borders */
+  --accent-soft:   #e8edf3; /* tinted background for muted callouts */
+
+  --content-max: 820px;
+}
+
+/* ---------- Page / body ------------------------------------------------- */
+html, body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 11.5pt;
+  line-height: 1.55;
+  text-align: left;          /* never justify on screen */
+}
+
+/* The body container is intentionally unconstrained so `page-layout: full`
+   lets wide tables reclaim width; individual prose blocks are capped below
+   so headings and paragraphs line up at one reading width while tables,
+   figures, and code can break out and fill the full body column. */
+.quarto-title-block {
+  max-width: var(--content-max);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6,
+main p,
+main ul,
+main ol,
+main blockquote {
+  max-width: var(--content-max);
+}
+
+/* ---------- Title block ------------------------------------------------- */
+.quarto-title h1.title {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-bottom: 0.25rem;
+}
+.quarto-title .subtitle,
+.quarto-title-meta {
+  color: var(--ink-soft);
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+/* ---------- Headings ---------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.25;
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+}
+h1 {
+  font-size: 1.7rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+}
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.1rem; }
+h4 { font-size: 1.0rem; font-weight: 600; }
+
+/* Section numbering color (Quarto inserts the numbers). */
+.header-section-number { color: var(--ink-soft); margin-right: 0.4em; }
+
+/* ---------- Navbar ------------------------------------------------------ */
+/* Keep the top navbar in the same serif / navy family as the body. */
+.navbar { font-family: var(--serif); border-bottom: 1px solid var(--rule); }
+.navbar-brand { font-weight: 700; }
+
+/* ---------- Links ------------------------------------------------------- */
+a, a:visited {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+/* ---------- Inline & block code ---------------------------------------- */
+code, kbd, samp {
+  font-family: var(--mono);
+  font-size: 0.92em;
+  background: var(--code-bg);
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
+}
+pre, div.sourceCode {
+  background: var(--code-bg);
+  border-left: 3px solid var(--accent);
+  border-radius: 2px;
+  padding: 0.85em 1em;
+  margin: 1em 0;
+  overflow-x: auto;
+}
+pre code { background: transparent; padding: 0; font-size: 0.9em; }
+
+/* ---------- Figures ----------------------------------------------------- */
+figure { margin: 1.5em auto; text-align: center; }
+figure img, .figure img { max-width: 100%; height: auto; }
+figcaption, .figure-caption {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  margin-top: 0.4em;
+}
+
+/* ---------- Tables (academic / business minimal) ----------------------- */
+table {
+  border-collapse: collapse;
+  margin: 1.2em 0;
+  width: 100%;
+  font-size: 0.95em;
+}
+table thead th {
+  border-top:    1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  text-align: left;
+  padding: 0.45em 0.6em;
+  font-weight: 700;
+}
+table tbody td {
+  padding: 0.4em 0.6em;
+  border: none;            /* no vertical borders, no row striping */
+}
+table tbody tr:last-child td { border-bottom: 1px solid var(--ink); }
+caption { caption-side: top; font-style: italic; color: var(--ink-soft); }
+
+/* ---------- Scrollable table wrapper ----------------------------------- */
+/* Wrap a wide table in `::: {.table-scroll} ... :::` to keep it confined
+   to the body column with a horizontal scrollbar instead of overflowing
+   under the right-margin TOC. `width: max-content` lets the table grow
+   past 100% so columns size to their content; `min-width: 100%` makes
+   short tables still fill the wrapper. */
+.table-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 1.2em 0;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.table-scroll table {
+  width: max-content;
+  max-width: none;
+  min-width: 100%;
+  margin: 0;
+}
+.table-scroll table thead th,
+.table-scroll table tbody td {
+  white-space: nowrap;
+}
+
+/* ---------- Blockquotes & callouts ------------------------------------- */
+blockquote {
+  border-left: 3px solid var(--accent);
+  margin: 1em 0;
+  padding: 0.4em 0 0.4em 1em;
+  color: var(--ink);
+  background: transparent;
+}
+
+/* Quarto callouts — muted accent variants, no bright primaries. */
+.callout {
+  border-left: 3px solid var(--accent) !important;
+  background: var(--accent-soft) !important;
+  border-radius: 2px !important;
+  margin: 1.2em 0 !important;
+  padding: 0.6em 0.9em !important;
+}
+.callout .callout-title,
+.callout-title-container { color: var(--accent); font-weight: 700; }
+.callout-warning   { border-left-color: #8a6d1f !important; background: #f7f2e6 !important; }
+.callout-warning .callout-title { color: #8a6d1f; }
+.callout-important { border-left-color: #6b1f2a !important; background: #f5eaec !important; }
+.callout-important .callout-title { color: #6b1f2a; }
+
+/* ---------- TOC --------------------------------------------------------- */
+#TOC, .sidebar nav[role="doc-toc"] {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+#TOC a, .sidebar nav[role="doc-toc"] a {
+  color: var(--ink-soft);
+  border-bottom: none;
+}
+#TOC a:hover { color: var(--accent); }
+
+/* ---------- Horizontal rules ------------------------------------------- */
+hr { border: none; border-top: 1px solid var(--rule); margin: 2em 0; }
+
+/* ---------- Print ------------------------------------------------------- */
+@media print {
+  html, body { font-size: 11pt; }
+  @page { margin: 1in; }
+
+  pre, div.sourceCode, table, figure, blockquote {
+    page-break-inside: avoid;
+  }
+  h1, h2, h3 { page-break-after: avoid; }
+
+  /* Show URLs after links (skip same-page anchors and mailto). */
+  a[href^="http"]:after { content: " (" attr(href) ")"; font-size: 0.85em; color: var(--ink-soft); }
+
+  nav, .sidebar, .quarto-secondary-nav, #TOC, .code-tools-button { display: none !important; }
+}

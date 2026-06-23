@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>spp loop logs – spp-bm</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-503c690f214a5702fe5ff55d910bb992.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles/report.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">spp-bm benchmark</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../methodology.html"> 
+<span class="menu-text">Methodology</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../results.html"> 
+<span class="menu-text">Results</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-loop-logs" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Loop logs</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-loop-logs">    
+        <li>
+    <a class="dropdown-item" href="../loop-logs/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../loop-logs/ag_news.html">
+ <span class="dropdown-text">AG News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../loop-logs/sst5.html">
+ <span class="dropdown-text">SST-5</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../loop-logs/trec.html">
+ <span class="dropdown-text">TREC</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../reproduce.html"> 
+<span class="menu-text">Reproduce</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://jaylbean.github.io/spp-site/"> 
+<span class="menu-text">spp plugin</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JayLBean/spp-benchmark"> <i class="bi bi-github" role="img" aria-label="GitHub repository">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-one-iteration-actually-is" id="toc-what-one-iteration-actually-is" class="nav-link active" data-scroll-target="#what-one-iteration-actually-is">What one iteration actually is</a></li>
+  <li><a href="#the-humans-turns-the-six-gates" id="toc-the-humans-turns-the-six-gates" class="nav-link" data-scroll-target="#the-humans-turns-the-six-gates">The human’s turns — the six gates</a></li>
+  <li><a href="#the-three-loops-at-a-glance" id="toc-the-three-loops-at-a-glance" class="nav-link" data-scroll-target="#the-three-loops-at-a-glance">The three loops at a glance</a></li>
+  <li><a href="#a-worked-example-of-the-interaction-ag-news-iteration-3" id="toc-a-worked-example-of-the-interaction-ag-news-iteration-3" class="nav-link" data-scroll-target="#a-worked-example-of-the-interaction-ag-news-iteration-3">A worked example of the interaction (AG News, iteration 3)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">spp loop logs</h1>
+<p class="subtitle lead">How spp’s prompt was earned, one categorical rule at a time — the per-iteration interaction, recorded.</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>The <a href="../results.html">Results</a> page reports <em>what</em> spp scored. These pages record <em>how</em> it got there: the iteration-by-iteration interaction inside the spp loop, reconstructed from the artifacts each run left behind (<code>discrepancy_analysis.md</code>, <code>prompt_vNN.md</code>, <code>auditor_review.md</code>, <code>eval_*.json</code>, and <code>EARLY_STOP.md</code>).</p>
+<p>There is one page per task:</p>
+<ul>
+<li><strong><a href="../loop-logs/ag_news.html">AG News</a></strong> — near-saturated; converged in 4 iterations on a single rule.</li>
+<li><strong><a href="../loop-logs/sst5.html">SST-5</a></strong> — degree-calibration on a 5-point ordinal scale; 5 iterations, 8 edits.</li>
+<li><strong><a href="../loop-logs/trec.html">TREC</a></strong> — the decisive win; 4 iterations, 14 edits, dev rose monotonically.</li>
+</ul>
+<section id="what-one-iteration-actually-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-one-iteration-actually-is">What one iteration actually is</h2>
+<p>spp does not “ask a model to improve a prompt.” Each iteration is a short relay of <strong>isolated subagents</strong>, each with a strict allow-list of inputs. The orchestrator coordinates; it does no cognitive work. One pass looks like this:</p>
+<ol type="1">
+<li><strong>Run.</strong> Score the current prompt on the internal train + dev splits (never the test set).</li>
+<li><strong>Discrepancy.</strong> A subagent sees the disagreed rows and the eval, diagnoses the error <em>structure</em>, and proposes a categorical edit. Its written artifact references rows <strong>by ID only</strong>.</li>
+<li><strong>Rule edit.</strong> A second subagent rewrites the prompt from the diagnosis. It sees the prompt, the discrepancy (IDs only), and the class definitions — <strong>never row content, never scores</strong>.</li>
+<li><strong>Audit.</strong> A <strong>score-blind</strong> auditor sees the prompt diff, the discrepancy, and the class definitions — <strong>never any scores</strong> — and verdicts each edit <em>categorical</em>, <em>row-specific</em>, or <em>unclear</em>. Only categorical edits pass.</li>
+<li><strong>Select.</strong> The dev signal chooses among auditor-approved edits. If dev regresses, the edit is rejected or reverted.</li>
+</ol>
+<p>This continues until the dev signal peaks and remaining errors are noise or contradictory gold (an <strong>early stop</strong>), after which <code>/spp-finalize</code> scores the frozen prompt on the sacred test <strong>exactly once</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Why the isolation matters.</strong> The auditor never sees scores, so it cannot rationalize a row-fitting patch as “it helped.” The rule-edit stage never sees row content, so it cannot encode specific examples. The dev signal only <em>selects</em> among edits the auditor already judged general. This is what keeps spp writing rules that <strong>transfer</strong> instead of memorizing the dev split — the difference that shows up as spp’s dev→test <em>rise</em> on TREC where EvoPrompt’s GA <em>fell</em>.</p>
+</div>
+</div>
+</section>
+<section id="the-humans-turns-the-six-gates" class="level2">
+<h2 class="anchored" data-anchor-id="the-humans-turns-the-six-gates">The human’s turns — the six gates</h2>
+<p>spp is human-in-the-loop, and the human’s role is concrete: they hold six approval <strong>gates</strong>, and the agent does the work between them. Each gate has a fixed approval phrase, recorded verbatim in the run’s <code>plan.md</code> revision log, so every hand-off is auditable after the fact.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Gate</th>
+<th>What the user says</th>
+<th>What the agent then does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>G1</strong> plan approval</td>
+<td>“approved, proceed to baseline”</td>
+<td>canonicalize and quality-audit the imported gold labels</td>
+</tr>
+<tr class="even">
+<td><strong>G2</strong> baseline review</td>
+<td>“approved, proceed to splits”</td>
+<td>generate the stratified train / dev splits (test held out)</td>
+</tr>
+<tr class="odd">
+<td><strong>G3</strong> split confirmation</td>
+<td>“approved, start the loop”</td>
+<td>build <code>prompt_v01</code> (bare seed) and dry-run the runner</td>
+</tr>
+<tr class="even">
+<td><strong>G4</strong> dry-run gate</td>
+<td>“approved, run iteration 1”</td>
+<td>run the optimization loop — the isolated-subagent relay above</td>
+</tr>
+<tr class="odd">
+<td><strong>G5</strong> finalization</td>
+<td>“approved, score the test set”</td>
+<td>read the sacred test <strong>exactly once</strong>, score the selected prompt</td>
+</tr>
+<tr class="even">
+<td><strong>G6</strong> production decision</td>
+<td>“approved, freeze the prompt”</td>
+<td>freeze the prompt and record its SHA-256</td>
+</tr>
+</tbody>
+</table>
+<p>Between gates the human can also steer the plan directly. On TREC, the pre-G1 instruction — <em>“Make sure the dev/train set is the same with EvoPrompt”</em> — made spp adopt EvoPrompt’s <strong>exact</strong> 200 dev rows, so the two arms optimized on identical data. On AG News, a post-finalize <em>“explore further”</em> request sent the agent to test few-shot demos and chain-of-thought, both of which it then rejected on the dev signal. Each task page below records its own gate-by-gate exchange.</p>
+</section>
+<section id="the-three-loops-at-a-glance" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-loops-at-a-glance">The three loops at a glance</h2>
+<p>Dev accuracy on the 80-row (AG News, SST-5) / 200-row (TREC) internal dev split, then the single sacred-test read. <strong>Every edit across all three tasks was verdicted <code>categorical</code>; zero overrides; the overfit guard never tripped.</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Task</th>
+<th style="text-align: right;">Iterations</th>
+<th style="text-align: right;">Rule edits</th>
+<th>Seed dev → best dev</th>
+<th>Dev → Test</th>
+<th style="text-align: right;">Test acc</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../loop-logs/ag_news.html">AG News</a></td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">4</td>
+<td>0.8875 → <strong>0.9125</strong></td>
+<td>0.9125 → 0.876</td>
+<td style="text-align: right;">0.876</td>
+<td>matched ceiling, ¼ the cost</td>
+</tr>
+<tr class="even">
+<td><a href="../loop-logs/sst5.html">SST-5</a></td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+<td>0.4625 → <strong>0.6000</strong></td>
+<td>0.6000 → 0.579</td>
+<td style="text-align: right;">0.579</td>
+<td>+1.8 over EvoPrompt</td>
+</tr>
+<tr class="odd">
+<td><a href="../loop-logs/trec.html">TREC</a></td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">14</td>
+<td>0.765 → <strong>0.895</strong></td>
+<td>0.895 → 0.924</td>
+<td style="text-align: right;">0.924</td>
+<td>+12.0 over EvoPrompt; dev→test <em>rose</em></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="a-worked-example-of-the-interaction-ag-news-iteration-3" class="level2">
+<h2 class="anchored" data-anchor-id="a-worked-example-of-the-interaction-ag-news-iteration-3">A worked example of the interaction (AG News, iteration 3)</h2>
+<p>To make the relay concrete, here is one real hand-off. The <strong>discrepancy</strong> stage diagnosed the one signal left after the science rule landed:</p>
+<blockquote class="blockquote">
+<p><strong>Tech→Business cluster — the one genuine categorical signal left (dev 4, train 2).</strong> gold=Tech, pred=Business: “AOL Aims to Lead Internet Travel Purchases”, “IBM To Spin Off PC Unit” … All are computing/internet companies whose news peg is a corporate event; AG News labels them Tech. … <strong>Edit 4:</strong> add a <em>Tech-pulling-only</em> line … <strong>No</strong> “financial → Business” clause (that was the source of the v02 collateral).</p>
+</blockquote>
+<p>The <strong>score-blind auditor</strong> then ruled on it without ever seeing whether dev went up or down:</p>
+<blockquote class="blockquote">
+<p><strong>Is the reversion legitimate, or is it score-chasing a row set?</strong> … Removing a rule that over-generalizes is itself a categorical action — it does not encode any specific row … v03 contains zero row references and zero few-shot examples. <strong>Gate decision: Edit categorical, reversion legitimate. 0 row-specific, 0 unclear.</strong></p>
+</blockquote>
+<p>Only after that verdict did the dev signal get to vote on whether to keep the edit. That ordering — diagnose, then audit <em>blind</em>, then select — is the whole method in miniature.</p>
+<p><a href="../loop-logs/ag_news.html">Read the AG News log →</a> · <a href="../loop-logs/sst5.html">SST-5 →</a> · <a href="../loop-logs/trec.html">TREC →</a></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/jaylbean\.github\.io\/spp-benchmark\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>spp-bm — Supervised Prompt Producer benchmark</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
