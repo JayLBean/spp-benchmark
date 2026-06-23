@@ -63,6 +63,8 @@ dollars. The full reading, task by task and with the complete fairness ledger, i
 - **[Loop logs](loop-logs/index.qmd)** — how spp's prompt was earned, iteration by iteration:
   the per-stage interaction inside the loop, recorded per task.
 - **[Reproduce](reproduce.qmd)** — setup and the exact commands to re-run every arm.
+- **[The spp plugin](https://jaylbean.github.io/spp-site/)** — the methodology this benchmark
+  evaluates: what spp is, how to install it, and how the loop works.
 
 This site is the home for the benchmark as it grows — new tasks, new task models, and new
 optimizer arms get added here.
